@@ -1,5 +1,5 @@
 import * as React from "react";
-import LocalizedLink from "../components/LocalizedLink";
+import LocalizedLink from "./LocalizedLink";
 
 const Footer = () => (
   <>
