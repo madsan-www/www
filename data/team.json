@@ -1,0 +1,24 @@
+{
+  "members": [
+    {
+      "name": "Yasin Turkan",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1636899442/team/ekibimizyasinturkan-150x150_kldiwa.jpg",
+      "title": "  Satış ve Pazarlama Müdürü ",
+      "titleEN": "Sales and Marketing Manager"
+    },
+    {
+      "name": "Alkim Kaya",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1636899470/team/IMG_9882-150x150_lwlwzr.jpg",
+      "title": "İdari İşler ve İK Direktörü ",
+      "titleEN": "Administrative Affairs and HR Director"
+    }
+  ],
+  "tr": {
+    "title": "Ekibimiz",
+    "desc": ""
+  },
+  "en": {
+    "title": "Our Greatest Minds",
+    "desc": ""
+  }
+}

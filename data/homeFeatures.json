@@ -1,0 +1,30 @@
+{
+  "tr": [
+    {
+      "title": "Madencilik ekipmanı tedariğinde ilk adresiniz.",
+      "description": "Madenciliğe dair tüm ekipmanmların imalat ve satışı, karotlu sondaj eki̇pmanları ve kaya deli̇ci̇ eki̇pmanları.",
+      "cta_button": "Bize Ulasin",
+      "cta_link": "/contact"
+    },
+    {
+      "title": "Madencilik ekipmanı tedariğinde ilk adresiniz.",
+      "description": "Madenciliğe dair tüm ekipmanmların imalat ve satışı, karotlu sondaj eki̇pmanları ve kaya deli̇ci̇ eki̇pmanları.",
+      "cta_button": "Bize Ulasin",
+      "cta_link": "/contact"
+    }
+  ],
+  "en": [
+    {
+      "title": "Your first address for mining equipment supply.",
+      "description": "Madenciliğe dair tüm ekipmanmların imalat ve satışı, karotlu sondaj eki̇pmanları ve kaya deli̇ci̇ eki̇pmanları.",
+      "cta_button": "Contact Us",
+      "cta_link": "/contact"
+    },
+    {
+      "title": "Madencilik ekipmanı tedariğinde ilk adresiniz.",
+      "description": "Madenciliğe dair tüm ekipmanmların imalat ve satışı, karotlu sondaj eki̇pmanları ve kaya deli̇ci̇ eki̇pmanları.",
+      "cta_button": "Bize Ulasin",
+      "cta_link": "/contact"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "languageMapping": [
+    {
+      "en": "about",
+      "tr": "about"
+    },
+    {
+      "en": "blog",
+      "tr": "blog"
+    },
+    {
+      "en": "contact",
+      "tr": "contact"
+    },
+    {
+      "en": "team",
+      "tr": "team"
+    },
+    {
+      "en": "career",
+      "tr": "career"
+    },
+    {
+      "en": "clients",
+      "tr": "clients"
+    },
+    {
+      "en": "/blog/creating-posts-and-pages",
+      "tr": "/blog/turkce-kismi"
+    },
+    {
+      "en": "culture",
+      "tr": "culture"
+    }
+  ]
+}

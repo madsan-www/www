@@ -1,0 +1,28 @@
+{
+  "contentTR": {
+    "title": "Mutlu Müşterilerimiz",
+    "desc": "Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect."
+  },
+  "contentENG": {
+    "title": "Our Happy Customers",
+    "desc": "Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect."
+  },
+  "clients": [
+    {
+      "quote": "TR It seems that only fragments of the original tex remain in the Lorem Ipsum texts used today. ",
+      "quoteENG": "ENG t seems that only fragments of the original tex remain in the Lorem Ipsum texts used today. ",
+      "name": "Alkım Kaya",
+      "title": "CEO",
+      "logo": "",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1636899470/team/IMG_9882-150x150_lwlwzr.jpg"
+    },
+    {
+      "quote": " It seems that only fragments of the original textremain in the Lorem Ipsum texts used today. ",
+      "quoteENG": "ENG t seems that only fragments of the original tex remain in the Lorem Ipsum texts used today. ",
+      "name": "Alkım Kaya",
+      "title": "CEO",
+      "logo": "",
+      "image": ""
+    }
+  ]
+}

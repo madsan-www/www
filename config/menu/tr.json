@@ -1,0 +1,34 @@
+{
+  "menuItems": [
+    {
+      "name": "Hakkımızda ",
+      "link": "/about",
+      "badge": false
+    },
+    {
+      "name": "Partnerler ",
+      "link": "/clients",
+      "badge": false
+    },
+    {
+      "name": "Kariyer ",
+      "link": "/career",
+      "badge": false
+    },
+    {
+      "name": "Ekip",
+      "link": "/team",
+      "badge": false
+    },
+    {
+      "name": "Blog",
+      "link": "/blog",
+      "badge": false
+    },
+    {
+      "name": "İletişim",
+      "link": "/contact",
+      "badge": false
+    }
+  ]
+}

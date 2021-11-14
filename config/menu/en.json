@@ -1,0 +1,34 @@
+{
+  "menuItems": [
+    {
+      "name": "About Us ",
+      "link": "/about",
+      "badge": false
+    },
+    {
+      "name": "Partners ",
+      "link": "/clients",
+      "badge": false
+    },
+    {
+      "name": "Career ",
+      "link": "/career",
+      "badge": false
+    },
+    {
+      "name": "Team",
+      "link": "/team",
+      "badge": false
+    },
+    {
+      "name": "Blog",
+      "link": "/blog",
+      "badge": false
+    },
+    {
+      "name": "Contact",
+      "link": "/contact",
+      "badge": false
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+backend:
+    #name: github # Local
+    name: git-gateway # Prod
+    branch: main
+    # site_domain: https://mad-san.com
+
+local_backend: true    
+
+publish_mode: editorial_workflow
+media_folder: 'static/assets/img'
+public_folder: 'assets/img'
+show_preview_links: true
+
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: madsan
+    api_key: 494169283697891
+
+collections:
+    - name: 'home-page' 
+      label: 'Home Page'
+      delete: false
+      files:
+          - label: 'Hero Section'
+            name: 'hero-section'            
+            file: 'data/homePage.json'
+            editor: 
+              preview: false 
+            fields:
+                - label: Hero TR
+                  name: 'tr'
+                  widget: list
+                  allow_add: false
+                  fields:
+                      - { label: 'Title', name: 'title', widget: 'string' }
+                      - { label: 'Description', name: 'description', widget: 'string' }     
+                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
+                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }  
+                - label: Hero ENG
+                  name: 'en'
+                  widget: list
+                  allow_add: false
+                  fields:
+                      - { label: 'Title', name: 'title', widget: 'string' }
+                      - { label: 'Description', name: 'description', widget: 'string' }     
+                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
+                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }      
+                - label: Image
+                  name: 'commons'
+                  widget: list
+                  allow_add: false
+                  fields:                      
+                      - { label: 'Background Image', name: 'background_image', widget: 'image', required: false }
+          - label: 'Features Section'
+            name: 'features-section'            
+            file: 'data/homeFeatures.json'
+            editor: 
+              preview: false 
+            fields:
+                - label: Hero TR
+                  name: 'tr'
+                  widget: list
+                  collapsed: true
+                  allow_add: true
+                  fields:
+                      - { label: 'Title', name: 'title', widget: 'string' }
+                      - { label: 'Description', name: 'description', widget: 'string' }     
+                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
+                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }  
+                - label: Hero EN
+                  name: 'en'
+                  widget: list
+                  collapsed: true
+                  allow_add: true
+                  fields:
+                      - { label: 'Title', name: 'title', widget: 'string' }
+                      - { label: 'Description', name: 'description', widget: 'string' }     
+                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
+                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }            
+          - label: 'About Section'
+            name: 'about-section'            
+            file: 'data/homeAbout.json'
+            editor: 
+              preview: false 
+            fields:
+                - label: Image
+                  name: 'commons'
+                  widget: object
+                  collapsed: true
+                  allow_add: false
+                  fields:                      
+                      - { label: 'Image ', name: 'image', widget: 'image', required: false }                  
+                - label: Home About TR
+                  name: 'tr'
+                  widget: list
+                  collapsed: true
+                  allow_add: false
+                  fields:
+                      - { label: 'Up Title', name: 'upTitle', widget: 'string' }
+                      - { label: 'Title', name: 'title', widget: 'string' }                      
+                      - { label: 'Description', name: 'description', widget: 'string' }     
+                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
+                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }  
+                - label: Home About EN
+                  name: 'en'
+                  widget: list
+                  collapsed: true
+                  allow_add: false
+                  fields:
+                      - { label: 'Up Title', name: 'upTitle', widget: 'string' }
+                      - { label: 'Title', name: 'title', widget: 'string' }                      
+                      - { label: 'Description', name: 'description', widget: 'string' }     
+                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
+                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }          
+          - label: 'Home Partner Logos'
+            name: 'home-partner-logos'            
+            file: 'data/homePartnerLogos.json'
+            editor: 
+              preview: false 
+            fields:
+                - label: Logolar
+                  name: 'Logos'
+                  widget: list
+                  allow_add: true
+                  fields:
+                      - { label: 'Client', name: 'client', widget: 'string' }
+                      - { label: 'Logo', name: 'image', widget: 'image' }                                                              
+          - label: 'Home Services'
+            name: 'home-services'            
+            file: 'data/homeServices.json'
+            editor: 
+              preview: false           
+            fields:
+                - label: Services TR
+                  name: 'tr'
+                  widget: object
+                  collapsed: true    
+                  allow_add: false
+                  fields:
+                      - { label: 'Title', name: 'title', widget: 'string' }
+                      - { label: 'Description', name: 'description', widget: 'string' }   
+                - label: Services EN
+                  name: 'en'
+                  widget: object
+                  collapsed: true    
+                  allow_add: false
+                  fields:
+                      - { label: 'Title', name: 'title', widget: 'string' }
+                      - { label: 'Description', name: 'description', widget: 'string' } 
+          - label: 'Home CTA'
+            name: 'home-cta'            
+            file: 'data/homeCta.json'
+            editor: 
+              preview: false           
+            fields:
+                - label: Image
+                  name: 'commons'
+                  widget: object
+                  collapsed: true  
+                  allow_add: false
+                  fields:                      
+                      - { label: 'Image ', name: 'background_image', widget: 'image', required: false }                  
+                - label: Home CTA TR
+                  name: 'tr'
+                  widget: object
+                  collapsed: true  
+                  allow_add: false
+                  fields:
+                      - { label: 'Title', name: 'title', widget: 'string' }                      
+                      - { label: 'Description', name: 'description', widget: 'string' }     
+                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
+                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }  
+                - label: Home CTA EN
+                  name: 'en'
+                  widget: object
+                  collapsed: true  
+                  allow_add: false
+                  fields:
+                      - { label: 'Title', name: 'title', widget: 'string' }                      
+                      - { label: 'Description', name: 'description', widget: 'string' }     
+                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
+                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }     
+          - label: 'Home Testimonials'
+            name: 'home-testimonials'            
+            file: 'data/homeTestimonials.json'
+            editor: 
+              preview: false           
+            fields:
+                - label: contentTR
+                  name: 'contentTR'
+                  widget: object
+                  collapsed: true  
+                  allow_add: false
+                  fields:
+                      - { label: 'Title', name: 'title', widget: 'string' }                      
+                      - { label: 'Description', name: 'desc', widget: 'string' }     
+                - label: contentENG
+                  name: 'contentENG'
+                  widget: object
+                  collapsed: true  
+                  allow_add: false
+                  fields:
+                      - { label: 'Title', name: 'title', widget: 'string' }                      
+                      - { label: 'Description', name: 'desc', widget: 'string' }      
+                - label: Clients
+                  name: 'clients'
+                  widget: list
+                  collapsed: true  
+                  allow_add: false
+                  fields:
+                      - { label: 'Clients Name', name: 'name', widget: 'string' }       
+                      - { label: 'Clients Title', name: 'title', widget: 'string', required: false } 
+                      - { label: 'Clients Avatar', name: 'image', widget: 'image', required: false }                                   
+                      - { label: 'Quote', name: 'quote', widget: 'string' }
+                      - { label: 'Quote in English', name: 'quoteENG', widget: 'string', required: false }                       
+                      - { label: 'Company Logo', name: 'logo', widget: 'image', required: false }                      
+    - name: 'cta-components' 
+      label: 'CTA'
+      delete: false
+      files:
+          - label: 'CTA Section'
+            name: 'cta-section'            
+            file: 'data/cta.json'
+            editor: 
+              preview: false 
+            fields:
+                - label: CTA Basic Section TR
+                  name: 'tr'
+                  widget: object
+                  allow_add: false
+                  fields:
+                      - { label: 'Title', name: 'title', widget: 'string' }
+                      - { label: 'Description', name: 'description', widget: 'string' }     
+                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
+                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }  
+                - label: CTA Basic Section ENG
+                  name: 'en'
+                  widget: object
+                  allow_add: false
+                  fields:
+                      - { label: 'Title', name: 'title', widget: 'string' }
+                      - { label: 'Description', name: 'description', widget: 'string' }     
+                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
+                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }      
+
+
+                      
+    - name: 'services-en'
+      label: 'Services English 🇺🇸' 
+      folder: 'services' 
+      create: true 
+      editor: 
+        preview: false 
+      slug: '{{slug}}'
+      extension: 'en.md'
+      format: frontmatter
+      fields: 
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'string' } 
+          - { label: 'Image', name: 'image', widget: 'image' }
+          - { label: 'Path', name: 'path', widget: 'string', required: true, hint: 'SEO icin ozel URL, ornek: wireline-karotiyer-ve-yedekleri' } 
+          - { label: 'CTA', name: 'cta', widget: 'boolean', default: true, hint: 'Sayfaya CTA Componenti ekler.' }
+          - { label: 'Content Type', name: 'contentType', widget: 'hidden', required: false, default: Service }   
+          - { label: 'Page Template', name: 'page', widget: 'hidden', required: false, default: page }                 
+          - {
+                label: 'Date',
+                name: 'date',
+                widget: 'datetime',
+                format: 'YYYY-MM-DD hh:mm:ss',
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown' }   
+
+    - name: 'services-tr'
+      label: 'Services Turkish 🇹🇷' 
+      folder: 'services' 
+      create: true 
+      editor: 
+        preview: false 
+      slug: '{{slug}}'
+      extension: 'tr.md'
+      format: frontmatter
+      fields: 
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'string' } 
+          - { label: 'Image', name: 'image', widget: 'image' }
+          - { label: 'Path', name: 'path', widget: 'string', required: true, hint: 'SEO icin ozel URL, ornek: wireline-karotiyer-ve-yedekleri' } 
+          - { label: 'CTA', name: 'cta', widget: 'boolean', default: true, hint: 'Sayfaya CTA Componenti ekler.' }
+          - { label: 'Content Type', name: 'contentType', widget: 'hidden', required: false, default: Service }   
+          - { label: 'Page Template', name: 'page', widget: 'hidden', required: false, default: page }                 
+          - {
+                label: 'Date',
+                name: 'date',
+                widget: 'datetime',
+                format: 'YYYY-MM-DD hh:mm:ss',
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown' }                            
+
+# Pages Section
+
+    - name: 'pages-en'
+      label: 'Pages English 🇺🇸' 
+      folder: 'pages' 
+      create: true 
+      slug: '{{slug}}'
+      extension: 'en.md'
+      format: frontmatter
+      editor: 
+        preview: false 
+      fields: 
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'string' }          
+          - { label: 'Image', name: 'image', widget: 'image' }
+          - { label: 'Page', name: 'page', widget: 'hidden', default: 'page' }
+          - { label: 'CTA', name: 'cta', widget: 'boolean', default: true, hint: 'Sayfaya CTA Componenti ekler.' }
+          - { label: 'Path', name: 'path', widget: 'string', required: false, hint: 'Custom URL Path instead of Slug.' }          
+          - {
+                label: 'Date',
+                name: 'date',
+                widget: 'datetime',
+                format: 'YYYY-MM-DD hh:mm:ss',
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+    - name: 'pages-tr'
+      label: 'Pages Turkish 🇹🇷' 
+      folder: 'pages' 
+      create: true 
+      slug: '{{slug}}'
+      extension: 'tr.md'
+      editor: 
+        preview: false 
+      format: frontmatter
+      fields: 
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'string' }          
+          - { label: 'Image', name: 'image', widget: 'image' }
+          - { label: 'Page', name: 'page', widget: 'hidden', default: 'page' }
+          - { label: 'CTA', name: 'cta', widget: 'boolean', default: true, hint: 'Sayfaya CTA Componenti ekler.' }
+          - { label: 'Path', name: 'path', widget: 'string', required: false, hint: 'Custom URL Path instead of Slug.' }          
+          - {
+                label: 'Date',
+                name: 'date',
+                widget: 'datetime',
+                format: 'YYYY-MM-DD hh:mm:ss',
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+    - name: 'post-tr'
+      label: 'Blog Posts Turkish 🇹🇷' 
+      folder: 'blog' 
+      create: true 
+      editor: 
+        preview: false
+      slug: '{{slug}}'
+      extension: 'tr.md'
+      format: frontmatter
+      fields: 
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'string' }
+          - { label: 'Author', name: 'author', widget: 'string' }
+          - { label: 'authorTitle', name: 'authorTitle', widget: 'string' }  
+          - { label: 'Author Image', name: 'authorImage', widget: 'image' }                  
+          - { label: 'Image', name: 'image', widget: 'image' }
+          - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }                  
+          - { label: 'Path', name: 'path', widget: 'string', required: false, hint: 'Custom URL Path instead of Slug' }          
+          - {
+                label: 'Date',
+                name: 'date',
+                widget: 'datetime',
+                format: 'YYYY-MM-DD hh:mm:ss',
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+
+    # - name: 'jobs'
+    #   label: 'Jobs' 
+    #   folder: 'jobs' 
+    #   create: true 
+    #   slug: '{{slug}}' 
+    #   extension: 'en.md'
+    #   format: frontmatter
+    #   fields: 
+    #       - { label: 'Title', name: 'title', widget: 'string' }
+    #       - { label: 'Description', name: 'description', widget: 'string', required: false }
+    #       - { label: 'URL', name: 'path', widget: 'string', required: false, hint: "Example: career/native-ios-developer " }       
+    #       - {
+    #             label: 'Locations',
+    #             name: 'location',
+    #             widget: 'select',
+    #             options:
+    #                 [
+    #                     'Istanbul',
+    #                     'Izmir',
+    #                     'Remote',
+    #                 ],
+    #         }          
+    #       - {
+    #             label: 'Date',
+    #             name: 'date',
+    #             widget: 'datetime',
+    #             format: 'YYYY-MM-DD hh:mm:ss',
+    #         }
+    #       - { label: 'image', name: 'image', widget: 'image' }
+    #       - { label: 'jobs', name: 'page', widget: 'hidden', default: 'jobs' }          
+    #       - { label: 'Body', name: 'body', widget: 'markdown' }    
+
+
+    - name: 'team' 
+      label: 'Team'
+      delete: false
+      editor:
+        preview: false
+      files:
+          - label: 'Members'
+            name: 'members'            
+            file: 'data/team.json'
+            fields:
+                - label: Content Section TR
+                  name: 'tr'
+                  widget: object
+                  collapsed: true
+                  allow_add: false
+                  fields:
+                      - { label: 'Title', name: 'title', widget: 'string' }  
+                      - { label: 'Desc', name: 'desc', widget: 'string', required: false }    
+                - label: Content Section ENG
+                  name: 'en'
+                  widget: object
+                  collapsed: true
+                  allow_add: false
+                  fields:
+                      - { label: 'Title', name: 'title', widget: 'string' }  
+                      - { label: 'Desc', name: 'desc', widget: 'string', required: false }               
+                - label: Members
+                  name: 'members'
+                  widget: list
+                  allow_add: true
+                  fields:
+                      - { label: 'Name', name: 'name', widget: 'string' }
+                      - { label: 'Image', name: 'image', widget: 'image' }
+                      - { label: 'Title', name: 'title', widget: 'string' }    
+                      - { label: 'Title (English 🇺🇸)', name: 'titleEN', widget: 'string', required: false } 
+                      - { label: 'LinkedIn URL', name: 'linkedin', widget: 'string', required: false}      
+                                                                  
+                
+                
+
+        
+                                       
+                  
