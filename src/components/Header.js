@@ -64,14 +64,19 @@ function Header() {
               </LocalizedLink>
             </li>
             <li className="has-submenu parent-parent-menu-item ">
-              <a href="javascript:void(0)" className="d-flex gap-2 align-items-center">
+              <a
+                href="javascript:void(0)"
+                className="d-flex gap-2 align-items-center"
+              >
                 {" "}
                 <Translate className="h6 mr-5 rounded mb-0" />
                 Languages
               </a>
               <span className="menu-arrow" />
               <ul className="submenu ">
-               <Languages/>
+               <Languages/> 
+      
+              
               </ul>
             </li>
             {/* <li className="has-submenu parent-parent-menu-item">

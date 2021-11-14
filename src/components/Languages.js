@@ -4,7 +4,7 @@ import { useLocale } from "../hooks/locale";
 import useLanguageMapping from "./useLanguageMapping";
 import LocalizedLink from "./LocalizedLink";
 
-const Languages = () => {
+const Languages = ({location}) => {
   // Grab the locale (passed through context) from the Locale Provider
   // through useLocale() hook
   const { locale } = useLocale();

@@ -1,7 +1,7 @@
 require('dotenv').config();
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.madsan.com`,
+    siteUrl: `https://www.mad-san.com`,
     title: `Madsan | `,
     description: ``,
     author: `@Monotalic`,

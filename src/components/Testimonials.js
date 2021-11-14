@@ -2,7 +2,7 @@ import * as React from "react";
 import TestimonalsData from "../../data/homeTestimonials.json";
 // import LocalizedLink from "../components/LocalizedLink";
 import { useLocale } from "../hooks/locale";
-import TinySlider from "tiny-slider-react";
+// import TinySlider from "tiny-slider-react";
 
 function Testimonials() {
   const { locale } = useLocale();
@@ -38,7 +38,7 @@ function Testimonials() {
           <div className="row justify-content-center">
             <div className="col-lg-12 mt-4">
               <div className="tiny-three-item">
-                <TinySlider settings={settings}>
+                {/* <TinySlider settings={settings}> */}
                   {TestimonalsData.clients.map((client, index) => (
                     <div key={`_${index}`} className="tiny-slide">
                       <div className="d-flex client-testi m-2">
@@ -80,7 +80,7 @@ function Testimonials() {
                       </div>
                     </div>
                   ))}
-                </TinySlider>
+                {/* </TinySlider> */}
               </div>
             </div>
           </div>
