@@ -207,7 +207,7 @@ collections:
                   name: 'clients'
                   widget: list
                   collapsed: true  
-                  allow_add: false
+                  allow_add: true
                   fields:
                       - { label: 'Clients Name', name: 'name', widget: 'string' }       
                       - { label: 'Clients Title', name: 'title', widget: 'string', required: false } 
