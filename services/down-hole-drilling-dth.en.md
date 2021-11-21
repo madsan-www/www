@@ -1,11 +1,12 @@
 ---
-title: "Down Hole Drilling (DTH)\t"
+title: "Down Hole Drilling (DTH)"
 description: Down-the-hole drilling (DTH),the force generated when the piston in
   the hammer strikes the bit creates a shock wave on the rock.
 image: https://res.cloudinary.com/madsan/image/upload/v1636194991/madsan-stock/IMG_3203_glh3fq.jpg
-path: down-hole-drilling
+path: services/down-hole-drilling
 cta: true
 contentType: Service
+serviceType: karotlu
 page: page
 date: 2021-11-18 12:32:01
 ---

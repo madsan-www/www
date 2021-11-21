@@ -1,10 +1,11 @@
 ---
 title: Tünel Ekipmanları
 description: Kaya delme ekipmanları her çeşit kaya tipine göre dizayn edilmiştir.
-image: https://res.cloudinary.com/madsan/image/upload/v1636194993/madsan-stock/IMG_3201_dnngfl.jpg
-path: tunel-ekipmanlari
+image: https://res.cloudinary.com/madsan/image/upload/v1637506724/madsan-stock/IMG_3201_dnngfl_bf98hq.jpg
+path: hizmetler/tunel-ekipmanlari
 cta: true
 contentType: Service
+serviceType: karotlu
 page: page
 date: 2021-11-17 12:41:32
 ---

@@ -4,9 +4,10 @@ description: "Üstten darbeli sistemde , makinenin üzerinde bulunan tabanca ,
   ürettiği enerjiyi borular (tijler) sayesinde delik dibindeki bitlere ileterek
   kayanın kırılmasını sağlar. "
 image: https://res.cloudinary.com/madsan/image/upload/v1636194988/madsan-stock/IMG_3205_tqzmzj.jpg
-path: top-hammer-ekipmanlari
+path: hizmetler/top-hammer-ekipmanlari
 cta: true
 contentType: Service
+serviceType: rdt
 page: page
 date: 2021-11-17 12:38:50
 ---

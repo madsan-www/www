@@ -2,9 +2,10 @@
 title: 535 Triplex Mud Pump
 description: "535 triplex pumps are mainly designed for pumping water and mud. "
 image: https://res.cloudinary.com/madsan/image/upload/v1636194991/madsan-stock/IMG_3203_glh3fq.jpg
-path: 535-triplex-mud-pump
+path: services/535-triplex-mud-pump
 cta: true
 contentType: Service
+serviceType: karotlu
 page: page
 date: 2021-11-18 11:31:12
 ---

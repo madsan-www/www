@@ -1,10 +1,11 @@
 ---
 title: Tunnel Equipments
 description: Rock drilling equipment is designed for all kinds of rock types
-image: https://res.cloudinary.com/madsan/image/upload/v1636194989/madsan-stock/IMG_3195_zkr2vt.jpg
-path: tunnel-equipments
+image: https://res.cloudinary.com/madsan/image/upload/v1637506724/madsan-stock/IMG_3201_dnngfl_bf98hq.jpg
+path: services/tunnel-equipments
 cta: true
 contentType: Service
+serviceType: karotlu
 page: page
 date: 2021-11-18 12:29:19
 ---

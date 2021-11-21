@@ -14,6 +14,8 @@ export default function Services() {
   const Desc = ContentData.description;
   const Lang = useTranslations().translationsTerms[0];
 
+  // const selectedServiceType = document.location.search;
+
   return (
     <StaticQuery
       query={graphql`
@@ -23,7 +25,7 @@ export default function Services() {
               fields: { locale: { eq: "tr" } }
               fileAbsolutePath: { regex: "/(services)/.*.md$/" }
             }
-            limit: 9
+            sort: { fields: frontmatter___serviceType, order: ASC }
           ) {
             edges {
               node {
@@ -35,6 +37,7 @@ export default function Services() {
                   image
                   date(formatString: "DD.MM.YYYY")
                   contentType
+                  serviceType
                 }
                 fields {
                   slug
@@ -51,7 +54,6 @@ export default function Services() {
               fields: { locale: { eq: "en" } }
               fileAbsolutePath: { regex: "/(services)/.*.md$/" }
             }
-            limit: 9
           ) {
             edges {
               node {
@@ -63,6 +65,7 @@ export default function Services() {
                   image
                   date(formatString: "DD.MM.YYYY")
                   contentType
+                  serviceType
                 }
                 fields {
                   slug
@@ -81,7 +84,7 @@ export default function Services() {
           <div className="row justify-content-center">
             <div className="col-12 text-center">
               <div className="section-title mb-4 pb-2">
-                <h4 className="title mb-4">{Title}</h4>
+                <h1 className="title mb-4">{Title}</h1>
                 <p className="text-muted para-desc mb-0 mx-auto   ">{Desc}</p>
               </div>
             </div>
@@ -92,9 +95,14 @@ export default function Services() {
                   <>
                     <div
                       key={`_${index}`}
-                      className="col-lg-4 col-md-6 mt-4 pt-2"
+                      className="col-lg-4 col-md-6 mt-2 pt-2"
                     >
                       <div className="card features feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
+                        <div className="tagcloud text-center mb-2">
+                          <text className="rounded">
+                            {node.frontmatter.serviceType}
+                          </text>
+                        </div>
                         <div className="icons text-primary text-center mx-auto">
                           <img
                             src={node.frontmatter.image}
@@ -105,7 +113,9 @@ export default function Services() {
                         <div className="card-body p-0 content">
                           <h5 className="mt-4">
                             <LocalizedLink
-                              to={node.frontmatter.path || node.fields.slug}
+                              to={`/${
+                                node.frontmatter.path || node.fields.slug
+                              }`}
                               className="title text-dark"
                             >
                               {node.frontmatter.title}
@@ -113,7 +123,7 @@ export default function Services() {
                           </h5>
                           <p className="text-muted">{node.excerpt}</p>
                           <LocalizedLink
-                            to={node.frontmatter.path || node.fields.slug}
+                            to={`/${node.frontmatter.path || node.fields.slug}`}
                             className="text-primary"
                           >
                             {Lang.moreInformations}
@@ -131,6 +141,11 @@ export default function Services() {
                       className="col-lg-4 col-md-6 mt-4 pt-2"
                     >
                       <div className="card features feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
+                        <div className="tagcloud text-center mb-2">
+                          <text className="rounded">
+                            {node.frontmatter.serviceType}
+                          </text>
+                        </div>
                         <div className="icons text-primary text-center mx-auto">
                           <img
                             src={node.frontmatter.image}
@@ -141,7 +156,9 @@ export default function Services() {
                         <div className="card-body p-0 content">
                           <h5 className="mt-4">
                             <LocalizedLink
-                              to={node.frontmatter.path || node.fields.slug}
+                              to={`/${
+                                node.frontmatter.path || node.fields.slug
+                              }`}
                               className="title text-dark"
                             >
                               {node.frontmatter.title}
@@ -149,10 +166,10 @@ export default function Services() {
                           </h5>
                           <p className="text-muted">{node.excerpt}</p>
                           <LocalizedLink
-                            to={node.frontmatter.path || node.fields.slug}
+                            to={`/${node.frontmatter.path || node.fields.slug}`}
                             className="text-primary"
                           >
-                            Detaylı Bilgi
+                            {Lang.moreInformations}
                             <i className="uil uil-angle-right-b align-middle" />
                           </LocalizedLink>
                         </div>

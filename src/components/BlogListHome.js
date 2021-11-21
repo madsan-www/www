@@ -75,7 +75,10 @@ export default function BlogListHome() {
         }
       `}
       render={data => (
-        <div className="container mt-100 mt-60">
+        <div
+          className="container mt-100 mt-60"
+          style={{ marginBottom: "8rem" }}
+        >
           {/* <div className="row justify-content-center">
           <div className="col-12 text-center">
               <div className="section-title mb-4 pb-2">
@@ -198,7 +201,7 @@ export default function BlogListHome() {
                                           }`}
                                           className="text-muted readmore"
                                         >
-                                         {Lang.moreInformations}
+                                          {Lang.moreInformations}
                                           <i className="uil uil-angle-right-b align-middle" />
                                         </LocalizedLink>
                                       </div>

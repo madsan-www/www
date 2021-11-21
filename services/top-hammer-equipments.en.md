@@ -3,9 +3,10 @@ title: Top Hammer Equipments
 description: "Top hammer drills are diversified from soft rocks to hard rocks
   according to the formations formed. "
 image: https://res.cloudinary.com/madsan/image/upload/v1636194990/madsan-stock/IMG_3199_sdyhiy.jpg
-path: top-hammer-equipments
+path: services/top-hammer-equipments
 cta: true
 contentType: Service
+serviceType: karotlu
 page: page
 date: 2021-11-18 11:42:41
 ---

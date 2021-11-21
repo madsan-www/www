@@ -2,22 +2,12 @@
   "menuItems": [
     {
       "name": "Hakkımızda ",
-      "link": "/about",
+      "link": "/hakkimizda",
       "badge": false
     },
     {
-      "name": "Partnerler ",
-      "link": "/clients",
-      "badge": false
-    },
-    {
-      "name": "Kariyer ",
-      "link": "/career",
-      "badge": false
-    },
-    {
-      "name": "Ekip",
-      "link": "/team",
+      "name": "Hizmetler ",
+      "link": "/hizmetler",
       "badge": false
     },
     {
@@ -27,7 +17,7 @@
     },
     {
       "name": "İletişim",
-      "link": "/contact",
+      "link": "/iletisim",
       "badge": false
     }
   ]

@@ -1,23 +1,13 @@
 {
   "menuItems": [
     {
-      "name": "About Us ",
+      "name": "About ",
       "link": "/about",
       "badge": false
     },
     {
-      "name": "Partners ",
-      "link": "/clients",
-      "badge": false
-    },
-    {
-      "name": "Career ",
-      "link": "/career",
-      "badge": false
-    },
-    {
-      "name": "Team",
-      "link": "/team",
+      "name": "Services ",
+      "link": "/services",
       "badge": false
     },
     {

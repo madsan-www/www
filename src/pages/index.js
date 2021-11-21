@@ -5,7 +5,7 @@ import Features from "../components/Features";
 import AboutHome from "../components/AboutHome";
 import CTA from "../components/CTA";
 import Partners from "../components/Partners";
-import Services from "../components/Services";
+
 import Testimonials from "../components/Testimonials";
 import BlogListHome from "../components/BlogListHome";
 
@@ -19,8 +19,7 @@ const IndexPage = () => {
       <Hero />
       <Features />
       <AboutHome />
-      <Partners />
-      <Services />
+      <Partners />a
       <CTA />
       <Testimonials />
       <BlogListHome />

@@ -3,9 +3,10 @@ title: Wireline Core Barrel and Spares
 description: In wireline core barrels, inner tube and inner tube head assembly
   is the most important parts of that stage.
 image: https://res.cloudinary.com/madsan/image/upload/v1636194988/madsan-stock/IMG_3205_tqzmzj.jpg
-path: wireline-core-bars-and-spares
+path: services/wireline-core-bars-and-spares
 cta: true
 contentType: Service
+serviceType: karotlu
 page: page
 date: 2021-11-18 11:25:14
 ---

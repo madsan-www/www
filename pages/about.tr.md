@@ -4,7 +4,7 @@ description: asdasd
 image: https://res.cloudinary.com/madsan/image/upload/v1636194992/madsan-stock/IMG_3200_nsgux0.jpg
 page: about
 cta: true
-path: about
+path: hakkimizda
 date: 2019-07-01 01:21:23
 ---
 

@@ -2,8 +2,10 @@ import React from "react";
 import LocalizedLink from "../components/LocalizedLink";
 import { Translate } from "react-bootstrap-icons";
 import Languages from "../components/Languages";
+import useMenu from "./useMenu";
 
 function Header() {
+  const menuItems = useMenu();
   return (
     <header id="topnav" className="defaultscroll sticky bg-white">
       <div className="container">
@@ -48,21 +50,23 @@ function Header() {
         <div id="navigation ">
           {/* Navigation Menu*/}
           <ul className="navigation-menu">
-            <li>
-              <LocalizedLink to="/" className="sub-menu-item">
-                Home
-              </LocalizedLink>
-            </li>
-            <li>
-              <LocalizedLink to="/about" className="sub-menu-item">
-                About
-              </LocalizedLink>
-            </li>
-            <li>
-              <LocalizedLink to="/blog" className="sub-menu-item">
-                Blog
-              </LocalizedLink>
-            </li>
+            {menuItems.map((menu, index) => (
+              <li key={`${index}`} className="contents">
+                <LocalizedLink
+                  to={menu.link}
+                  aria-label={menu.name}
+                  activeClassName="active"
+                  key={`${menu.link}${index}`}
+                >
+                  {menu.name}
+                </LocalizedLink>
+                {menu.badge ? (
+                  <span className="relative inline-block ml-8">
+                    <span className="absolute top-0 right-9 inline-block w-2 h-2 transform translate-x-1/2 -translate-y-1/2 bg-red-600 rounded-full" />
+                  </span>
+                ) : null}
+              </li>
+            ))}
             <li className="has-submenu parent-parent-menu-item ">
               <a
                 href="javascript:void(0)"
@@ -74,9 +78,7 @@ function Header() {
               </a>
               <span className="menu-arrow" />
               <ul className="submenu ">
-               <Languages/> 
-      
-              
+                <Languages />
               </ul>
             </li>
             {/* <li className="has-submenu parent-parent-menu-item">

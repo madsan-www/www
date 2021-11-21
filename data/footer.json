@@ -1,0 +1,48 @@
+{
+  "tr": [
+    {
+      "title": "Telefon",
+      "icon": "phone",
+      "description": "",
+      "link": "+90 232 437 33 05",
+      "url": "tel:+902324373305"
+    },
+    {
+      "title": "Eposta",
+      "icon": "envelope",
+      "description": "Uzman satis ekibimizden destek alin!",
+      "link": "info@mad-san.com",
+      "url": "mailto:info@mad-san.com"
+    },
+    {
+      "title": "Ulasim",
+      "icon": "map",
+      "description": "Halkapınar Mahallesi 1376. Sokak Boran Plaza B Blok No:3/B Yenişehir Konak / İZMİR",
+      "link": "Detayli Bilgi",
+      "url": "https://g.page/madsanofficial?share"
+    }
+  ],
+  "en": [
+    {
+      "title": "Phone",
+      "icon": "phone",
+      "description": "Start working with Landrick that can provide everything",
+      "link": "Detayli Bilgi",
+      "url": "/hizmetler"
+    },
+    {
+      "title": "Email",
+      "icon": "envelope",
+      "description": "Start working with Landrick that can provide everything",
+      "link": "Detayli Bilgi",
+      "url": "/hizmetler"
+    },
+    {
+      "title": "Location",
+      "icon": "map",
+      "description": "Start working with Landrick that can provide everything",
+      "link": "Detayli Bilgi",
+      "url": "/hizmetler"
+    }
+  ]
+}

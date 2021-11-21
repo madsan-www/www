@@ -3,9 +3,10 @@ title: Wireline Karotiyer ve Yedekleri
 description: Wireline karotiyerlerde, İç tüp ve İç tüp başlığı bu bölümün en
   önemli parçasını oluşturmaktadır.
 image: https://res.cloudinary.com/madsan/image/upload/v1636194988/madsan-stock/IMG_3205_tqzmzj.jpg
-path: wireline-karotiyer-ve-yedekleri
+path: hizmetler/wireline-karotiyer-ve-yedekleri
 cta: true
 contentType: Service
+serviceType: karotlu
 page: page
 date: 2021-11-17 12:16:39
 ---

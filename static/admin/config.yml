@@ -261,7 +261,8 @@ collections:
           - { label: 'Image', name: 'image', widget: 'image' }
           - { label: 'Path', name: 'path', widget: 'string', required: true, hint: 'SEO icin ozel URL, ornek: wireline-karotiyer-ve-yedekleri' } 
           - { label: 'CTA', name: 'cta', widget: 'boolean', default: true, hint: 'Sayfaya CTA Componenti ekler.' }
-          - { label: 'Content Type', name: 'contentType', widget: 'hidden', required: false, default: Service }   
+          - { label: 'Content Type', name: 'contentType', widget: 'hidden', required: false, default: Service } 
+          - { label: 'Service Type', name: 'serviceType', widget: 'select', required: true,  options: ["cored", "rdt", "other"]  }             
           - { label: 'Page Template', name: 'page', widget: 'hidden', required: false, default: page }                 
           - {
                 label: 'Date',
@@ -287,6 +288,7 @@ collections:
           - { label: 'Path', name: 'path', widget: 'string', required: true, hint: 'SEO icin ozel URL, ornek: wireline-karotiyer-ve-yedekleri' } 
           - { label: 'CTA', name: 'cta', widget: 'boolean', default: true, hint: 'Sayfaya CTA Componenti ekler.' }
           - { label: 'Content Type', name: 'contentType', widget: 'hidden', required: false, default: Service }   
+          - { label: 'Service Type', name: 'serviceType', widget: 'select', required: true,  options: ["karotlu", "rdt", "other"]  }          
           - { label: 'Page Template', name: 'page', widget: 'hidden', required: false, default: page }                 
           - {
                 label: 'Date',
@@ -404,7 +406,63 @@ collections:
     #       - { label: 'image', name: 'image', widget: 'image' }
     #       - { label: 'jobs', name: 'page', widget: 'hidden', default: 'jobs' }          
     #       - { label: 'Body', name: 'body', widget: 'markdown' }    
-
+    - name: 'menu' 
+      label: 'Menu'
+      delete: false
+      editor:
+        preview: false
+      files:
+          - label: 'Header Menu English'
+            name: 'header-menu-en'            
+            file: 'config/menu/en.json'
+            fields:
+                - label: header-menu-en
+                  name: 'menuItems'
+                  widget: list
+                  collapsed: true
+                  allow_add: true
+                  fields:
+                      - { label: 'Name', name: 'name', widget: 'string' }  
+                      - { label: 'Link', name: 'link', widget: 'string', required: false }   
+          - label: 'Header Menu Turkish'
+            name: 'header-menu-tr'            
+            file: 'config/menu/tr.json'
+            fields:
+                - label: header-menu-tr
+                  name: 'menuItems'
+                  widget: list
+                  collapsed: true
+                  allow_add: true
+                  fields:
+                      - { label: 'Name', name: 'name', widget: 'string' }  
+                      - { label: 'Link', name: 'link', widget: 'string', required: false }
+          - label: 'Footer Items'
+            name: 'footer-items'            
+            file: 'data/footer.json'
+            fields:
+                - label: footer-items-tr
+                  name: 'tr'
+                  widget: list
+                  collapsed: true
+                  allow_add: true
+                  fields:
+                      - { label: 'Name', name: 'title', widget: 'string' }  
+                      - { label: 'Icon', name: 'icon', widget: 'select', options: ["phone", "envelope", "map"], required: false } 
+                      - { label: 'Description', name: 'description', hint: 'Item Description', widget: 'string', required: true} 
+                      - { label: 'URL', name: 'url', widget: 'string', hint: 'HREF link Example: tel:+902324373305', required: true } 
+                      - { label: 'Link', name: 'link', widget: 'string', hint: 'Link name', required: true }    
+                - label: footer-items-en
+                  name: 'en'
+                  widget: list
+                  collapsed: true
+                  allow_add: true
+                  fields:
+                      - { label: 'Name', name: 'title', widget: 'string' }  
+                      - { label: 'Icon', name: 'icon', widget: 'string', required: false } 
+                      - { label: 'Description', name: 'description', hint: 'Item Description', widget: 'string', required: true} 
+                      - { label: 'URL', name: 'url', widget: 'string', hint: 'HREF link Example: tel:+902324373305', required: true } 
+                      - { label: 'Link', name: 'link', widget: 'string', hint: 'Link name', required: true }                                           
+                                               
 
     - name: 'team' 
       label: 'Team'

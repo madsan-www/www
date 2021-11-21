@@ -2,7 +2,7 @@
   "languageMapping": [
     {
       "en": "about",
-      "tr": "about"
+      "tr": "hakkimizda"
     },
     {
       "en": "blog",
@@ -10,27 +10,15 @@
     },
     {
       "en": "contact",
-      "tr": "contact"
+      "tr": "iletisim"
     },
     {
-      "en": "team",
-      "tr": "team"
-    },
-    {
-      "en": "career",
-      "tr": "career"
-    },
-    {
-      "en": "clients",
-      "tr": "clients"
+      "en": "services",
+      "tr": "hizmetler"
     },
     {
       "en": "/blog/creating-posts-and-pages",
       "tr": "/blog/turkce-kismi"
-    },
-    {
-      "en": "culture",
-      "tr": "culture"
     }
   ]
 }
