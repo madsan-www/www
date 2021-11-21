@@ -1,10 +1,12 @@
 ---
-title: Wireline Core Bars and Spares
-description: In Wireline core barrels, Inner tube and Inner tube head form the most important part of this section.
-path: wireline-core-bars-and-spares
+title: Wireline Core Barrel and Spares
+description: In wireline core barrels, inner tube and inner tube head assembly
+  is the most important parts of that stage.
 image: https://res.cloudinary.com/madsan/image/upload/v1636194988/madsan-stock/IMG_3205_tqzmzj.jpg
-page: 'page'
+path: wireline-core-bars-and-spares
+cta: true
 contentType: Service
+page: page
+date: 2021-11-18 11:25:14
 ---
-
-Metrik Standart karotiyer grubu MADSAN ürün yelpazesi içerisinde yer almaktadır. Daha cok, derin olmayan ve zemin etüt amaçlı sondajlarda kullanılan düz takım karotiyer, formasyon tipi ve istenen karot özelliğine göre; B tek tüp karotiyer, tüp karotiyer olarak sınıflandırılır.
+In wireline core barrels, inner tube and inner tube head assembly is the most important parts of that stage. Both tap sides of the inner tube made of cold drawn pipe. Both sides of cog type is identical.
