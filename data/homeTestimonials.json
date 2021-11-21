@@ -10,7 +10,7 @@
   "clients": [
     {
       "quote": "Sizinle çalışmaya sondaj ekipmanları tedariği ile başladık. Anlaştığımız koşullara ilk günden bu güne bağlı kaldığınız ve taahhütlerinizi yerine getiren bir firma olduğunuz için sizinle kurduğumuz çözüm ortaklığımızdan memnunuz. Teşekkürler Mad-San…",
-      "quoteENG": "ENG t seems that only fragments of the original tex remain in the Lorem Ipsum texts used today. ",
+      "quoteENG": "We starting with you to work with the supply drilling equipments. You have adhered to the our agreed conditions from the first day to this day and a company that for fullfils your commitments we are pleased wtih our solution partnership. Thanks Mad-San.",
       "name": "DEMİR EXPORT",
       "title": "",
       "logo": "",
@@ -18,11 +18,17 @@
     },
     {
       "quote": "Emprenye matkap tedariklerimizi firmanızdan sipariş ediyoruz. Siparişlerimizde önceliğimiz her zaman ürün kalitesi olmuştur. Bizi memnun ettiğiniz ve hiçbir zaman kaliteden ödün vermediğiniz için mutluyuz. Sizinle daha fazla çalışacağımıza inanıyoruz. Başarılar.",
-      "quoteENG": "ENG t seems that only fragments of the original tex remain in the Lorem Ipsum texts used today. ",
+      "quoteENG": "We are ordering our impregnated diamond bit from your company. Our priority in our orders has always been product quality. We are happy that you satisfied us and never compromised on quality. We believe that we will work more.",
       "name": "ESAN",
       "title": "",
       "logo": "",
       "image": "https://res.cloudinary.com/madsan/image/upload/v1636890187/clients/Esan-150x150_rhlk7o.png"
+    },
+    {
+      "name": "ELEKTRO METALURJİ",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1636890430/clients/Eti_Elektrometalurji-150x150_cbamfx.png",
+      "quote": "Mesleki donanımınız, çözüm odaklı yaklaşımlarınız ve çalıştığımız konularda tedarik ettiğiniz kaliteli ekipmanlarınız sayesinde sahada üstlendiğimiz birçok işin altından yüzümüzün akıyla çıktık. Profesyonel destekleriniz için teşekkürler Mad-San…",
+      "quoteENG": "Your vocational knowledge, your solution oriented approach and thanks to the quality equipments that your supply we have succesfully overcome many of the works which  we have undertaken in the field. Thanks for your professional support Mad-San…"
     }
   ]
 }
