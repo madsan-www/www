@@ -19,7 +19,7 @@ const IndexPage = () => {
       <Hero />
       <Features />
       <AboutHome />
-      <Partners />a
+      <Partners />
       <CTA />
       <Testimonials />
       <BlogListHome />

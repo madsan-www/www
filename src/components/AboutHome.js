@@ -20,7 +20,7 @@ function AboutHome() {
 
   return (
     <>
-      <div className="container mt-100 mt-60">
+      <div className="container mt-60 mb-100">
         <div className="row align-items-center">
           <div className="col-lg-5 col-md-5 mt-4 pt-2 mt-sm-0 pt-sm-0">
             <div className="position-relative">

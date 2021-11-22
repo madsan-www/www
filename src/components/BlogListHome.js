@@ -227,7 +227,29 @@ export default function BlogListHome() {
               </div>
             </div>
           </div>
+          <>
+        <div className="container-fluid mt-100 mt-60">
+          <div
+            className="py-5"
+            style={{
+              background:
+                'url("https://res.cloudinary.com/madsan/image/upload/v1636198143/web-assets/svg-map_yfgz9z.svg")'
+            }}
+          >
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="col-12 text-center">
+                  <span className="clip-text clip-text-image text-uppercase fw-bold">
+                    Madsan
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </>
+        </div>
+        
       )}
     />
   );

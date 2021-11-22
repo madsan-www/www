@@ -2,10 +2,15 @@ import React from "react";
 import LocalizedLink from "../components/LocalizedLink";
 import { Translate } from "react-bootstrap-icons";
 import Languages from "../components/Languages";
+import OptionsData from "../../data/options.json";
 import useMenu from "./useMenu";
 
 function Header() {
   const menuItems = useMenu();
+  const data = OptionsData.options
+
+  const logo = data.logo
+
   return (
     <header id="topnav" className="defaultscroll sticky bg-white">
       <div className="container">
@@ -13,16 +18,16 @@ function Header() {
         <LocalizedLink className="Madsan logo" to="/">
           <span className="logo-light-mode">
             <img
-              src="https://res.cloudinary.com/madsan/image/upload/v1636195051/logo/madsan-logo-slogan_lhry8s.svg"
+              src={logo}
               className="l-dark"
-              alt
-              height={24}
+              alt='madsan logo'
+              height={40}
             />
             <img
-              src="https://res.cloudinary.com/madsan/image/upload/v1636195051/logo/madsan-logo-slogan_lhry8s.svg"
+              src={logo}
               className="l-light"
-              alt
-              height={80}
+              alt='madsan logo'
+              height={40}
             />
           </span>
           {/* <img

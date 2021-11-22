@@ -8,5 +8,9 @@
       "image": "https://res.cloudinary.com/madsan/image/upload/v1636890424/clients/Demir_Export-150x150_rksrz4.png",
       "client": "Demir Export"
     }
-  ]
+  ],
+  "content": {
+    "title": "Markalar",
+    "titleEng": "Partners"
+  }
 }

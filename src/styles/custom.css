@@ -3001,8 +3001,9 @@ p {
 }
 
 .bg-half-170 {
-  padding: 170px 0;
+  padding: 120px 0;
   background-size: cover;
+  
   align-self: center;
   position: relative;
   background-position: center center;
@@ -5635,3 +5636,12 @@ ul .t-ltr-dark {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+.slick-prev::before{ 
+  position: relative;
+right: -5rem!important;
+}
+.slick-next::before{ 
+  position: relative;
+  left: -5rem!important;
+}

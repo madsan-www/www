@@ -52,6 +52,7 @@ collections:
                   allow_add: false
                   fields:                      
                       - { label: 'Background Image', name: 'background_image', widget: 'image', required: false }
+                      - { label: 'Background Image', name: 'background_image2', widget: 'image', required: false }
           - label: 'Features Section'
             name: 'features-section'            
             file: 'data/homeFeatures.json'
@@ -78,8 +79,8 @@ collections:
                       - { label: 'Description', name: 'description', widget: 'string' }     
                       - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
                       - { label: 'cta_link', name: 'cta_link', widget: 'string' }            
-          - label: 'About Section'
-            name: 'about-section'            
+          - label: 'Document Download Section'
+            name: 'document-download-section'            
             file: 'data/homeAbout.json'
             editor: 
               preview: false 
@@ -125,7 +126,15 @@ collections:
                   allow_add: true
                   fields:
                       - { label: 'Client', name: 'client', widget: 'string' }
-                      - { label: 'Logo', name: 'image', widget: 'image' }                                                              
+                      - { label: 'Logo', name: 'image', widget: 'image' }  
+                - label: Content
+                  name: 'content'
+                  widget: list
+                  allow_add: false
+                  fields:
+                      - { label: 'Title TR', name: 'title', widget: 'string' }
+                      - { label: 'Title EN', name: 'titleEng', widget: 'string' }       
+                      
           - label: 'Home Services'
             name: 'home-services'            
             file: 'data/homeServices.json'
@@ -501,7 +510,23 @@ collections:
                       - { label: 'Title (English 🇺🇸)', name: 'titleEN', widget: 'string', required: false } 
                       - { label: 'LinkedIn URL', name: 'linkedin', widget: 'string', required: false}      
                                                                   
-                
+    - name: 'options' 
+      label: 'Options'
+      delete: false
+      editor:
+        preview: false
+      files:
+          - label: 'Header Logo'
+            name: 'options'            
+            file: 'data/options.json'
+            fields:
+                - label: General Options
+                  name: 'options'
+                  widget: object
+                  collapsed: true
+                  allow_add: false
+                  fields:
+                      - { label: 'Logo', name: 'logo', widget: 'image' }              
                 
 
         
