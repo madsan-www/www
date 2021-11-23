@@ -11,6 +11,42 @@
       "image": "https://res.cloudinary.com/madsan/image/upload/v1636899470/team/IMG_9882-150x150_lwlwzr.jpg",
       "title": "İdari İşler ve İK Direktörü ",
       "titleEN": "Administrative Affairs and HR Director"
+    },
+    {
+      "name": "Emin Canbaz",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1636899500/team/emin-canbaz-150x150_flojyf.jpg",
+      "title": "Satış Mühendisi",
+      "titleEN": "Sales Engineer"
+    },
+    {
+      "name": "M. Ali Çakmak",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1637658505/team/PHOTO-2021-11-18-13-08-15_bhdofp.jpg",
+      "title": "Satış Sorumlusu",
+      "titleEN": "Sales Representative"
+    },
+    {
+      "name": "Alperen Yavaş",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1637658504/team/PHOTO-2021-11-18-13-08-14_2_nivari.jpg",
+      "title": "Satış Mühendisi",
+      "titleEN": "Sales Engineer"
+    },
+    {
+      "name": "Ecem Aysu Akpınar",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1637658505/team/PHOTO-2021-11-18-13-08-14_q7lz9z.jpg",
+      "title": "Satış Destek Mühendisi",
+      "titleEN": "Sales Support Engineer"
+    },
+    {
+      "name": "Orkun Çamlı ",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1637658505/team/PHOTO-2021-11-18-13-08-13_gsppms.jpg",
+      "title": "Muhasebe Sorumlusu",
+      "titleEN": "Accountant"
+    },
+    {
+      "name": "Merve Girgin",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1637658504/team/PHOTO-2021-11-18-13-08-14_4_wjvi7n.jpg",
+      "title": "Finans Sorumlusu",
+      "titleEN": "Finance Officer"
     }
   ],
   "tr": {
