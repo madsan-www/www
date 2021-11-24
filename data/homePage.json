@@ -4,21 +4,31 @@
       "title": "Madencilik ekipmanı tedariğinde ilk adresiniz.",
       "description": "Madenciliğe dair tüm ekipmanlarin imalat ve satışı, karotlu sondaj ekipmanları ve kaya delici ekipmanları.",
       "cta_button": "Bize Ulaşın",
-      "cta_link": "/contact"
+      "cta_link": "/contact",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1636194992/madsan-stock/IMG_3200_nsgux0.jpg"
+    },
+    {
+      "title": "Madencilik ekipmanı tedariğinde ilk adresiniz.",
+      "description": "Madenciliğe dair tüm ekipmanlarin imalat ve satışı, karotlu sondaj ekipmanları ve kaya delici ekipmanları.",
+      "cta_button": "Bize Ulaşın",
+      "cta_link": "/contact",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1637659544/Banner/slider2_qf9uow.jpg"
     }
   ],
   "en": [
     {
       "title": "Your first address for mining equipment supply.",
-      "description": "Madenciliğe dair tüm ekipmanlarin imalat ve satışı, karotlu sondaj eki̇pmanları ve kaya delici eki̇pmanları.",
+      "description": "Manufacturing and sales of all mining equipment, core drilling equipment and rock drilling equipment.",
       "cta_button": "Contact Us",
-      "cta_link": "/contact"
-    }
-  ],
-  "commons": [
+      "cta_link": "/contact",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1636194992/madsan-stock/IMG_3200_nsgux0.jpg"
+    },
     {
-      "background_image": "https://res.cloudinary.com/madsan/image/upload/v1636194992/madsan-stock/IMG_3200_nsgux0.jpg",
-      "background_image2": "https://res.cloudinary.com/madsan/image/upload/v1637659544/Banner/slider2_qf9uow.jpg"
+      "title": "Your first address for mining equipment supply.",
+      "description": "asdds",
+      "cta_button": "Contact Us",
+      "cta_link": "/contact",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1637659544/Banner/slider2_qf9uow.jpg"
     }
   ]
 }

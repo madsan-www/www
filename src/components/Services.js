@@ -103,12 +103,36 @@ export default function Services() {
                             {node.frontmatter.serviceType}
                           </text>
                         </div>
-                        <div className="icons text-primary text-center mx-auto">
-                          <img
-                            src={node.frontmatter.image}
-                            alt={node.frontmatter.title}
-                            className="uil uil-truck d-block rounded h3 mb-0 w-75 m-auto"
-                          />
+                        <div className="icons text-primary text-center ">
+                          <picture >
+                            <source
+                              type="image/webp"
+                              srcSet={`${
+                                node.frontmatter.image
+                                  .replace(/\upload/gi, "upload/c_scale,w_720")
+                                  .toString()
+                                  .split(".jpg")[0]
+                              }${".webp"}`}
+                            />
+                            <source
+                              type="image/jpg"
+                              srcSet={node.frontmatter.image.replace(
+                                /\upload/gi,
+                                "upload/c_scale,w_720"
+                              )}
+                            />
+                            <img
+                              loading="lazy"
+                              src={node.frontmatter.image.replace(
+                                /\upload/gi,
+                                "upload/c_scale,w_720"
+                              )}
+                              width="120"
+                              height="120"
+                              className="uil uil-truck d-block rounded h3 mb-0 w-100 m-auto img-fluid"
+                              alt={node.frontmatter.title}
+                            />
+                          </picture>
                         </div>
                         <div className="card-body p-0 content">
                           <h5 className="mt-4">
@@ -147,11 +171,35 @@ export default function Services() {
                           </text>
                         </div>
                         <div className="icons text-primary text-center mx-auto">
-                          <img
-                            src={node.frontmatter.image}
-                            alt={node.frontmatter.title}
-                            className="uil uil-truck d-block rounded h3 mb-0 w-75 m-auto"
-                          />
+                        <picture >
+                            <source
+                              type="image/webp"
+                              srcSet={`${
+                                node.frontmatter.image
+                                  .replace(/\upload/gi, "upload/c_scale,w_720")
+                                  .toString()
+                                  .split(".jpg")[0]
+                              }${".webp"}`}
+                            />
+                            <source
+                              type="image/jpg"
+                              srcSet={node.frontmatter.image.replace(
+                                /\upload/gi,
+                                "upload/c_scale,w_720"
+                              )}
+                            />
+                            <img
+                              loading="lazy"
+                              src={node.frontmatter.image.replace(
+                                /\upload/gi,
+                                "upload/c_scale,w_720"
+                              )}
+                              width="120"
+                              height="120"
+                              className="uil uil-truck d-block rounded h3 mb-0 w-100 m-auto img-fluid"
+                              alt={node.frontmatter.title}
+                            />
+                          </picture>
                         </div>
                         <div className="card-body p-0 content">
                           <h5 className="mt-4">

@@ -103,10 +103,63 @@ export default function BlogListHome() {
                 </div>
                 <div className="max-w-sm mx-auto md:max-w-none">
                   <div className="grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
-                    {isDefaultLang
-                      ? data.tr.edges.map(({ node, index }) => (
-                          <div key={`_${index}`}>
-                            <div className="col-lg-4 col-md-6 mt-4 pt-2">
+                    <div className="row">
+                      {isDefaultLang
+                        ? data.tr.edges.map(({ node, index }) => (
+                            <div
+                              key={index}
+                              className="col-lg-4 col-md-6 mt-4 pt-2"
+                            >
+                              <div className="card blog rounded border-0 shadow">
+                                <div className="position-relative">
+                                  <img
+                                    src={node.frontmatter.image}
+                                    className="card-img-top rounded-top"
+                                    alt={node.frontmatter.title}
+                                  />
+                                  <div className="overlay rounded-top" />
+                                </div>
+                                <div className="card-body content">
+                                  <h5>
+                                    <a
+                                      href="javascript:void(0)"
+                                      className="card-title title text-dark"
+                                    >
+                                      {node.frontmatter.title}
+                                    </a>
+                                  </h5>
+                                  <p className="text-muted">{node.excerpt}</p>
+                                  <div className="post-meta d-flex justify-content-between mt-3">
+                                    <LocalizedLink
+                                      to={`/blog/${
+                                        node.frontmatter.path ||
+                                        node.fields.slug
+                                      }`}
+                                      className="text-muted readmore"
+                                    >
+                                      {Lang.moreInformations}
+                                      <i className="uil uil-angle-right-b align-middle" />
+                                    </LocalizedLink>
+                                  </div>
+                                </div>
+                                <div className="author">
+                                  <small className="text-light user d-block">
+                                    <i className="uil uil-user" />{" "}
+                                    {node.frontmatter.author}
+                                  </small>
+                                  <small className="text-light date">
+                                    <i className="uil uil-calendar-alt" />{" "}
+                                    {node.frontmatter.date}
+                                  </small>
+                                </div>
+                              </div>
+                            </div>
+                          ))
+                        : data.en.edges.map(({ node, index }) => (
+                            <div
+                              key={`_${index}`}
+                              className="col-lg-4 col-md-6 mt-4 pt-2"
+                            >
                               <div key={node.frontmatter.slug}>
                                 <LocalizedLink
                                   to={`/blog/${
@@ -161,95 +214,35 @@ export default function BlogListHome() {
                                 </LocalizedLink>
                               </div>
                             </div>
-                          </div>
-                        ))
-                      : data.en.edges.map(({ node, index }) => (
-                          <div key={`_${index}`}>
-                            <div className="col-lg-4 col-md-6 mt-4 pt-2">
-                              <div key={node.frontmatter.slug}>
-                                <LocalizedLink
-                                  to={`/blog/${
-                                    node.frontmatter.path || node.fields.slug
-                                  }`}
-                                >
-                                  <div className="card blog rounded border-0 shadow">
-                                    <div className="position-relative">
-                                      <img
-                                        src={node.frontmatter.image}
-                                        className="card-img-top rounded-top"
-                                        alt={node.frontmatter.title}
-                                      />
-                                      <div className="overlay rounded-top" />
-                                    </div>
-                                    <div className="card-body content">
-                                      <h5>
-                                        <a
-                                          href="javascript:void(0)"
-                                          className="card-title title text-dark"
-                                        >
-                                          {node.frontmatter.title}
-                                        </a>
-                                      </h5>
-                                      <p className="text-muted">
-                                        {node.excerpt}
-                                      </p>
-                                      <div className="post-meta d-flex justify-content-between mt-3">
-                                        <LocalizedLink
-                                          to={`/blog/${
-                                            node.frontmatter.path ||
-                                            node.fields.slug
-                                          }`}
-                                          className="text-muted readmore"
-                                        >
-                                          {Lang.moreInformations}
-                                          <i className="uil uil-angle-right-b align-middle" />
-                                        </LocalizedLink>
-                                      </div>
-                                    </div>
-                                    <div className="author">
-                                      <small className="text-light user d-block">
-                                        <i className="uil uil-user" />{" "}
-                                        {node.frontmatter.author}
-                                      </small>
-                                      <small className="text-light date">
-                                        <i className="uil uil-calendar-alt" />{" "}
-                                        {node.frontmatter.date}
-                                      </small>
-                                    </div>
-                                  </div>
-                                </LocalizedLink>
-                              </div>
-                            </div>
-                          </div>
-                        ))}
+                          ))}
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <>
-        <div className="container-fluid mt-100 mt-60">
-          <div
-            className="py-5"
-            style={{
-              background:
-                'url("https://res.cloudinary.com/madsan/image/upload/v1636198143/web-assets/svg-map_yfgz9z.svg")'
-            }}
-          >
-            <div className="container">
-              <div className="row justify-content-center">
-                <div className="col-12 text-center">
-                  <span className="clip-text clip-text-image text-uppercase fw-bold">
-                    Madsan
-                  </span>
+            <div className="container-fluid mt-100 mt-60">
+              <div
+                className="py-5"
+                style={{
+                  background:
+                    'url("https://res.cloudinary.com/madsan/image/upload/v1636198143/web-assets/svg-map_yfgz9z.svg")'
+                }}
+              >
+                <div className="container">
+                  <div className="row justify-content-center">
+                    <div className="col-12 text-center">
+                      <span className="clip-text clip-text-image text-uppercase fw-bold">
+                        Madsan
+                      </span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          </>
         </div>
-      </>
-        </div>
-        
       )}
     />
   );

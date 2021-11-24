@@ -28,31 +28,26 @@ collections:
             editor: 
               preview: false 
             fields:
-                - label: Hero TR
+                - label: Hero Slider TR
                   name: 'tr'
                   widget: list
-                  allow_add: false
+                  allow_add: true
                   fields:
                       - { label: 'Title', name: 'title', widget: 'string' }
                       - { label: 'Description', name: 'description', widget: 'string' }     
                       - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
                       - { label: 'cta_link', name: 'cta_link', widget: 'string' }  
-                - label: Hero ENG
+                      - { label: 'Slide Image', name: 'image', widget: 'image' } 
+                - label: Hero Slider ENG
                   name: 'en'
                   widget: list
-                  allow_add: false
+                  allow_add: true
                   fields:
                       - { label: 'Title', name: 'title', widget: 'string' }
                       - { label: 'Description', name: 'description', widget: 'string' }     
                       - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
-                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }      
-                - label: Image
-                  name: 'commons'
-                  widget: list
-                  allow_add: false
-                  fields:                      
-                      - { label: 'Background Image', name: 'background_image', widget: 'image', required: false }
-                      - { label: 'Background Image', name: 'background_image2', widget: 'image', required: false }
+                      - { label: 'cta_link', name: 'cta_link', widget: 'string' } 
+                      - { label: 'Slide Image', name: 'image', widget: 'image', }      
           - label: 'Features Section'
             name: 'features-section'            
             file: 'data/homeFeatures.json'
@@ -129,7 +124,7 @@ collections:
                       - { label: 'Logo', name: 'image', widget: 'image' }  
                 - label: Content
                   name: 'content'
-                  widget: list
+                  widget: object
                   allow_add: false
                   fields:
                       - { label: 'Title TR', name: 'title', widget: 'string' }
@@ -373,7 +368,7 @@ collections:
           - { label: 'authorTitle', name: 'authorTitle', widget: 'string' }  
           - { label: 'Author Image', name: 'authorImage', widget: 'image' }                  
           - { label: 'Image', name: 'image', widget: 'image' }
-          - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true }                  
+          - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, required: false }                  
           - { label: 'Path', name: 'path', widget: 'string', required: false, hint: 'Custom URL Path instead of Slug' }          
           - {
                 label: 'Date',
@@ -382,6 +377,32 @@ collections:
                 format: 'YYYY-MM-DD hh:mm:ss',
             }
           - { label: 'Body', name: 'body', widget: 'markdown' }
+
+    - name: 'post-en'
+      label: 'Blog Posts English 🇺🇸' 
+      folder: 'blog' 
+      create: true 
+      editor: 
+        preview: false
+      slug: '{{slug}}'
+      extension: 'en.md'
+      format: frontmatter
+      fields: 
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'string' }
+          - { label: 'Author', name: 'author', widget: 'string' }
+          - { label: 'authorTitle', name: 'authorTitle', widget: 'string' }  
+          - { label: 'Author Image', name: 'authorImage', widget: 'image' }                  
+          - { label: 'Image', name: 'image', widget: 'image' }
+          - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, required: false }                  
+          - { label: 'Path', name: 'path', widget: 'string', required: false, hint: 'Custom URL Path instead of Slug' }          
+          - {
+                label: 'Date',
+                name: 'date',
+                widget: 'datetime',
+                format: 'YYYY-MM-DD hh:mm:ss',
+            }
+          - { label: 'Body', name: 'body', widget: 'markdown' }          
 
 
     # - name: 'jobs'
