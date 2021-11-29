@@ -14,16 +14,15 @@ export default function Services() {
   const Desc = ContentData.description;
   const Lang = useTranslations().translationsTerms[0];
 
-  // const selectedServiceType = document.location.search;
-
   return (
     <StaticQuery
       query={graphql`
-        query ServicesHomeQuery {
+        query ServicesHomeQueryCored {
           tr: allMarkdownRemark(
             filter: {
               fields: { locale: { eq: "tr" } }
               fileAbsolutePath: { regex: "/(services)/.*.md$/" }
+              frontmatter: { serviceType: { eq: "karotlu" } }
             }
             sort: { fields: frontmatter___serviceType, order: ASC }
           ) {
@@ -53,6 +52,7 @@ export default function Services() {
             filter: {
               fields: { locale: { eq: "en" } }
               fileAbsolutePath: { regex: "/(services)/.*.md$/" }
+              frontmatter: { serviceType: { eq: "cored" } }
             }
           ) {
             edges {
@@ -104,7 +104,7 @@ export default function Services() {
                           </text>
                         </div>
                         <div className="icons text-primary text-center ">
-                          <picture >
+                          <picture>
                             <source
                               type="image/webp"
                               srcSet={`${
@@ -171,7 +171,7 @@ export default function Services() {
                           </text>
                         </div>
                         <div className="icons text-primary text-center mx-auto">
-                        <picture >
+                          <picture>
                             <source
                               type="image/webp"
                               srcSet={`${

@@ -4,7 +4,7 @@ import { useLocale } from "../hooks/locale";
 import useLanguageMapping from "./useLanguageMapping";
 import LocalizedLink from "./LocalizedLink";
 
-const Languages = ({location}) => {
+const Languages = ({ location }) => {
   // Grab the locale (passed through context) from the Locale Provider
   // through useLocale() hook
   const { locale } = useLocale();
@@ -37,31 +37,20 @@ const Languages = ({location}) => {
   }
 
   return (
-    <ul>
-      <ul className="list-unstyled">
-        <li>
-          <LocalizedLink
-            to="/"
-            onClick={e => handleClickLanguage(e, "en")}
-            className="sub-menu-item"
-          >
-            ENGLISH 🇺🇸
-          </LocalizedLink>
-        </li>
-      </ul>
-
-      <ul className="list-unstyled">
-        <li>
-          <LocalizedLink
-            to="/"
-            onClick={e => handleClickLanguage(e, "tr")}
-            className="sub-menu-item"
-          >
-            TURKISH 🇹🇷
-          </LocalizedLink>
-        </li>
-      </ul>
-    </ul>
+    <li className="d-flex">
+      <LocalizedLink
+        to="/"
+        onClick={e => handleClickLanguage(e, "en")}
+      >
+        🇺🇸
+      </LocalizedLink>
+      <LocalizedLink
+        to="/"
+        onClick={e => handleClickLanguage(e, "tr")}
+      >
+        🇹🇷
+      </LocalizedLink>
+    </li>
   );
 };
 

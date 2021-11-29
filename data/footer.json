@@ -4,8 +4,8 @@
       "title": "Telefon",
       "icon": "phone",
       "description": "",
-      "link": "+90 232 437 33 05",
-      "url": "tel:+902324373305"
+      "link": "",
+      "url": ""
     },
     {
       "title": "Eposta",
@@ -17,7 +17,7 @@
     {
       "title": "Ulasim",
       "icon": "map",
-      "description": "Halkapınar Mahallesi 1376. Sokak Boran Plaza B Blok No:3/B Yenişehir Konak / İZMİR",
+      "description": "",
       "link": "Detayli Bilgi",
       "url": "https://g.page/madsanofficial?share"
     }
@@ -43,6 +43,26 @@
       "description": "Start working with Landrick that can provide everything",
       "link": "Detayli Bilgi",
       "url": "/hizmetler"
+    }
+  ],
+  "phones": [
+    {
+      "link": "+90 232 437 33 05",
+      "url": "tel:+902324373305"
+    },
+    {
+      "link": "+90 232 437 33 05",
+      "url": "tel:+902324373305"
+    }
+  ],
+  "addresses": [
+    {
+      "link": "Halkapınar Mahallesi 1376. Sokak Boran Plaza B Blok No:3/B Yenişehir Konak / İZMİR",
+      "url": "https://g.page/madsanofficial?share"
+    },
+    {
+      "link": "1470.Sk, No:109, 06378 İvedik OSB Yenimahalle/ Ankara",
+      "url": ""
     }
   ]
 }

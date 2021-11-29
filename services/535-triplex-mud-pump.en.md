@@ -5,7 +5,7 @@ image: https://res.cloudinary.com/madsan/image/upload/v1636194991/madsan-stock/I
 path: services/535-triplex-mud-pump
 cta: true
 contentType: Service
-serviceType: karotlu
+serviceType: cored
 page: page
 date: 2021-11-18 11:31:12
 ---

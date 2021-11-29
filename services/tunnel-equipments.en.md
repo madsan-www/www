@@ -5,7 +5,7 @@ image: https://res.cloudinary.com/madsan/image/upload/v1637506724/madsan-stock/I
 path: services/tunnel-equipments
 cta: true
 contentType: Service
-serviceType: karotlu
+serviceType: cored
 page: page
 date: 2021-11-18 12:29:19
 ---

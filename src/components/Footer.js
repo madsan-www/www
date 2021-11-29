@@ -9,6 +9,8 @@ function Footer() {
   const { locale } = useLocale();
   const isDefaultLang = locale === "tr" ? true : false;
   const data = isDefaultLang ? FooterData.tr : FooterData.en;
+  const phoneData = FooterData.phones
+  const addressData = FooterData.addresses
   const menuItems = useMenu();
 
   return (
@@ -36,6 +38,35 @@ function Footer() {
                         <div className="content mt-4">
                           <h5 className="footer-head">{items.title}</h5>
                           <p className="text-muted">{items.description}</p>
+
+                             {items.icon === 'phone' ? phoneData.map((phone, index) => (
+                                <ul className="p-lg-1">
+                                  <li className="list-unstyled text-center">
+                                    <a
+                                      href={phone.url}
+                                      className="text-muted  text-center"
+                                      key={`_${index}`}
+                                    >
+                                      {phone.link}
+                                    </a>
+                                  </li>
+                                </ul>
+                              ))
+                           : null }
+                           {items.icon === 'map' ? addressData.map((item, index) => (
+                                <ul className="p-lg-1">
+                                  <li className="list-unstyled text-center">
+                                    <a
+                                      href={item.url}
+                                      className="text-muted  text-center"
+                                      key={`_${index}`}
+                                    >
+                                      {item.link}
+                                    </a>
+                                  </li>
+                                </ul>
+                              ))
+                           : null }
                           <a
                             href={items.url}
                             target="_blank"

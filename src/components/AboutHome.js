@@ -1,5 +1,5 @@
 import * as React from "react";
-import LocalizedLink from "../components/LocalizedLink";
+// import LocalizedLink from "../components/LocalizedLink";
 import HomeAboutData from "../../data/homeAbout.json";
 import { useLocale } from "../hooks/locale";
 
@@ -39,9 +39,9 @@ function AboutHome() {
               <p className="text-muted">
                {Description}
               </p>
-              <LocalizedLink to={CtaLink} className="btn btn-primary mt-3">
+              <a href={CtaLink} target="_blank"  className="btn btn-primary mt-3">
               {CtaButton}<i className="uil uil-angle-right-b" />
-              </LocalizedLink>
+              </a>
             </div>
           </div>
         </div>

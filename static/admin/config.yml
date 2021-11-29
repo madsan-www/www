@@ -266,7 +266,7 @@ collections:
           - { label: 'Path', name: 'path', widget: 'string', required: true, hint: 'SEO icin ozel URL, ornek: wireline-karotiyer-ve-yedekleri' } 
           - { label: 'CTA', name: 'cta', widget: 'boolean', default: true, hint: 'Sayfaya CTA Componenti ekler.' }
           - { label: 'Content Type', name: 'contentType', widget: 'hidden', required: false, default: Service } 
-          - { label: 'Service Type', name: 'serviceType', widget: 'select', required: true,  options: ["cored", "rdt", "other"]  }             
+          - { label: 'Service Type', name: 'serviceType', widget: 'select', required: true,  options: ["cored", "rdt"]  }             
           - { label: 'Page Template', name: 'page', widget: 'hidden', required: false, default: page }                 
           - {
                 label: 'Date',
@@ -282,7 +282,7 @@ collections:
       create: true 
       editor: 
         preview: false 
-      slug: '{{slug}}'
+      slug: '{{serviceType}}/{{slug}}'
       extension: 'tr.md'
       format: frontmatter
       fields: 
@@ -292,7 +292,7 @@ collections:
           - { label: 'Path', name: 'path', widget: 'string', required: true, hint: 'SEO icin ozel URL, ornek: wireline-karotiyer-ve-yedekleri' } 
           - { label: 'CTA', name: 'cta', widget: 'boolean', default: true, hint: 'Sayfaya CTA Componenti ekler.' }
           - { label: 'Content Type', name: 'contentType', widget: 'hidden', required: false, default: Service }   
-          - { label: 'Service Type', name: 'serviceType', widget: 'select', required: true,  options: ["karotlu", "rdt", "other"]  }          
+          - { label: 'Service Type', name: 'serviceType', widget: 'select', required: true,  options: ["karotlu", "rdt"]  }          
           - { label: 'Page Template', name: 'page', widget: 'hidden', required: false, default: page }                 
           - {
                 label: 'Date',
@@ -491,7 +491,23 @@ collections:
                       - { label: 'Icon', name: 'icon', widget: 'string', required: false } 
                       - { label: 'Description', name: 'description', hint: 'Item Description', widget: 'string', required: true} 
                       - { label: 'URL', name: 'url', widget: 'string', hint: 'HREF link Example: tel:+902324373305', required: true } 
-                      - { label: 'Link', name: 'link', widget: 'string', hint: 'Link name', required: true }                                           
+                      - { label: 'Link', name: 'link', widget: 'string', hint: 'Link name', required: true }    
+                - label: phones
+                  name: 'phones'
+                  widget: list
+                  collapsed: true
+                  allow_add: true
+                  fields:
+                      - { label: 'URL', name: 'url', widget: 'string', hint: 'HREF link Example: tel:+902324373305', required: true } 
+                      - { label: 'Link', name: 'link', widget: 'string', hint: 'Link name', required: true }    
+                - label: addresses
+                  name: 'addresses'
+                  widget: list
+                  collapsed: true
+                  allow_add: true
+                  fields:
+                      - { label: 'URL', name: 'url', widget: 'string', hint: 'HREF link Example: tel:+902324373305', required: true } 
+                      - { label: 'Link', name: 'link', widget: 'string', hint: 'Link name', required: true }                                                                                    
                                                
 
     - name: 'team' 

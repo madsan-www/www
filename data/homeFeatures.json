@@ -4,27 +4,27 @@
       "title": "Karotlu Sondaj Ekipmanları",
       "description": "Madenciliğe dair tüm ekipmanmların imalat ve satışı, karotlu sondaj eki̇pmanları ve kaya deli̇ci̇ eki̇pmanları.",
       "cta_button": "Detayli Bilgi",
-      "cta_link": "/hizmetler"
+      "cta_link": "/hizmetler/karotlu"
     },
     {
       "title": "RTD GRUBU ",
       "description": "Madenciliğe dair tüm ekipmanmların imalat ve satışı, karotlu sondaj eki̇pmanları ve kaya delici eki̇pmanları.",
       "cta_button": "Detayli Bilgi",
-      "cta_link": "/hizmetler"
+      "cta_link": "/hizmetler/rdt"
     }
   ],
   "en": [
     {
-      "title": "Your first address for mining equipment supply.",
+      "title": "Cored Services",
       "description": "Madenciliğe dair tüm ekipmanmların imalat ve satışı, karotlu sondaj eki̇pmanları ve kaya deli̇ci̇ eki̇pmanları.",
       "cta_button": "Contact Us",
-      "cta_link": "/contact"
+      "cta_link": "/services/cored"
     },
     {
-      "title": "Madencilik ekipmanı tedariğinde ilk adresiniz.",
+      "title": "rdt Services",
       "description": "Madenciliğe dair tüm ekipmanmların imalat ve satışı, karotlu sondaj eki̇pmanları ve kaya deli̇ci̇ eki̇pmanları.",
       "cta_button": "Bize Ulasin",
-      "cta_link": "/contact"
+      "cta_link": "/services/rdt"
     }
   ]
 }

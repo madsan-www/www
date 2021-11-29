@@ -72,7 +72,8 @@ function Header() {
                 ) : null}
               </li>
             ))}
-            <li className="has-submenu parent-parent-menu-item ">
+            <Languages />
+            {/* <li className="has-submenu parent-parent-menu-item ">
               <a
                 href="javascript:void(0)"
                 className="d-flex gap-2 align-items-center"
@@ -85,7 +86,7 @@ function Header() {
               <ul className="submenu ">
                 <Languages />
               </ul>
-            </li>
+            </li> */}
             {/* <li className="has-submenu parent-parent-menu-item">
               <a href="javascript:void(0)">Landing</a>
               <span className="menu-arrow" />
