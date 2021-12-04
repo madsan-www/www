@@ -6,7 +6,7 @@ image: https://res.cloudinary.com/madsan/image/upload/v1636194992/madsan-stock/I
 path: hizmetler/kuyu-dibi-delme-sistemi
 cta: true
 contentType: Service
-serviceType: karotlu
+serviceType: rdt
 page: page
 date: 2021-11-17 12:43:36
 ---
