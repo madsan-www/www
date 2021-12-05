@@ -5,14 +5,24 @@
       "description": "Madenciliğe dair tüm ekipmanlarin imalat ve satışı, karotlu sondaj ekipmanları ve kaya delici ekipmanları.",
       "cta_button": "Bize Ulaşın",
       "cta_link": "/contact",
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1636194992/madsan-stock/IMG_3200_nsgux0.jpg"
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1638694881/Banner/slider2_qf9uow_1_hoqoru.jpg",
+      "onlyBanner": false
     },
     {
       "title": "Madencilik ekipmanı tedariğinde ilk adresiniz.",
       "description": "Madenciliğe dair tüm ekipmanlarin imalat ve satışı, karotlu sondaj ekipmanları ve kaya delici ekipmanları.",
       "cta_button": "Bize Ulaşın",
       "cta_link": "/contact",
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1637659544/Banner/slider2_qf9uow.jpg"
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1637659539/Banner/slider_r28u2b.jpg",
+      "onlyBanner": false
+    },
+    {
+      "title": "Madencilik ekipmanı tedariğinde ilk adresiniz.",
+      "onlyBanner": true,
+      "description": "Madenciliğe dair tüm ekipmanlarin imalat ve satışı, karotlu sondaj ekipmanları ve kaya delici ekipmanları.",
+      "cta_button": "Bize Ulaşın",
+      "cta_link": "/contact",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1638691099/Banner/banner-2_ixmrxj.jpg"
     }
   ],
   "en": [
@@ -21,14 +31,16 @@
       "description": "Manufacturing and sales of all mining equipment, core drilling equipment and rock drilling equipment.",
       "cta_button": "Contact Us",
       "cta_link": "/contact",
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1636194992/madsan-stock/IMG_3200_nsgux0.jpg"
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1636194992/madsan-stock/IMG_3200_nsgux0.jpg",
+      "onlyBanner": false
     },
     {
       "title": "Your first address for mining equipment supply.",
       "description": "asdds",
       "cta_button": "Contact Us",
       "cta_link": "/contact",
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1637659544/Banner/slider2_qf9uow.jpg"
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1637659544/Banner/slider2_qf9uow.jpg",
+      "onlyBanner": false
     }
   ]
 }

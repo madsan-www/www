@@ -1,6 +1,6 @@
 ---
 title: Hakkımızda
-description: asdasd
+description: 
 image: https://res.cloudinary.com/madsan/image/upload/v1636194992/madsan-stock/IMG_3200_nsgux0.jpg
 page: about
 cta: true

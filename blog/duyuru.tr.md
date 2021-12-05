@@ -2,7 +2,7 @@
 title: "Tüyap Maden Fuarı'ndayız"
 description: "09 - 12 Aralık 2021 tarihleri arasinda Tüyap Maden Fuarı'ndayız"
 author: Madsan
-authorTitle: 
+authorTitle: Admin
 authorImage: https://res.cloudinary.com/madsan/image/upload/v1636911729/logo/madsan-icon-white_ugwuoh.svg
 image: https://res.cloudinary.com/madsan/image/upload/v1637660070/Blog/duyuru_sqpvq2.jpg
 path: tuyap-maden-fuari

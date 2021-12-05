@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import LocalizedLink from "../components/LocalizedLink";
-import { Translate } from "react-bootstrap-icons";
+// import { Translate } from "react-bootstrap-icons";
 import Languages from "../components/Languages";
 import OptionsData from "../../data/options.json";
 import useMenu from "./useMenu";
 
 function Header() {
   const menuItems = useMenu();
-  const data = OptionsData.options
+  const data = OptionsData.options;
 
-  const logo = data.logo
+  const [isOpen, setIsOpen] = useState(false)
+
+  const logo = data.logo;
+  const logoHeight = data.logoHeight;
 
   return (
     <header id="topnav" className="defaultscroll sticky bg-white">
@@ -20,14 +23,14 @@ function Header() {
             <img
               src={logo}
               className="l-dark"
-              alt='madsan logo'
-              height={40}
+              alt="madsan logo"
+              height={logoHeight}
             />
             <img
               src={logo}
               className="l-light"
-              alt='madsan logo'
-              height={40}
+              alt="madsan logo"
+              height={logoHeight}
             />
           </span>
           {/* <img
@@ -41,7 +44,11 @@ function Header() {
         <div className="menu-extras">
           <div className="menu-item">
             {/* Mobile menu toggle*/}
-            <a className="navbar-toggle" id="isToggle" onclick={"customToggle"}>
+            <a
+              className={`navbar-toggle ${isOpen ? "open" : ""}`}
+              id="isToggle"
+              onClick={() => setIsOpen(!isOpen)}
+            >
               <div className="lines">
                 <span />
                 <span />
@@ -52,7 +59,8 @@ function Header() {
           </div>
         </div>
 
-        <div id="navigation ">
+        <div id="navigation"  
+        style={{display:`${!isOpen ? "none" : "block"}`}}>
           {/* Navigation Menu*/}
           <ul className="navigation-menu">
             {menuItems.map((menu, index) => (

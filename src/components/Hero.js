@@ -17,7 +17,7 @@ function Hero() {
     fade: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToScroll: 0,
     autoplay: true,
     pauseOnHover: true
   };
@@ -38,7 +38,7 @@ function Hero() {
                     className="bg-home d-flex align-items-center"
                     style={{ backgroundImage: `url(${item.image})` }}
                   >
-                    <div className="bg-overlay" />
+                    {item.onlyBanner ? null : <div className="bg-overlay" />}
                     <div className="container">
                       <div className="row justify-content-center">
                         <div className="col">
@@ -46,20 +46,24 @@ function Hero() {
                             className="title-heading position-relative mt-4 text-center"
                             style={{ zIndex: 1 }}
                           >
-                            <h1 className="fw-bold display-4 text-white title-dark mb-3">
-                              {item.title}
-                            </h1>
-                            <p className="para-desc mx-auto text-white-50">
-                              {item.description}
-                            </p>
-                            <div className="mt-4 pt-2">
-                              <LocalizedLink
-                                to={item.cta_links}
-                                className="btn btn-primary"
-                              >
-                                {item.cta_button}
-                              </LocalizedLink>
-                            </div>
+                            {item.onlyBanner ? null : (
+                              <>
+                                <h1 className="fw-bold display-4 text-white title-dark mb-3">
+                                  {item.title}
+                                </h1>
+                                <p className="para-desc mx-auto text-white-50">
+                                  {item.description}
+                                </p>
+                                <div className="mt-4 pt-2">
+                                  <LocalizedLink
+                                    to={item.cta_links}
+                                    className="btn btn-primary"
+                                  >
+                                    {item.cta_button}
+                                  </LocalizedLink>
+                                </div>
+                              </>
+                            )}
                           </div>
                         </div>
                       </div>

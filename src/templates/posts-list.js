@@ -1,5 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
+import SEO from "../components/SEO";
 import LocalizedLink from "../components/LocalizedLink";
 import Pagination from "../components/Pagination";
 import { useLocale } from "../hooks/locale";
@@ -18,6 +19,7 @@ const Blog = props => {
 
   return (
     <>
+      <SEO title='Blog' />
       <section className="bg-half-170 bg-light d-table w-100">
         <div className="container">
           <div className="row mt-5 justify-content-center">

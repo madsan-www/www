@@ -49,7 +49,7 @@ function Team() {
                       </div>
                       <div className="content pt-3 pb-3">
                         <h5 className="mb-0">
-                          <text className="text-dark">{member.name}</text>
+                          <span className="text-dark">{member.name}</span>
                         </h5>
                         <small className="designation text-muted">
                           {isDefaultLang ? member.title : member.titleEN}

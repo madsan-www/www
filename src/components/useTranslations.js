@@ -43,6 +43,8 @@ const query = graphql`
               team
               contact
               send
+              thanks
+              goToHome
             }
           }
         }

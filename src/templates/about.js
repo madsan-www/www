@@ -2,13 +2,17 @@ import React from "react";
 import { graphql } from "gatsby";
 import Team from "../components/Team";
 import CtaBasic from "../components/CTAbasic";
-
+import SEO from "../components/SEO";
 const About = props => {
   const post = props.data.markdownRemark;
   // const image = post.frontmatter.image
 
   return (
     <>
+      <SEO 
+      title={post.frontmatter.title} 
+      description={post.frontmatter.description || post.excerpt }
+      image={post.frontmatter.image}/>
       <section className="bg-half-170 bg-light d-table w-100">
         <div className="container">
           <div className="row mt-5 justify-content-center">
@@ -62,6 +66,7 @@ export const query = graphql`
         cta
       }
       html
+      excerpt(format: PLAIN, pruneLength: 150)
     }
   }
 `;

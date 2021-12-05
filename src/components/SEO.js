@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 import { useLocale } from '../hooks/locale';
+import useTranslations from "./useTranslations";
 
 function SEO({ description, lang, meta, title, image }) {
 	const { locale } = useLocale();
@@ -21,6 +22,8 @@ function SEO({ description, lang, meta, title, image }) {
          `
 	)
 
+	const Lang = useTranslations().translationsTerms[0];
+	
 	const metaDescription = description || site.siteMetadata.description
 	const url = site.siteMetadata.siteUrl
 
@@ -38,7 +41,7 @@ function SEO({ description, lang, meta, title, image }) {
 				lang: `${locale}`
 			}}
 			title={title}
-			titleTemplate={`%s | ${site.siteMetadata.title}`}
+			titleTemplate={`%s | ${site.siteMetadata.title} `}
 			meta={[
 				{
 					name: `description`,

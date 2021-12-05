@@ -8,7 +8,7 @@ module.exports = {
     siteLanguage: `en`,
     ogLanguage: `en_US`,
     defaultTitle: ``,
-    defaultDescription: `ENG`,
+    defaultDescription: `Your first address for mining equipment supply.`,
   },
   tr: {
     default: true,
@@ -18,6 +18,6 @@ module.exports = {
     siteLanguage: `tr`,
     ogLanguage: `tr_TR`,
     defaultTitle: ``,
-    defaultDescription: `TR`,
+    defaultDescription: `Madencilik ekipmanı tedariğinde ilk adresiniz.`,
   }
 }

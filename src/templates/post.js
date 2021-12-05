@@ -98,12 +98,12 @@ const Post = props => {
                     <div className="tagcloud text-center mt-4">
                       {post.frontmatter.tags.map((items, index) => {
                         return (
-                          <text
+                          <span
                             key={`${index}`}
                             className="rounded"
                           >
                             {items}
-                          </text>
+                          </span>
                         );
                       })}
                     </div>

@@ -1,11 +1,45 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { graphql, navigate } from "gatsby";
+import SEO from "../components/SEO";
+
+function encode(data) {
+  const formData = new FormData();
+
+  for (const key of Object.keys(data)) {
+    formData.append(key, data[key]);
+  }
+  return formData;
+}
 
 const Contact = props => {
-  const post = props.data.markdownRemark;
+  const page = props.data.markdownRemark;
+  const formLayer = page.frontmatter.form[0];
+
+  const [state, setState] = React.useState({});
+
+  const handleChange = e => {
+    setState({ ...state, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = e => {
+    e.preventDefault();
+    const form = e.target;
+    fetch("/", {
+      method: "POST",
+      body: encode({
+        "form-name": form.getAttribute("name"),
+        ...state
+      })
+    })
+      .then(() => navigate(form.getAttribute("action")))
+      .catch(error => alert(error));
+  };
 
   return (
     <>
+      <SEO
+        title={page.frontmatter.title}
+      />
       <section className="section pt-5 mt-4">
         <div className="container-fluid">
           <div className="row">
@@ -13,7 +47,7 @@ const Contact = props => {
               <div className="card map border-0">
                 <div className="card-body p-0">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3125.4550942780684!2d27.167234515336684!3d38.43095587964531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b96369ecba1ebf%3A0xd0f7b9616ce1f59d!2sMADSAN%20M%C3%BChendislik%20Hizmetleri%20Ltd.%20%C5%9Eti.!5e0!3m2!1str!2str!4v1637513686849!5m2!1str!2str"
+                    src={page.frontmatter.mapURL}
                     style={{ border: 0 }}
                     loading="lazy"
                     allowFullScreen
@@ -29,22 +63,28 @@ const Contact = props => {
         <div className="container mt-100 mt-60">
           <div className="row align-items-center">
             <div className="m-auto col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0 order-2 order-md-1">
-              {/* <div className="title-heading ms-lg-4 text-center">
-              <h4 className="mb-4">Contact Form</h4>
-            </div> */}
+              <div className="title-heading ms-lg-4 text-center">
+                <h4 className="mb-4">{formLayer.title}</h4>
+                <p class="text-muted">{formLayer.description}</p>
+              </div>
               <div className="card custom-form rounded border-0 shadow p-4">
                 <form
+                  name="contact"
                   method="post"
-                  name="myForm"
-                  onsubmit="return validateForm()"
+                  action="/thanks/"
+                  data-netlify="true"
+                  data-netlify-honeypot="bot-field"
+                  onSubmit={handleSubmit}
                 >
+                  <input type="hidden" name="form-name" value="contact" />
                   <p id="error-msg" className="mb-0" />
                   <div id="simple-msg" />
                   <div className="row">
                     <div className="col-md-6">
                       <div className="mb-3">
                         <label className="form-label">
-                          Your Name <span className="text-danger">*</span>
+                          {formLayer.name}{" "}
+                          <span className="text-danger">*</span>
                         </label>
                         <div className="form-icon position-relative">
                           <i
@@ -55,8 +95,9 @@ const Contact = props => {
                             name="name"
                             id="name"
                             type="text"
-                            className="form-control ps-5"
-                            placeholder="Name :"
+                            className="form-control"
+                            placeholder={formLayer.name}
+                            onChange={handleChange}
                           />
                         </div>
                       </div>
@@ -64,7 +105,8 @@ const Contact = props => {
                     <div className="col-md-6">
                       <div className="mb-3">
                         <label className="form-label">
-                          Your Email <span className="text-danger">*</span>
+                          {formLayer.email}{" "}
+                          <span className="text-danger">*</span>
                         </label>
                         <div className="form-icon position-relative">
                           <i
@@ -75,26 +117,9 @@ const Contact = props => {
                             name="email"
                             id="email"
                             type="email"
-                            className="form-control ps-5"
-                            placeholder="Email :"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    {/*end col*/}
-                    <div className="col-12">
-                      <div className="mb-3">
-                        <label className="form-label">Subject</label>
-                        <div className="form-icon position-relative">
-                          <i
-                            data-feather="book"
-                            className="fea icon-sm icons"
-                          />
-                          <input
-                            name="subject"
-                            id="subject"
-                            className="form-control ps-5"
-                            placeholder="subject :"
+                            className="form-control"
+                            onChange={handleChange}
+                            placeholder={formLayer.email}
                           />
                         </div>
                       </div>
@@ -103,7 +128,29 @@ const Contact = props => {
                     <div className="col-12">
                       <div className="mb-3">
                         <label className="form-label">
-                          Comments <span className="text-danger">*</span>
+                          {formLayer.subject}
+                        </label>
+                        <div className="form-icon position-relative">
+                          <i
+                            data-feather="book"
+                            className="fea icon-sm icons"
+                          />
+                          <input
+                            name="subject"
+                            id="subject"
+                            className="form-control"
+                            onChange={handleChange}
+                            placeholder={formLayer.subject}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    {/*end col*/}
+                    <div className="col-12">
+                      <div className="mb-3">
+                        <label className="form-label">
+                          {formLayer.message}{" "}
+                          <span className="text-danger">*</span>
                         </label>
                         <div className="form-icon position-relative">
                           <i
@@ -111,11 +158,12 @@ const Contact = props => {
                             className="fea icon-sm icons clearfix"
                           />
                           <textarea
-                            name="comments"
-                            id="comments"
+                            name="message"
+                            id="message"
                             rows={4}
-                            className="form-control ps-5"
-                            placeholder="Message :"
+                            className="form-control"
+                            onChange={handleChange}
+                            placeholder={formLayer.message}
                             defaultValue={""}
                           />
                         </div>
@@ -165,6 +213,16 @@ export const query = graphql`
       frontmatter {
         title
         description
+        mapURL
+        form {
+          title
+          description
+          name
+          email
+          subject
+          message
+          sendMessage
+        }
       }
       html
     }

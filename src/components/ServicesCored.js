@@ -99,9 +99,9 @@ export default function Services() {
                     >
                       <div className="card features feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
                         <div className="tagcloud text-center mb-2">
-                          <text className="rounded">
+                          <span className="rounded">
                             {node.frontmatter.serviceType}
-                          </text>
+                          </span>
                         </div>
                         <div className="icons text-primary text-center ">
                           <picture>
@@ -166,9 +166,9 @@ export default function Services() {
                     >
                       <div className="card features feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
                         <div className="tagcloud text-center mb-2">
-                          <text className="rounded">
+                          <span className="rounded">
                             {node.frontmatter.serviceType}
-                          </text>
+                          </span>
                         </div>
                         <div className="icons text-primary text-center mx-auto">
                           <picture>

@@ -35,7 +35,8 @@ collections:
                   fields:
                       - { label: 'Title', name: 'title', widget: 'string' }
                       - { label: 'Description', name: 'description', widget: 'string' }     
-                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
+                      - { label: 'cta_button', name: 'cta_button', widget: 'string' } 
+                      - { label: 'Only Banner', name: 'onlyBanner', widget: 'boolean', default: false, required: false, hint: 'Show only banner, without contents or CTA.' }                             
                       - { label: 'cta_link', name: 'cta_link', widget: 'string' }  
                       - { label: 'Slide Image', name: 'image', widget: 'image' } 
                 - label: Hero Slider ENG
@@ -46,6 +47,7 @@ collections:
                       - { label: 'Title', name: 'title', widget: 'string' }
                       - { label: 'Description', name: 'description', widget: 'string' }     
                       - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
+                      - { label: 'Only Banner', name: 'onlyBanner', widget: 'boolean', default: false,required: false, hint: 'Show only banner, without contents or CTA.'}                  
                       - { label: 'cta_link', name: 'cta_link', widget: 'string' } 
                       - { label: 'Slide Image', name: 'image', widget: 'image', }      
           - label: 'Features Section'
@@ -302,6 +304,36 @@ collections:
             }
           - { label: 'Body', name: 'body', widget: 'markdown' }                            
 
+# Contact Page Section
+    - name: 'contact-pages'
+      label: 'Contact Pages' 
+      folder: 'pages/contact' 
+      create: false 
+      slug: '{{slug}}'
+      extension: '.md'
+      format: frontmatter
+      editor: 
+        preview: false 
+      fields: 
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'description', widget: 'string', required: false }          
+          - { label: 'Page', name: 'page', widget: 'hidden', default: 'page' }
+          - { label: 'Path', name: 'path', widget: 'string', required: false, hint: 'Custom URL Path instead of Slug.' }          
+          - { label: 'Google Map Url', name: 'mapURL', widget: 'string' }
+          - label: Form Section
+            name: 'form'
+            widget: list
+            collapsed: false
+            allow_add: false
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string' }  
+              - { label: 'Description', name: 'description', widget: 'string' }  
+              - { label: 'Name', name: 'name', widget: 'string' }  
+              - { label: 'Email', name: 'email', widget: 'string' }  
+              - { label: 'Subject', name: 'subject', widget: 'string' }  
+              - { label: 'Message', name: 'message', widget: 'string' }  
+              - { label: 'Form Button', name: 'sendMessage', widget: 'string' }                                                                                      
+
 # Pages Section
 
     - name: 'pages-en'
@@ -315,7 +347,7 @@ collections:
         preview: false 
       fields: 
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Description', name: 'description', widget: 'string' }          
+          - { label: 'Description', name: 'description', widget: 'string', required: false }          
           - { label: 'Image', name: 'image', widget: 'image' }
           - { label: 'Page', name: 'page', widget: 'hidden', default: 'page' }
           - { label: 'CTA', name: 'cta', widget: 'boolean', default: true, hint: 'Sayfaya CTA Componenti ekler.' }
@@ -339,7 +371,7 @@ collections:
       format: frontmatter
       fields: 
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Description', name: 'description', widget: 'string' }          
+          - { label: 'Description', name: 'description', widget: 'string', required: false  }          
           - { label: 'Image', name: 'image', widget: 'image' }
           - { label: 'Page', name: 'page', widget: 'hidden', default: 'page' }
           - { label: 'CTA', name: 'cta', widget: 'boolean', default: true, hint: 'Sayfaya CTA Componenti ekler.' }
@@ -478,9 +510,9 @@ collections:
                   fields:
                       - { label: 'Name', name: 'title', widget: 'string' }  
                       - { label: 'Icon', name: 'icon', widget: 'select', options: ["phone", "envelope", "map"], required: false } 
-                      - { label: 'Description', name: 'description', hint: 'Item Description', widget: 'string', required: true} 
-                      - { label: 'URL', name: 'url', widget: 'string', hint: 'HREF link Example: tel:+902324373305', required: true } 
-                      - { label: 'Link', name: 'link', widget: 'string', hint: 'Link name', required: true }    
+                      - { label: 'Description', name: 'description', hint: 'Item Description', widget: 'string', required: false} 
+                      - { label: 'URL', name: 'url', widget: 'string', hint: 'HREF link Example: tel:+902324373305', required: false } 
+                      - { label: 'Link', name: 'link', widget: 'string', hint: 'Link name', required: false }    
                 - label: footer-items-en
                   name: 'en'
                   widget: list
@@ -489,9 +521,9 @@ collections:
                   fields:
                       - { label: 'Name', name: 'title', widget: 'string' }  
                       - { label: 'Icon', name: 'icon', widget: 'string', required: false } 
-                      - { label: 'Description', name: 'description', hint: 'Item Description', widget: 'string', required: true} 
-                      - { label: 'URL', name: 'url', widget: 'string', hint: 'HREF link Example: tel:+902324373305', required: true } 
-                      - { label: 'Link', name: 'link', widget: 'string', hint: 'Link name', required: true }    
+                      - { label: 'Description', name: 'description', hint: 'Item Description', widget: 'string', required: false} 
+                      - { label: 'URL', name: 'url', widget: 'string', hint: 'HREF link Example: tel:+902324373305', required: false } 
+                      - { label: 'Link', name: 'link', widget: 'string', hint: 'Link name', required: false }    
                 - label: phones
                   name: 'phones'
                   widget: list
@@ -506,7 +538,7 @@ collections:
                   collapsed: true
                   allow_add: true
                   fields:
-                      - { label: 'URL', name: 'url', widget: 'string', hint: 'HREF link Example: tel:+902324373305', required: true } 
+                      - { label: 'URL', name: 'url', widget: 'string', hint: 'HREF link Example: https://g.page/madsanofficial?share', required: false } 
                       - { label: 'Link', name: 'link', widget: 'string', hint: 'Link name', required: true }                                                                                    
                                                
 
@@ -560,12 +592,36 @@ collections:
                 - label: General Options
                   name: 'options'
                   widget: object
-                  collapsed: true
+                  collapsed: false
                   allow_add: false
                   fields:
-                      - { label: 'Logo', name: 'logo', widget: 'image' }              
-                
+                      - { label: 'Logo', name: 'logo', widget: 'image' } 
+                      - { label: 'Logo Height', name: 'logoHeight', widget: 'number', value_type: "int", hint: 'Set your logo height as pixel' }                                   
+          - label: 'SEO Defaults'
+            name: 'seo'            
+            file: 'data/indexHome.json'
+            fields:
+                - label: TR
+                  name: 'tr'
+                  widget: object
+                  collapsed: false
+                  allow_add: false
+                  fields:
+                      - { label: 'Title', name: 'title', widget: 'string', required: false} 
+                      - { label: 'Description', name: 'description', widget: 'string', required: false}  
+                      - { label: 'Open Graph Image', name: 'ogImage', widget: 'image', required: false}                          
+                - label: Eng
+                  name: 'en'
+                  widget: object
+                  collapsed: false
+                  allow_add: false
+                  fields:
+                      - { label: 'Title', name: 'title', widget: 'string', required: false} 
+                      - { label: 'Description', name: 'description', widget: 'string', required: false}                                          
+                      - { label: 'Open Graph Image', name: 'ogImage', widget: 'image', required: false}  
 
+                  
+                  
         
                                        
                   
