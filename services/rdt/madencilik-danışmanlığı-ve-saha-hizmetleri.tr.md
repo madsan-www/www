@@ -21,10 +21,8 @@ Tecrübeli kadromuz, iş birlikteliklerimiz ve bilgi birikimimizle sektörel tü
 
 Güvenilir, yüksek kaliteli hizmet anlayışı ile destek sunarak, yatırımcılarımız ile birlikte oluşturduğumuz iş programına uymak, tüm bunları gerçekleştirirken en değerli varlığımız MADSAN çalışanlarının kariyer gelişimine destek olmak misyonumuzun odak noktasıdır. Ve tüm bu çalışmaları sürdürülebilir hizmet ve kalite vizyonuyla gerçekleştirmekteyiz.
 
-
-
 **SAHA HİZMETLERİ**
 
-Tecrübeli ve teknik kadromuz, bilgi birikimimizle sektörel tüm gelişmeleri yakından takip edip, projelerle ilgili hızlı ve kapsamlı değerlendirme çalışmalarımızı; şeffaf, verimli, çözüm odaklı yaklaşımımızla en ekonomik ve uygulanabilir şekilde yatırımcılarımıza sunmaktayız.
+Tecrübeli teknik kadromuz, bilgi birikimimizle sektörel tüm gelişmeleri yakından takip edip, projelerle ilgili hızlı ve kapsamlı değerlendirme çalışmalarımızı; şeffaf, verimli, çözüm odaklı yaklaşımımızla en ekonomik ve uygulanabilir şekilde yatırımcılarımıza sunmaktayız.
 
 Bunu sunarken de ürünlerimiz ve sonrasında devam eden destek ve bilgi paylaşımı hizmetimizle yatırımcılarımızın talepleri doğrultusunda gerçekleştirmekteyiz. Bu doğrultuda saha hizmetlerimizde yer alan tecrübeli kadromuz Madsan Mühendisliğin kültürünü, misyon ve vizyonunu, ürün ve hizmetlerin yapısını iyi bilmektedir. En önemlisi de bu işbirliği köprüsünün diğer tarafında yer alan yatırımcılarımızın da kültürleri, iş yapıları, ihtiyaç ve taleplerini de çok iyi bilmekte ve en iyi saha hizmetini sunmaktayız.
