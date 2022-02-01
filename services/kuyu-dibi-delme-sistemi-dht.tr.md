@@ -12,6 +12,10 @@ date: 2021-11-17 12:43:36
 ---
 Kuyu dibi darbeli delme işleminde (DTH), çekiç içerisindeki piston bite vurduğunda üretilen güç kaya üzerinde bir şok dalgası yaratır. Yük altındaki bit ile baskı uygulandığında, bit ile kaya arasında baskıdan kaynaklı bir bağlantı yüzeyi oluşur. Bu baskıya karşı kayanın gösterdiği ters tepki, kayanın karakteristik özelliğine ve baskı yüküne bağlıdır.
 
+
+
+![](https://res.cloudinary.com/madsan/image/upload/v1643724635/madsan-stock/kuyudibidelme1_azztqq.jpg)
+
 Kuyu dibi delme sistemi, çoğunlukla açık ocak dekapaj işleri üretim çalışmalarında, su kuyusu açma işlemlerinde ve maden arama amaçlı olarak yaygın bir şekilde kullanılmaktadır. Patlatma ve sondaj amaçlı delme işlemlerinde istenilen çaptaki delikler değişik delici tabancalar ile delinebilmektedir.Sistemin enerji kaynağı basınçlı havadır. Delme hızı kullanılan hava basıncı ile doğru olarak artmaktadır, daha fazla hava basıncı daha yüksek delme hızı demektir. Dolayısıyla üretici firmalar 25 bar basınca kadar çalışabilecek kuyu dibi tabancalar imal etmektedirler.Kuyu dibi delme sistemi daha fazla hava ihtiyacı, düşük delme hızı gibi dezavantajlarının yanında aşağıdaki avantajlarından dolayı tercih edilmektedir; 
 
 Çekiç, mevcut kullanılan kompresör kapasitesine göre uygun biçimde seçilmelidir. Bilinmelidir ki; çekiç kompresör hava üretim kapasitesinin ortalama %85’ini kullanacaktır. Bit, kayaç tipine göre en verimli delgiyi yapmaya uygun olarak seçilmelidir.
