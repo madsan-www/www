@@ -15,15 +15,15 @@
   ],
   "en": [
     {
-      "title": "Cored Services",
-      "description": "Madenciliğe dair tüm ekipmanmların imalat ve satışı, karotlu sondaj eki̇pmanları ve kaya deli̇ci̇ eki̇pmanları.",
-      "cta_button": "Contact Us",
+      "title": "CORED SERVICES",
+      "description": "Manufacturing and sales of all mining equipment, core drilling equipment and rock drilling equipment.",
+      "cta_button": "Learn more",
       "cta_link": "/services/cored"
     },
     {
-      "title": "rdt Services",
-      "description": "Madenciliğe dair tüm ekipmanmların imalat ve satışı, karotlu sondaj eki̇pmanları ve kaya deli̇ci̇ eki̇pmanları.",
-      "cta_button": "Bize Ulasin",
+      "title": "RTD SERVICES",
+      "description": "Manufacturing and sales of all mining equipment, core drilling equipment and rock drilling equipment.",
+      "cta_button": "Learn more",
       "cta_link": "/services/rdt"
     }
   ]
