@@ -15,10 +15,10 @@
       "url": "mailto:info@mad-san.com"
     },
     {
-      "title": "Ulasim",
+      "title": "Ulaşım",
       "icon": "map",
       "description": "",
-      "link": "Detayli Bilgi",
+      "link": "Detaylı Bilgi",
       "url": "https://g.page/madsanofficial?share"
     }
   ],
@@ -26,22 +26,22 @@
     {
       "title": "Phone",
       "icon": "phone",
-      "description": "Start working with Landrick that can provide everything",
-      "link": "Detayli Bilgi",
+      "description": "",
+      "link": "",
       "url": "/hizmetler"
     },
     {
       "title": "Email",
       "icon": "envelope",
-      "description": "Start working with Landrick that can provide everything",
-      "link": "Detayli Bilgi",
+      "description": "",
+      "link": "",
       "url": "/hizmetler"
     },
     {
       "title": "Location",
       "icon": "map",
-      "description": "Start working with Landrick that can provide everything",
-      "link": "Detayli Bilgi",
+      "description": "",
+      "link": "Details",
       "url": "/hizmetler"
     }
   ],
