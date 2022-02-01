@@ -16,14 +16,14 @@
   "en": [
     {
       "title": "Cored Services",
-      "description": "Madenciliğe dair tüm ekipmanmların imalat ve satışı, karotlu sondaj eki̇pmanları ve kaya deli̇ci̇ eki̇pmanları.",
+      "description": "Madenciliğe dair tüm ekipmanların imalat ve satışı, karotlu sondaj ekipmanları ve kaya delici ekipmanları.",
       "cta_button": "Contact Us",
       "cta_link": "/services/cored"
     },
     {
       "title": "rdt Services",
-      "description": "Madenciliğe dair tüm ekipmanmların imalat ve satışı, karotlu sondaj eki̇pmanları ve kaya deli̇ci̇ eki̇pmanları.",
-      "cta_button": "Bize Ulasin",
+      "description": "Madenciliğe dair tüm ekipmanların imalat ve satışı, karotlu sondaj ekipmanları ve kaya delici ekipmanları.",
+      "cta_button": "Bize Ulaşın",
       "cta_link": "/services/rdt"
     }
   ]
