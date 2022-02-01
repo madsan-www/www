@@ -27,21 +27,21 @@
       "title": "Phone",
       "icon": "phone",
       "description": "",
-      "link": "Detayli Bilgi",
+      "link": "",
       "url": "/hizmetler"
     },
     {
       "title": "Email",
       "icon": "envelope",
       "description": "",
-      "link": "Detayli Bilgi",
+      "link": "",
       "url": "/hizmetler"
     },
     {
       "title": "Location",
       "icon": "map",
       "description": "",
-      "link": "Detayli Bilgi",
+      "link": "Details",
       "url": "/hizmetler"
     }
   ],
