@@ -1,21 +1,18 @@
 ---
 title: About Us
+description: null
+image: https://res.cloudinary.com/madsan/image/upload/v1636194992/madsan-stock/IMG_3200_nsgux0.jpg
+page: about
+cta: true
 path: about
 date: 2019-07-01 01:21:23
-description: null
-cta: true
-image: https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8b2ZmaWNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60
-page: about  
 ---
-## What we do
+## What we do?
 
-et omnis. Fugiat beatae et illum. Eius voluptatibus voluptatum ducimus est dolorum eum.
+What are your sectoral needs with over 10 years of mining and geotechnical research and drilling experience awareness that it is. The most reliable foreign brand equipment in these areas, has gained confidence in the sector. To supply high quality world brands to its customers and to produce without any distance by realizing its production. Domestic and foreign trusted brands to the user firms in the mining and construction sectors by supplying the well and wellhead equipment.
 
-Adipisci et a qui. Sed tempora voluptatum ut. Quia aut iure provident. Similique itaque eos tenetur velit aut non. Nobis aliquam qui expedita sit mollitia distinctio enim aliquam.
+Continues to serve. To meet the spare parts needed by rock drilling machines analyzing the needs of the industry and its customers in the best way with its constantly expanding product range.
 
-Assumenda aspernatur saepe ullam rerum delectus occaecati. Harum officia fugit vel aliquid possimus quam. Repudiandae non voluptas qui. Fugit quaerat modi non et praesentium accusantium quia facilis.
-
-Et dolorem est sed sed accusantium minus voluptas aliquid. Corrupti aut nisi voluptas. Omnis eos qui ut quo non voluptates et eum. Sunt dolores nam dolores quia. Rerum sint distinctio quidem et suscipit.
-
-Asperiores dolorem repellendus mollitia nesciunt. Et id nobis ipsum atque consequatur necessitatibus. Rerum officiis fugit id cupiditate odit repellat sint. Nesciunt voluptatem facilis eum necessitatibus nam.
-
+MADSAN offers reliable, high performance and low cost solutions. Market and sales leader\
+Thanks to their locations, it offers the best solutions in conditions suitable for customer satisfaction. Industry leading by supplying only high-class equipment by incoming manufacturers and global manufacturers,\
+It aimed to directly participate in complex industrial rehabilitation.
