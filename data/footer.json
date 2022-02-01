@@ -34,8 +34,8 @@
       "title": "Email",
       "icon": "envelope",
       "description": "",
-      "link": "",
-      "url": "/hizmetler"
+      "link": "info@mad-san.com",
+      "url": "mailto:info@mad-san.com"
     },
     {
       "title": "Location",
