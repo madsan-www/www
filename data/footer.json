@@ -26,21 +26,21 @@
     {
       "title": "Phone",
       "icon": "phone",
-      "description": "Start working with Landrick that can provide everything",
+      "description": "",
       "link": "Detayli Bilgi",
       "url": "/hizmetler"
     },
     {
       "title": "Email",
       "icon": "envelope",
-      "description": "Start working with Landrick that can provide everything",
+      "description": "",
       "link": "Detayli Bilgi",
       "url": "/hizmetler"
     },
     {
       "title": "Location",
       "icon": "map",
-      "description": "Start working with Landrick that can provide everything",
+      "description": "",
       "link": "Detayli Bilgi",
       "url": "/hizmetler"
     }
