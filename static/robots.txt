@@ -1,4 +1,2 @@
 User-agent: *
-
-# Dont forget to allow before deploy.
-Disallow: /
+Allow: /
