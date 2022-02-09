@@ -4,7 +4,7 @@
       "title": "Madencilik ekipmanı tedariğinde ilk adresiniz.",
       "description": "Madenciliğe dair tüm ekipmanlarin imalat ve satışı, karotlu sondaj ekipmanları ve kaya delici ekipmanları.",
       "cta_button": "Bize Ulaşın",
-      "cta_link": "/contact",
+      "cta_link": "/iletisim",
       "image": "https://res.cloudinary.com/madsan/image/upload/v1638694881/Banner/slider2_qf9uow_1_hoqoru.jpg",
       "onlyBanner": false
     },
@@ -12,7 +12,7 @@
       "title": "Madencilik danışmanlığı ve saha hizmetlerinde bilgi birikimimizden faydalanın!",
       "description": "Tecrübeli teknik kadromuz ile sektörel tüm gelişmeleri yakından takip edip, projelerle ilgili hızlı ve kapsamlı değerlendirme çalışmalarımızı; şeffaf, verimli, çözüm odaklı yaklaşımımızla en ekonomik ve uygulanabilir şekilde yatırımcılarımıza sunmaktayız.",
       "cta_button": "Detaylı bilgi",
-      "cta_link": "/contact",
+      "cta_link": "/iletisim",
       "image": "https://res.cloudinary.com/madsan/image/upload/v1637659539/Banner/slider_r28u2b.jpg",
       "onlyBanner": false
     },
@@ -21,7 +21,7 @@
       "onlyBanner": true,
       "description": "Madenciliğe dair tüm ekipmanlarin imalat ve satışı, karotlu sondaj ekipmanları ve kaya delici ekipmanları.",
       "cta_button": "Bize Ulaşın",
-      "cta_link": "/contact",
+      "cta_link": "/iletisim",
       "image": "https://res.cloudinary.com/madsan/image/upload/v1643726672/madsan-stock/MADSAN_WEB_BANNER_yxlr6x.jpg"
     }
   ],

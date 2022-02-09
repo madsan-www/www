@@ -179,7 +179,7 @@ const Contact = props => {
                           name="send"
                           className="btn btn-primary"
                         >
-                          Send Message
+                           {formLayer.sendMessage}
                         </button>
                       </div>
                     </div>

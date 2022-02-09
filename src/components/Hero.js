@@ -56,7 +56,7 @@ function Hero() {
                                 </p>
                                 <div className="mt-4 pt-2">
                                   <LocalizedLink
-                                    to={item.cta_links}
+                                    to={item.cta_link}
                                     className="btn btn-primary"
                                   >
                                     {item.cta_button}

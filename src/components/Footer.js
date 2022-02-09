@@ -37,14 +37,14 @@ function Footer() {
                         </div>
                         <div className="content mt-4">
                           <h5 className="footer-head">{items.title}</h5>
-                          <p className="text-muted">{items.description}</p>
+                          {items.description && <p className="text-muted">{items.description}</p>}
 
                              {items.icon === 'phone' ? phoneData.map((phone, index) => (
                                 <ul className="p-lg-1">
                                   <li className="list-unstyled text-center">
                                     <a
                                       href={phone.url}
-                                      className="text-muted  text-center"
+                                      className="text-muted  text-center footerLink"
                                       key={`_${index}`}
                                     >
                                       {phone.link}
@@ -58,7 +58,7 @@ function Footer() {
                                   <li className="list-unstyled text-center">
                                     <a
                                       href={item.url}
-                                      className="text-muted  text-center"
+                                      className="text-muted  text-center footerLink"
                                       key={`_${index}`}
                                     >
                                       {item.link}
@@ -72,6 +72,7 @@ function Footer() {
                             target="_blank"
                             rel="noopener"
                             className="text-foot"
+                            
                           >
                             {items.link}
                           </a>

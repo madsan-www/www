@@ -20,18 +20,18 @@ Kuyu dibi delme sistemi, çoğunlukla açık ocak dekapaj işleri üretim çalı
 
 ![](https://res.cloudinary.com/madsan/image/upload/v1643724743/madsan-stock/kuyudibidelme2_kbs12b.png)
 
-DTH’nin Avantajları
+## DTH’nin Avantajları
 
-* Delik içi sapmaların azalması 
-* Darbe enerjisinin verimli bir şekilde delik tabanına aktarılmasından dolayı delme hızındaki çok az bir düşüşle uzun delikler delinebilmesi
-* Çatlaklı arazilerde bile delik içerisinin iyi bir şekilde temizlenebilmesi
-* Operatör için kullanımı kolay bir delme sistemi olması 
+- Delik içi sapmaların azalması 
+- Darbe enerjisinin verimli bir şekilde delik tabanına aktarılmasından dolayı delme hızındaki çok az bir düşüşle uzun delikler delinebilmesi
+- Çatlaklı arazilerde bile delik içerisinin iyi bir şekilde temizlenebilmesi
+- Operatör için kullanımı kolay bir delme sistemi olması 
 
 
 
 ![](https://res.cloudinary.com/madsan/image/upload/v1643724775/madsan-stock/kuyudibidelme3_pxu6t3.jpg)
 
-Kuyu Dibi Çekiçler (DTH)
+## Kuyu Dibi Çekiçler (DTH)
 
 Kompresör, makine üzerinde ya da ayrı bir ünite olarak, havanın sistem içine iletilmesini sağlar. Amaç, havanın minimum kayıpla çekiçe iletilmesini sağlamaktır. Hava akımı çekiç içerisinde sıkıştırılarak güçlendirilir ve bu hava, çalışma şekli bir döngü olarak ayarlanmış olan çekiçi çalıştırır. Pistonun bir döngüsü esnasında, hava çekiçten iki defa salınır ve bu suyun ve delgi esnasında oluşan kaya kırıklarının taşınmasını sağlar. Amaç, havayı en etkili biçimde harcamaktır.
 

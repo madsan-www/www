@@ -97,7 +97,7 @@ export default function Services() {
                     >
                       <div className="card features feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
                         <div className="tagcloud text-center mb-2">
-                          <span className="rounded">
+                          <span className="badge">
                             {node.frontmatter.serviceType}
                           </span>
                         </div>
@@ -133,7 +133,7 @@ export default function Services() {
                           </picture>
                         </div>
                         <div className="card-body p-0 content">
-                          <h5 className="mt-4">
+                          <h5 className="mt-4" style={{fontWeight: 'bold'}}>
                             <LocalizedLink
                               to={`/${
                                 node.frontmatter.path || node.fields.slug
