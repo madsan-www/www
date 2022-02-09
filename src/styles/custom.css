@@ -2931,6 +2931,11 @@ p {
   padding: 13px 0;
 }
 
+.content p img {
+width: -moz-available;
+width: -webkit-fill-available;
+}
+
 @media screen and (max-width: 575px) {
   .tagline {
     display: none;
