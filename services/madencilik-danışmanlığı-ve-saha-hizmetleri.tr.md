@@ -6,10 +6,10 @@ description: Tecrübeli kadromuz, iş birlikteliklerimiz ve bilgi birikimimizle
   değerlendirme çalışmalarımızı; şeffaf, verimli, çözüm odaklı yaklaşımımızla en
   ekonomik ve uygulanabilir şekilde yatırımcılarımıza sunmaktayız.
 image: https://res.cloudinary.com/madsan/image/upload/v1636194991/madsan-stock/IMG_3204_qrtylf.jpg
-path: "madencilik-danismanligi-ve-saha-hizmetleri "
+path: "madencilik-danismanligi-ve-saha-hizmetleri"
 cta: true
 contentType: Service
-serviceType: rdt
+serviceType: ""
 page: page
 date: 2021-12-07 08:13:55
 ---
