@@ -19,7 +19,7 @@
       "icon": "map",
       "description": "",
       "link": "Detaylı Bilgi",
-      "url": "https://g.page/madsanofficial?share"
+      "url": "/iletisim"
     }
   ],
   "en": [
@@ -42,7 +42,7 @@
       "icon": "map",
       "description": "",
       "link": "Details",
-      "url": "/hizmetler"
+      "url": "/en/contact"
     }
   ],
   "phones": [
@@ -61,8 +61,8 @@
       "url": "https://g.page/madsanofficial?share"
     },
     {
-      "link": "1470.Sk, No:109, 06378 İvedik OSB Yenimahalle/ Ankara",
-      "url": ""
+      "link": "1470.Sk, No:109, 06378 İvedik OSB Yenimahalle / Ankara",
+      "url": "https://goo.gl/maps/CL2TDA3SyNKFjacK9"
     }
   ]
 }

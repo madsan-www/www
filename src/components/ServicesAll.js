@@ -96,11 +96,7 @@ export default function Services() {
                       className="col-lg-4 col-md-6 mt-2 pt-2"
                     >
                       <div className="card features feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
-                        <div className="tagcloud text-center mb-2">
-                          <span className="badge">
-                            {node.frontmatter.serviceType}
-                          </span>
-                        </div>
+                    
                         <div className="icons text-primary text-center ">
                           <picture>
                             <source
@@ -143,6 +139,11 @@ export default function Services() {
                               {node.frontmatter.title}
                             </LocalizedLink>
                           </h5>
+                          <div className="tagcloud text-center mb-2">
+                          <span className="badge">
+                            {node.frontmatter.serviceType && node.frontmatter.serviceType }
+                          </span>
+                        </div>
                           <p className="text-muted">{node.excerpt}</p>
                           <LocalizedLink
                             to={`/${node.frontmatter.path || node.fields.slug}`}

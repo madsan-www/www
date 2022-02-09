@@ -9,8 +9,8 @@ function Footer() {
   const { locale } = useLocale();
   const isDefaultLang = locale === "tr" ? true : false;
   const data = isDefaultLang ? FooterData.tr : FooterData.en;
-  const phoneData = FooterData.phones
-  const addressData = FooterData.addresses
+  const phoneData = FooterData.phones;
+  const addressData = FooterData.addresses;
   const menuItems = useMenu();
 
   return (
@@ -37,9 +37,12 @@ function Footer() {
                         </div>
                         <div className="content mt-4">
                           <h5 className="footer-head">{items.title}</h5>
-                          {items.description && <p className="text-muted">{items.description}</p>}
+                          {items.description && (
+                            <p className="text-muted">{items.description}</p>
+                          )}
 
-                             {items.icon === 'phone' ? phoneData.map((phone, index) => (
+                          {items.icon === "phone"
+                            ? phoneData.map((phone, index) => (
                                 <ul className="p-lg-1">
                                   <li className="list-unstyled text-center">
                                     <a
@@ -52,11 +55,14 @@ function Footer() {
                                   </li>
                                 </ul>
                               ))
-                           : null }
-                           {items.icon === 'map' ? addressData.map((item, index) => (
+                            : null}
+                          {items.icon === "map"
+                            ? addressData.map((item, index) => (
                                 <ul className="p-lg-1">
                                   <li className="list-unstyled text-center">
                                     <a
+                                      target="_blank"
+                                      rel="noopener"
                                       href={item.url}
                                       className="text-muted  text-center footerLink"
                                       key={`_${index}`}
@@ -66,13 +72,12 @@ function Footer() {
                                   </li>
                                 </ul>
                               ))
-                           : null }
+                            : null}
                           <a
                             href={items.url}
                             target="_blank"
                             rel="noopener"
                             className="text-foot"
-                            
                           >
                             {items.link}
                           </a>
