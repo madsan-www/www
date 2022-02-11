@@ -9,12 +9,12 @@
     {
       "name": "Alkim Kaya",
       "image": "https://res.cloudinary.com/madsan/image/upload/v1637658505/team/PHOTO-2021-11-18-13-08-14_3_swgkwn.jpg",
-      "title": "İdari İşler ve İK Direktörü ",
-      "titleEN": "Administrative Affairs and HR Director"
+      "title": "İdari Müdür",
+      "titleEN": "Manager"
     },
     {
-      "name": "Emin Canbaz",
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1636899500/team/emin-canbaz-150x150_flojyf.jpg",
+      "name": "Engin Güler",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1644577336/team/engin_g%C3%BCler_jczeuc.jpg",
       "title": "Satış Mühendisi",
       "titleEN": "Sales Engineer"
     },
@@ -47,6 +47,21 @@
       "image": "https://res.cloudinary.com/madsan/image/upload/v1637658504/team/PHOTO-2021-11-18-13-08-14_4_wjvi7n.jpg",
       "title": "Finans Sorumlusu",
       "titleEN": "Finance Officer"
+    },
+    {
+      "name": "Samet Kaya",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1644577510/team/samet_kaya_rlxg2d.jpg",
+      "title": "Depo Sorumlusu"
+    },
+    {
+      "name": "Uğur Akay",
+      "title": "Lojistik Sorumlusu",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1644577597/team/ugur_a_vlzws9.jpg"
+    },
+    {
+      "name": "Cengiz Karahan",
+      "title": "Satış Sorumlusu",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1644577696/team/cengiz_a_fjfhrr.jpg"
     }
   ],
   "tr": {
