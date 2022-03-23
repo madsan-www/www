@@ -7,9 +7,9 @@
       "titleEN": "Sales and Marketing Manager"
     },
     {
-      "name": "Alkim Kaya",
+      "name": "Alkım Kaya",
       "image": "https://res.cloudinary.com/madsan/image/upload/v1637658505/team/PHOTO-2021-11-18-13-08-14_3_swgkwn.jpg",
-      "title": "İdari Müdür",
+      "title": "İK Direktörü",
       "titleEN": "Manager"
     },
     {
@@ -33,8 +33,18 @@
     {
       "name": "Ecem Aysu Akpınar",
       "image": "https://res.cloudinary.com/madsan/image/upload/v1637658505/team/PHOTO-2021-11-18-13-08-14_q7lz9z.jpg",
-      "title": "Satış Destek Mühendisi",
+      "title": "Satış Mühendisi",
       "titleEN": "Sales Support Engineer"
+    },
+    {
+      "name": "Cengiz Karahan",
+      "title": "Satış Sorumlusu",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1644577696/team/cengiz_a_fjfhrr.jpg"
+    },
+    {
+      "name": "İrfan Doğan",
+      "title": "Dış Ticaret Sorumlusu",
+      "image": "C:\\Users\\ASUS\\Desktop"
     },
     {
       "name": "Orkun Çamlı ",
@@ -49,19 +59,19 @@
       "titleEN": "Finance Officer"
     },
     {
-      "name": "Samet Kaya",
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1644577510/team/samet_kaya_rlxg2d.jpg",
-      "title": "Depo Sorumlusu"
-    },
-    {
       "name": "Uğur Akay",
       "title": "Lojistik Sorumlusu",
       "image": "https://res.cloudinary.com/madsan/image/upload/v1644577597/team/ugur_a_vlzws9.jpg"
     },
     {
-      "name": "Cengiz Karahan",
-      "title": "Satış Sorumlusu",
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1644577696/team/cengiz_a_fjfhrr.jpg"
+      "name": "Samet Kaya",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1644577510/team/samet_kaya_rlxg2d.jpg",
+      "title": "Depo Sorumlusu"
+    },
+    {
+      "name": "Özgür Çetin",
+      "title": "İK Direktör Yardımcısı",
+      "image": "C:\\Users\\ASUS\\Desktop"
     }
   ],
   "tr": {
