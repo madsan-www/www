@@ -9,7 +9,7 @@
     {
       "title": "RTD GRUBU ",
       "description": "Madenciliğe dair tüm ekipmanmların imalat ve satışı, karotlu sondaj eki̇pmanları ve kaya delici eki̇pmanları.",
-      "cta_button": "Detayli Bilgi",
+      "cta_button": "Detaylı Bilgi",
       "cta_link": "/hizmetler/rdt"
     }
   ],
@@ -17,13 +17,13 @@
     {
       "title": "CORED SERVICES",
       "description": "Manufacturing and sales of all mining equipment, core drilling equipment and rock drilling equipment.",
-      "cta_button": "Learn more",
+      "cta_button": "Learn More",
       "cta_link": "/services/cored"
     },
     {
       "title": "RTD SERVICES",
       "description": "Manufacturing and sales of all mining equipment, core drilling equipment and rock drilling equipment.",
-      "cta_button": "Learn more",
+      "cta_button": "Learn More",
       "cta_link": "/services/rdt"
     }
   ]
