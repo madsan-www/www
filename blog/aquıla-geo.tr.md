@@ -7,6 +7,7 @@ authorImage: https://res.cloudinary.com/madsan/image/upload/v1648391254/IMG_0263
 image: https://res.cloudinary.com/madsan/image/upload/v1648389688/IMG_0257_ilfudb.jpg
 tags:
   - fuar
+path: aquila-geo
 date: 2022-03-27 05:24:36
 ---
 Gelişen teknoloji ile birlikte insansız hava araçları birçok sektörde olduğu gibi madencilik sektöründe de kullanılmaya başlanmıştır. Madsan Mühendisliğin geliştirmiş olduğu yazılım teknolojisi Madsan’a ait olan AQUILA GEO Türkiye madencilik sektöründe bir ilke imza atarak adından söz ettirmeye devam ediyor. Madsan Mühendislik Hizmetleri LTD. ŞTİ. nin kurucusun olan ve aynı zamanda AQUILA GEO’nun yaratıcısı Yasin TÜRKAN, Türkiye’de bir ilk olan bu yeni teknoloji hakkındaki görüşleri şöyledir.
