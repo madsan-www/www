@@ -23,7 +23,7 @@
       "name": "M. Ali Çakmak",
       "image": "https://res.cloudinary.com/madsan/image/upload/v1637658505/team/PHOTO-2021-11-18-13-08-15_bhdofp.jpg",
       "title": "Satış Sorumlusu",
-      "titleEN": "Sales Representative"
+      "titleEN": "Sales Responsible"
     },
     {
       "name": "Alperen Yavaş",
@@ -35,17 +35,19 @@
       "name": "Ecem Aysu Akpınar",
       "image": "https://res.cloudinary.com/madsan/image/upload/v1637658505/team/PHOTO-2021-11-18-13-08-14_q7lz9z.jpg",
       "title": "Satış Mühendisi/Sales Engineer",
-      "titleEN": "Sales Support Engineer"
+      "titleEN": "Sales Engineer"
     },
     {
       "name": "Cengiz Karahan",
       "title": "Satış Sorumlusu/Sales Responsible",
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1644577696/team/cengiz_a_fjfhrr.jpg"
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1644577696/team/cengiz_a_fjfhrr.jpg",
+      "titleEN": "Sales Responsible"
     },
     {
       "name": "İrfan Doğan",
       "title": "Dış Ticaret Sorumlusu/Foreign Trade Specialist",
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1648283578/irfan_bey_eau8g0.jpg"
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1648283578/irfan_bey_eau8g0.jpg",
+      "titleEN": "Foreign Trade Specialist"
     },
     {
       "name": "Merve Girgin",
@@ -56,17 +58,20 @@
     {
       "name": "Uğur Akay",
       "title": "Lojistik Sorumlusu",
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1644577597/team/ugur_a_vlzws9.jpg"
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1644577597/team/ugur_a_vlzws9.jpg",
+      "titleEN": "Logistics Responsible"
     },
     {
       "name": "Samet Kaya",
       "image": "https://res.cloudinary.com/madsan/image/upload/v1644577510/team/samet_kaya_rlxg2d.jpg",
-      "title": "Depo Sorumlusu"
+      "title": "Depo Sorumlusu",
+      "titleEN": "Warehouse Responsible"
     },
     {
       "name": "Özgür Çetin",
       "title": "İK Direktör Yardımcısı",
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1648393556/png-clipart-male-avatar-user-profile-profile-heroes-necktie-thumbnail_zk48nc.png"
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1648393556/png-clipart-male-avatar-user-profile-profile-heroes-necktie-thumbnail_zk48nc.png",
+      "titleEN": "İK Direktör Yardımcısı"
     }
   ],
   "tr": {
