@@ -10,11 +10,11 @@ tags:
 path: aquila-geo
 date: 2022-03-27 05:24:36
 ---
-Gelişen teknoloji ile birlikte insansız hava araçları birçok sektörde olduğu gibi madencilik sektöründe de kullanılmaya başlanmıştır. Madsan Mühendisliğin geliştirmiş olduğu yazılım teknolojisi Madsan’a ait olan AQUILA GEO Türkiye madencilik sektöründe bir ilke imza atarak adından söz ettirmeye devam ediyor. Madsan Mühendislik Hizmetleri LTD. ŞTİ. nin kurucusun olan ve aynı zamanda AQUILA GEO’nun yaratıcısı Yasin TÜRKAN, Türkiye’de bir ilk olan bu yeni teknoloji hakkındaki görüşleri şöyledir.
+Gelişen teknoloji ile birlikte insansız hava araçları birçok sektörde olduğu gibi madencilik sektöründe de kullanılmaya başlanmıştır. Madsan Mühendisliğin geliştirmiş olduğu yazılım teknolojisi Madsan’a ait olan AQUILA GEO Türkiye madencilik sektöründe bir ilke imza atarak adından söz ettirmeye devam ediyor. Madsan Mühendislik Hizmetleri LTD. ŞTİ. nin kurucusu olan ve aynı zamanda AQUILA GEO’nun yaratıcısı Yasin TÜRKAN, Türkiye’de bir ilk olan bu yeni teknoloji hakkındaki görüşleri şöyledir:
 
 
 
-Madencilik sektöründe 2018 yılında kurulmuş olan Madsan Mühendislik kurulduğu ilk günden itibaren sektörel ihtiyaçlar ve geliştirilmesi gereken konular üzerine yoğunlaşmıştır. Madsan Mühendislik Hiz. Ltd. Şti firması olarak 15 yılı aşkın sektörün farklı alanlarında çalışmış olmanın verdiği iş tecrübesi ve kazanılan yetenekler doğrultusunda, yapacağı çalışmalara yön vermeye çalışmıştır. Madencilik sektörü olarak başta Türkiye olmak üzere Dünyanın farklı lokasyonlarında varlığından haberdar etmek arzusu ile yoluna çıkmış ve devam etmektedir. Kurulduğu günden beri süreki olarak sürdürülebilir hizmet ve kalite anlayışı doğrultusunda hareket edilmiştir.
+"Madencilik sektöründe 2018 yılında kurulmuş olan Madsan Mühendislik kurulduğu ilk günden itibaren sektörel ihtiyaçlar ve geliştirilmesi gereken konular üzerine yoğunlaşmıştır. Madsan Mühendislik Hiz. Ltd. Şti firması olarak 15 yılı aşkın sektörün farklı alanlarında çalışmış olmanın verdiği iş tecrübesi ve kazanılan yetenekler doğrultusunda, yapacağı çalışmalara yön vermeye çalışmıştır. Madencilik sektörü olarak başta Türkiye olmak üzere Dünyanın farklı lokasyonlarında varlığından haberdar etmek arzusu ile yoluna çıkmış ve devam etmektedir. Kurulduğu günden beri sürekli olarak sürdürülebilir hizmet ve kalite anlayışı doğrultusunda hareket edilmiştir.
 
 
 
@@ -22,4 +22,4 @@ Projemiz yaklaşık 2 yıldır devam eden ve geliştirilen bir projedir. Bu ür�
 
 
 
-Madsan olarak bizim hedefimiz sektörde proje ve uygulamalarıyla öncülük edebilmektir. Bu anlamda madencilik alanında ön arama faaliyetlerinden üretim safhasına kadar birçok alanda hem proje geliştirme, yönetme, uygulama alanlarında yer alıp hem de gerekli ürün imalatı veya tedariği konusunda her zaman partner rolü üstlenmeye devam edecektir.
+Madsan olarak bizim hedefimiz sektöre proje ve uygulamalarıyla öncülük edebilmektir. Bu anlamda madencilik alanında ön arama faaliyetlerinden üretim safhasına kadar birçok alanda hem proje geliştirme, yönetme, uygulama alanlarında yer alıp hem de gerekli ürün imalatı veya tedariği konusunda her zaman partner rolü üstlenmeye devam edecektir."
