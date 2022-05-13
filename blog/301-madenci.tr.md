@@ -10,4 +10,4 @@ tags:
 path: MADSAN
 date: 2022-05-13 01:11:50
 ---
-ay 3
+13 Mayıs 2014'te Soma'da yaşanan maden faciasında hayatını kaybeden 301 madencimizi saygı ve rahmetle anıyoruz.
