@@ -10,4 +10,4 @@ tags:
 path: MADSAN
 date: 2022-05-24 01:28:32
 ---
-Srüfüüüüüüüüü
+Sürdürülebilir Hizmet Ve Kalite
