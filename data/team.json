@@ -44,9 +44,15 @@
       "titleEN": "Foreign Trade Specialist"
     },
     {
+      "name": "Mustafa Dazkır",
+      "title": "Muhasebe Sorumlusu",
+      "titleEN": "Accounting Supervisor",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1658843813/WhatsApp_Image_2022-07-26_at_16.50.00_lqqnnh.jpg"
+    },
+    {
       "name": "Merve Girgin",
       "image": "https://res.cloudinary.com/madsan/image/upload/v1637658504/team/PHOTO-2021-11-18-13-08-14_4_wjvi7n.jpg",
-      "title": "Muhasebe ve Finans Sorumlusu",
+      "title": "Finans Sorumlusu",
       "titleEN": "Finance Officer"
     },
     {
@@ -60,12 +66,6 @@
       "title": "İK Direktör Yardımcısı",
       "image": "https://res.cloudinary.com/madsan/image/upload/v1648393556/png-clipart-male-avatar-user-profile-profile-heroes-necktie-thumbnail_zk48nc.png",
       "titleEN": "İK Direktör Yardımcısı"
-    },
-    {
-      "name": "Mustafa Dazkır",
-      "title": "Muhasebe Sorumlusu",
-      "titleEN": "Accounting Supervisor",
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1658843813/WhatsApp_Image_2022-07-26_at_16.50.00_lqqnnh.jpg"
     }
   ],
   "tr": {
