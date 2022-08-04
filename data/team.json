@@ -32,6 +32,12 @@
       "titleEN": "Sales Engineer"
     },
     {
+      "name": "Merve Nur Tüysüz",
+      "titleEN": "Sales Support Manager",
+      "title": "Satış Destek Sorumlusu",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1659622194/WhatsApp_Image_2022-08-04_at_17.06.55_bi3jvg.jpg"
+    },
+    {
       "name": "İrfan Doğan",
       "title": "Dış Ticaret Sorumlusu",
       "image": "https://res.cloudinary.com/madsan/image/upload/v1648283578/irfan_bey_eau8g0.jpg",
@@ -66,12 +72,6 @@
       "title": "İK Direktör Yardımcısı",
       "image": "https://res.cloudinary.com/madsan/image/upload/v1648393556/png-clipart-male-avatar-user-profile-profile-heroes-necktie-thumbnail_zk48nc.png",
       "titleEN": "İK Direktör Yardımcısı"
-    },
-    {
-      "name": "Merve Nur Tüysüz",
-      "titleEN": "Sales Support Manager",
-      "title": "Satış Destek Sorumlusu",
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1659622194/WhatsApp_Image_2022-08-04_at_17.06.55_bi3jvg.jpg"
     }
   ],
   "tr": {
