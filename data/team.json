@@ -7,6 +7,12 @@
       "titleEN": "Sales and Marketing Manager"
     },
     {
+      "name": "İrfan Doğan",
+      "title": "Dış Ticaret Sorumlusu",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1648283578/irfan_bey_eau8g0.jpg",
+      "titleEN": "Foreign Trade Specialist"
+    },
+    {
       "name": "Alkım Kaya",
       "image": "https://res.cloudinary.com/madsan/image/upload/v1637658505/team/PHOTO-2021-11-18-13-08-14_3_swgkwn.jpg",
       "title": "İdari Müdür",
@@ -24,12 +30,6 @@
       "image": "https://res.cloudinary.com/madsan/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1660548332/WhatsApp_Image_2022-08-15_at_10.10.50_msde8g.jpg",
       "title": "Satış Mühendisi",
       "titleEN": "Sales Engineer"
-    },
-    {
-      "name": "İrfan Doğan",
-      "title": "Dış Ticaret Sorumlusu",
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1648283578/irfan_bey_eau8g0.jpg",
-      "titleEN": "Foreign Trade Specialist"
     },
     {
       "name": "Mustafa Dazkır",
