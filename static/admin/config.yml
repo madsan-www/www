@@ -15,7 +15,8 @@ media_library:
   name: cloudinary
   config:
     cloud_name: madsan
-    api_key: process.env.CLOUDINARY_KEY
+    api_key: 494169283697891
+    #This KEY is NOT Sensitive --> https://www.netlifycms.org/docs/cloudinary/#security-considerations
 
 collections:
     - name: 'home-page' 
