@@ -15,7 +15,7 @@ media_library:
   name: cloudinary
   config:
     cloud_name: madsan
-    api_key: 494169283697891
+    api_key: process.env.CLOUDINARY_KEY
 
 collections:
     - name: 'home-page' 
