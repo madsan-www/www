@@ -32,6 +32,12 @@
       "titleEN": "Sales Engineer"
     },
     {
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1668237338/WhatsApp_Image_2022-11-07_at_16.45.49_xvat7w.jpg",
+      "name": "Orhan Dokuz",
+      "title": "Satış Mühendisi",
+      "titleEN": "Sales Engineer"
+    },
+    {
       "image": "https://res.cloudinary.com/madsan/image/upload/v1658846118/WhatsApp_Image_2022-07-26_at_17.10.50_wvlqgm.jpg",
       "title": "Muhasebe ve Finans Sorumlusu",
       "name": "Gamze Nur Erol",
@@ -53,12 +59,6 @@
       "title": "İK Direktör Yardımcısı",
       "image": "https://res.cloudinary.com/madsan/image/upload/v1648393556/png-clipart-male-avatar-user-profile-profile-heroes-necktie-thumbnail_zk48nc.png",
       "titleEN": "İK Direktör Yardımcısı"
-    },
-    {
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1668237338/WhatsApp_Image_2022-11-07_at_16.45.49_xvat7w.jpg",
-      "name": "Orhan Dokuz",
-      "title": "Satış Mühendisi",
-      "titleEN": "Sales Engineer"
     }
   ],
   "tr": {
