@@ -97,7 +97,8 @@ collections:
                   allow_add: false
                   fields:
                       - { label: 'Up Title', name: 'upTitle', widget: 'string' }
-                      - { label: 'Title', name: 'title', widget: 'string' }                      
+                      - { label: 'Title', name: 'title', widget: 'string' } 
+                      - { label: 'sectionVisible', name: 'sectionVisible', widget: 'boolean' }    
                       - { label: 'Description', name: 'description', widget: 'string' }     
                       - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
                       - { label: 'cta_link', name: 'cta_link', widget: 'string' }  
@@ -108,7 +109,8 @@ collections:
                   allow_add: false
                   fields:
                       - { label: 'Up Title', name: 'upTitle', widget: 'string' }
-                      - { label: 'Title', name: 'title', widget: 'string' }                      
+                      - { label: 'Title', name: 'title', widget: 'string' }
+                      - { label: 'sectionVisible', name: 'sectionVisible', widget: 'boolean' }  
                       - { label: 'Description', name: 'description', widget: 'string' }     
                       - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
                       - { label: 'cta_link', name: 'cta_link', widget: 'string' }          
