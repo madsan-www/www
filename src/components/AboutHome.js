@@ -9,7 +9,7 @@ function AboutHome() {
   const data = isDefaultLang ? HomeAboutData.tr[0] : HomeAboutData.en[0];
 
   const Title = data?.title;
-  const SectionVisible = data?.sectionVisible || true
+  const SectionVisible = data?.sectionVisible
   const Uptitle = data?.upTitle;
   const Description = data?.description;
   const CtaButton = data?.cta_button;
