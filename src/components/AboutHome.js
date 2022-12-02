@@ -39,9 +39,11 @@ function AboutHome() {
               <p className="text-muted">
                {Description}
               </p>
-              <a href={CtaLink} target="_blank"  className="btn btn-primary mt-3">
+{CtaLink &&  <a href={CtaLink} target="_blank"  className="btn btn-primary mt-3">
               {CtaButton}<i className="uil uil-angle-right-b" />
               </a>
+}
+             
             </div>
           </div>
         </div>
