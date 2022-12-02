@@ -51,7 +51,7 @@ function AboutHome() {
         </div>
       </div>
 : 
-null
+null }
     </>
   );
 }
