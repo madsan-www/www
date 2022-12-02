@@ -8,18 +8,22 @@ function AboutHome() {
   const isDefaultLang = locale === "tr" ? true : false;
   const data = isDefaultLang ? HomeAboutData.tr[0] : HomeAboutData.en[0];
 
-  const Title = data.title;
-  const Uptitle = data.upTitle;
-  const Description = data.description;
-  const CtaButton = data.cta_button;
-  const CtaLink = data.cta_link;
+  const Title = data?.title;
+  const SectionVisible = data?.sectionVisible || true
+  const Uptitle = data?.upTitle;
+  const Description = data?.description;
+  const CtaButton = data?.cta_button;
+  const CtaLink = data?.cta_link;
 
   const Image = HomeAboutData.commons.image
     ? HomeAboutData.commons.image
     : null;
 
+
+
   return (
     <>
+    { data  ? 
       <div className="container mt-60 mb-100">
         <div className="row align-items-center">
           <div className="col-lg-5 col-md-5 mt-4 pt-2 mt-sm-0 pt-sm-0">
@@ -39,15 +43,15 @@ function AboutHome() {
               <p className="text-muted">
                {Description}
               </p>
-{CtaLink &&  <a href={CtaLink} target="_blank"  className="btn btn-primary mt-3">
+            <a href={CtaLink} target="_blank"  className="btn btn-primary mt-3">
               {CtaButton}<i className="uil uil-angle-right-b" />
               </a>
-}
-             
             </div>
           </div>
         </div>
       </div>
+: 
+null
     </>
   );
 }
