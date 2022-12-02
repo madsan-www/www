@@ -1,7 +1,23 @@
 {
-  "tr": [],
-  "en": [],
+  "tr": [
+    {
+      "title": "Madencilik ekipmanı tedariğinde sürdürülebilir hizmet ve kalite.",
+      "upTitle": "2022 Kataloğu",
+      "description": "Karotlu sondaj, kaya deliciler (Rot, Bit, Shank ), karotiyer ve yedekleri, sondaj tij ve boruları, emrenye matkaplar, PDC bitler, tricone bitler ve daha fazlası için online kataloğumuza göz atın.",
+      "cta_button": "Online Katalog",
+      "cta_link": "/docs/bbr-madsan-2022.pdf"
+    }
+  ],
+  "en": [
+    {
+      "title": "Your first address for mining equipment supply.",
+      "upTitle": "2022 Online Catalogue",
+      "description": "Manufacturing and sales of all mining equipment, core drilling equipment and rock drilling equipment.",
+      "cta_button": "Online Catalogue",
+      "cta_link": "/docs/bbr-madsan-2022.pdf"
+    }
+  ],
   "commons": {
-    "image": ""
+    "image": "https://res.cloudinary.com/madsan/image/upload/v1636194988/madsan-stock/IMG_3194_y6vp0z.jpg"
   }
 }
