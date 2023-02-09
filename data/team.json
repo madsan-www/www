@@ -45,9 +45,15 @@
     },
     {
       "name": "Uğur Akay",
-      "title": "Lojistik Sorumlusu",
+      "title": "Lojistik Müdürü",
       "image": "https://res.cloudinary.com/madsan/image/upload/v1655110285/WhatsApp_Image_2022-06-13_at_11.49.27_wq3hbb.jpg",
-      "titleEN": "Logistics Responsible"
+      "titleEN": "Logistics Manager"
+    },
+    {
+      "name": "Yavuz Mermer",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1675948395/WhatsApp_Image_2023-02-09_at_14.25.37_iwoawl.jpg",
+      "title": "Lojistik Sorumlusu",
+      "titleEN": "Logistics Official"
     },
     {
       "name": "Abdullah Çalışkan",
