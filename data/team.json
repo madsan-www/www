@@ -19,16 +19,16 @@
       "image": "https://res.cloudinary.com/madsan/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1692881164/taha_l7gpgw.jpg"
     },
     {
-      "name": "Özgür Çetin",
-      "title": "İK Direktör Yardımcısı",
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1648393556/png-clipart-male-avatar-user-profile-profile-heroes-necktie-thumbnail_zk48nc.png",
-      "titleEN": "İK Direktör Yardımcısı"
-    },
-    {
       "name": "Taylan Doğan",
       "title": "Muhasebe ve Finans Sorumlusu",
       "titleEN": "Accounting and Finance Officer",
       "image": "https://res.cloudinary.com/madsan/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1697466621/taylan_beey_auu67m.jpg"
+    },
+    {
+      "name": "Özgür Çetin",
+      "title": "İK Direktör Yardımcısı",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1648393556/png-clipart-male-avatar-user-profile-profile-heroes-necktie-thumbnail_zk48nc.png",
+      "titleEN": "İK Direktör Yardımcısı"
     }
   ],
   "tr": {
