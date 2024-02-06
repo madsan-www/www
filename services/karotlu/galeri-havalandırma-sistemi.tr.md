@@ -1,7 +1,7 @@
 ---
 title: Galeri Havalandırma Sistemi
 description: Yeraltı madenciliğinde öneme sahip olan havalandırma sistemleri
-image: https://res.cloudinary.com/madsan/image/upload/v1636194993/madsan-stock/IMG_3201_dnngfl.jpg
+image: https://res.cloudinary.com/madsan/image/upload/v1707203742/havaland%C4%B1rma_p6d3rz.jpg
 path: havalandırma
 cta: true
 contentType: Service
