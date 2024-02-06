@@ -271,7 +271,7 @@ collections:
           - { label: 'Path', name: 'path', widget: 'string', required: true, hint: 'SEO icin ozel URL, ornek: wireline-karotiyer-ve-yedekleri' } 
           - { label: 'CTA', name: 'cta', widget: 'boolean', default: true, hint: 'Sayfaya CTA Componenti ekler.' }
           - { label: 'Content Type', name: 'contentType', widget: 'hidden', required: false, default: Service } 
-          - { label: 'Service Type', name: 'serviceType', widget: 'select', required: true,  options: ["cored", "rdt", ""]  }             
+          - { label: 'Service Type', name: 'serviceType', widget: 'select', required: true,  options: ["cored", "rdt", "tunel", ""]  }             
           - { label: 'Page Template', name: 'page', widget: 'hidden', required: false, default: page }                 
           - {
                 label: 'Date',
@@ -297,7 +297,7 @@ collections:
           - { label: 'Path', name: 'path', widget: 'string', required: true, hint: 'SEO icin ozel URL, ornek: wireline-karotiyer-ve-yedekleri' } 
           - { label: 'CTA', name: 'cta', widget: 'boolean', default: true, hint: 'Sayfaya CTA Componenti ekler.' }
           - { label: 'Content Type', name: 'contentType', widget: 'hidden', required: false, default: Service }   
-          - { label: 'Service Type', name: 'serviceType', widget: 'select', required: true,  options: ["karotlu", "rdt", ""]  }          
+          - { label: 'Service Type', name: 'serviceType', widget: 'select', required: true,  options: ["karotlu", "rdt", "tunel"]  }          
           - { label: 'Page Template', name: 'page', widget: 'hidden', required: false, default: page }                 
           - {
                 label: 'Date',
