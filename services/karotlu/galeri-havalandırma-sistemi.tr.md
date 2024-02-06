@@ -5,7 +5,7 @@ image: https://res.cloudinary.com/madsan/image/upload/v1707203742/havaland%C4%B1
 path: havalandırma
 cta: true
 contentType: Service
-serviceType: karotlu
+serviceType: rdt
 page: page
 date: 2024-02-06 10:05:51
 ---
