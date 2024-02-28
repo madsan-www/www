@@ -6,7 +6,7 @@ image: https://res.cloudinary.com/madsan/image/upload/v1636194990/madsan-stock/I
 path: services/top-hammer-equipments
 cta: true
 contentType: Service
-serviceType: rdt
+serviceType: 
 page: page
 date: 2021-11-18 11:42:41
 ---
