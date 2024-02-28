@@ -1509,8 +1509,8 @@ button:not(:disabled) {
 }
 
 .avatar.avatar-medium {
-  height: 100px;
-  width: 150px;
+  height: 90px;
+  width: 180px;
 }
 
 .avatar.avatar-large {
