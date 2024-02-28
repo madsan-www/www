@@ -29,7 +29,7 @@ function Partners() {
             >
               <img
                 src={logo.image}
-                className="avatar avatar-ex-large "
+                className="avatar avatar-small "
                 alt={logo.client}
               />
             </div>
