@@ -5,7 +5,7 @@ image: https://res.cloudinary.com/madsan/image/upload/v1636194989/madsan-stock/I
 path: hizmetler/535-triplex-camur-pompasi
 cta: true
 contentType: Service
-serviceType: karotlu
+serviceType: 
 page: page
 date: 2021-11-17 12:32:08
 ---
