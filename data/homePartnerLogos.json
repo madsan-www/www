@@ -1,3 +1,4 @@
+
 {
   "Logos": [
     {
@@ -7,6 +8,11 @@
     {
       "image": "https://res.cloudinary.com/madsan/image/upload/v1637752037/clients/wulpas_fhlk1o.png",
       "client": "Wulpas"
+    },
+    {
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1709119262/clients/b1b6e098-4958-4e3f-b46a-14aca71221ae_nfapyb.jpg
+",
+      "client": ""
     }
   ],
   "content": {
