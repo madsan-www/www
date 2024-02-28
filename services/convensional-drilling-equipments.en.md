@@ -5,7 +5,7 @@ image: https://res.cloudinary.com/madsan/image/upload/v1636194991/madsan-stock/I
 path: services/convensional-drilling- equipments
 cta: true
 contentType: Service
-serviceType: cored
+serviceType: 
 page: page
 date: 2021-11-18 11:26:51
 ---
