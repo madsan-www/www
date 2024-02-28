@@ -9,4 +9,4 @@ serviceType:
 page: page
 date: 2024-02-06 12:25:14
 ---
-t﻿unel
+Due to its polypropylene composition, it exhibits resistance against penetration by
