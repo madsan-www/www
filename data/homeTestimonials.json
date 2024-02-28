@@ -3,38 +3,6 @@
     "title": "MUTLU MÜŞTERİLERİMİZ",
     "desc": "Bilgi ve teknoloji üreten mühendislerimiz ile markalaşarak hizmet vermeye durmaksızın devam ediyoruz. Çünkü bir projeniz varsa çözüm ortağınız  MADSAN MÜHENDİSLİK'tir. "
   },
-
-  "Logos": [
-     {
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1709120957/clients/Akmetal_Madencilik_ekklg7.jpg",
-      "client": ""
-    },
-     {
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1709120998/clients/Alag%C3%B6z_Maden_jkhhw0.png",
-      "client": ""
-    },
-     {
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1709121027/clients/Avrasya_Sondaj_acl8tc.webp",
-      "client": ""
-    },
-     {
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1709121081/clients/Polyak_Eynez_hot6fe.jpg",
-      "client": ""
-    },
-     {
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1709121108/clients/Yer_Yap%C4%B1_Sondaj_zbpuaq.jpg",
-      "client": ""
-    },
-     {
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1709121128/clients/Yolcular_Jeoteknik_misgoe.png",
-      "client": ""
-    }
-  ],
-  "content": {
-    "title": "Markalar",
-    "titleEng": "Partners"
-  }
-}
   "contentENG": {
     "title": "Our Happy Customers",
     "desc": "Start working with MADSAN"
