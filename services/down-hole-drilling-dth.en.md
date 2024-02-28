@@ -6,7 +6,7 @@ image: https://res.cloudinary.com/madsan/image/upload/v1636194991/madsan-stock/I
 path: services/down-hole-drilling
 cta: true
 contentType: Service
-serviceType: cored
+serviceType: 
 page: page
 date: 2021-11-18 12:32:01
 ---
