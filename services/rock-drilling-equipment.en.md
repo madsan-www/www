@@ -7,7 +7,7 @@ image: https://res.cloudinary.com/madsan/image/upload/v1636194989/madsan-stock/I
 path: services/rock-drilling-equipment
 cta: true
 contentType: Service
-serviceType: cored
+serviceType: 
 page: page
 date: 2021-11-18 11:33:23
 ---
