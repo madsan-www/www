@@ -7,7 +7,7 @@ image: https://res.cloudinary.com/madsan/image/upload/v1636194991/madsan-stock/I
 path: hizmetler/karot-sandiklari
 cta: true
 contentType: Service
-serviceType: karotlu
+serviceType: 
 page: page
 date: 2021-11-17 12:20:27
 ---
