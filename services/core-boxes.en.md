@@ -6,7 +6,7 @@ image: https://res.cloudinary.com/madsan/image/upload/v1636194988/madsan-stock/I
 path: core-boxes
 cta: true
 contentType: Service
-serviceType: karotlu
+serviceType: 
 page: page
 date: 2021-11-18 11:29:46
 ---
