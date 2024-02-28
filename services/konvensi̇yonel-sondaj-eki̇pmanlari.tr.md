@@ -8,7 +8,7 @@ image: https://res.cloudinary.com/madsan/image/upload/v1636194991/madsan-stock/I
 path: hizmetler/konvensiyonel-sondaj-ekipmanlari
 cta: true
 contentType: Service
-serviceType: karotlu
+serviceType: 
 page: page
 date: 2021-11-14 03:28:31
 ---
