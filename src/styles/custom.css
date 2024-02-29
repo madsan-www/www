@@ -1510,7 +1510,7 @@ button:not(:disabled) {
 
 .avatar.avatar-medium {
   height: 110px;
-  width: 110px;
+  width: 150px;
 }
 
 .avatar.avatar-large {
