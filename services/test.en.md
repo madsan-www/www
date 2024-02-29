@@ -1,6 +1,6 @@
 ---
 title: Tunel
-description: Test
+description: Tunel info
 image: https://res.cloudinary.com/madsan/image/upload/v1637506724/madsan-stock/IMG_3201_dnngfl_bf98hq.jpg
 path: Due to its polypropylene composition, it exhibits resistance against penetration by organic chemicals and lacks magnetic properties. 
 cta: false
