@@ -1,7 +1,7 @@
 ---
 title: 2021 Tüyap Maden Fuarı
 description: 09 - 12 Aralık 2021 tarihleri arasinda Tüyap Maden Fuarı'ndaydık
-author: 
+
 authorTitle: TÜYAP 2021 MADEN FUARI
 authorImage: https://res.cloudinary.com/madsan/image/upload/v1648389688/IMG_0257_ilfudb.jpg
 image: https://res.cloudinary.com/madsan/image/upload/v1648389836/IMG_0582_isk67e.jpg
