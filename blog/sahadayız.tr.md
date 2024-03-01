@@ -1,7 +1,6 @@
 ---
 title: SAHADAYIZ
 description: İf mining it is Madsan
-author: admin
 authorTitle: SAHADAYIZ
 authorImage: https://res.cloudinary.com/madsan/image/upload/v1650020679/SAHADAYIZ_pqtjht.jpg
 image: https://res.cloudinary.com/madsan/image/upload/v1650020679/SAHADAYIZ_pqtjht.jpg
