@@ -1,7 +1,7 @@
 ---
 title: 'Default Page'
 description: et omnis. Fugiat beatae et illum. Eius voluptatibus voluptatum ducimus est dolorum eum.
-path: default-page
+path: default-ps
 date: 2019-07-01 01:21:23
 page: 'page'
 cta: true
