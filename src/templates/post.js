@@ -26,9 +26,6 @@ const Post = props => {
               <div className="pages-heading">
                 <h1 className="text-white">{post.frontmatter.title}</h1>
                 <ul className="list-unstyled mt-4 mb-0">
-                  <li className="list-inline-item h6 user text-white me-2">
-                    <i className="mdi mdi-account" /> {post.frontmatter.author}
-                  </li>
                   <li className="list-inline-item h6 date text-white">
                     <i className="mdi mdi-calendar-check" />{" "}
                     {post.frontmatter.date}
