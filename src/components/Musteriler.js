@@ -1,12 +1,12 @@
 import * as React from "react";
-import Musteriler from "../../data/Musteriler.json";
+import MusterilerData from "../../data/Musteriler.json";
 import { useLocale } from "../hooks/locale";
 
 function Musteriler() {
 
   const { locale } = useLocale();
   const isDefaultLang = locale === "tr" ? true : false;
-  const title = isDefaultLang ? Musteriler.content.title : Musteriler.content.titleEng;
+  const title = isDefaultLang ? MusterilerData.content.title : MusterilerData.content.titleEng;
 
   return (
     <>
@@ -22,7 +22,7 @@ function Musteriler() {
           </div>
         </div>
         <div className="row justify-content-center">
-          {Musteriler.Logos.map((logo, index) => (
+          {MusterilerData.Logos.map((logo, index) => (
             <div
               key={`_${index}`}
               className="col-lg-2 col-md-2 col-6 text-center py-4"
