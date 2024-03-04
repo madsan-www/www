@@ -11,6 +11,12 @@
       "description": "Madenciliğe dair tüm ekipmanmların imalat ve satışı, karotlu sondaj eki̇pmanları ve kaya delici eki̇pmanları.",
       "cta_button": "Detaylı Bilgi",
       "cta_link": "/hizmetler/rdt"
+    },
+    {
+      "title": "Kuyu Ölçüm ve Analiz Cihazları",
+      "description": "Madenciliğe dair tüm ekipmanların imalat ve satışı, karotlu sondaj ekipmanları ve kaya delici ekipmanları.",
+      "cta_button": "Detaylı Bilgi",
+      "cta_link": "/hizmetler/kuyu"
     }
   ],
   "en": [
@@ -25,6 +31,12 @@
       "description": "Manufacturing and sales of all mining equipment, core drilling equipment and rock drilling equipment.",
       "cta_button": "Learn More",
       "cta_link": "/services/rdt"
+    },
+    {
+      "title": "Well Measurement and Analysis Devices",
+      "description": "Manufacturing and sales of all mining equipment, core drilling equipment and rock drilling equipment.",
+      "cta_button": "Learn More",
+      "cta_link": "/services/kuyu"
     }
   ]
 }
