@@ -11,7 +11,7 @@ function Features() {
   return (
     <>
       <section className="section">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-lg-10">
               <div className="features-absolute">
