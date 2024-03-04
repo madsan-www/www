@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import Features from "../components/Features";
 import AboutHome from "../components/AboutHome";
 import CTA from "../components/CTA";
+import Musteriler from "../components/Musteriler";
 import Partners from "../components/Partners";
 import Testimonials from "../components/Testimonials";
 import BlogListHome from "../components/BlogListHome";
@@ -26,6 +27,7 @@ const IndexPage = () => {
       <Features />
       <AboutHome />
       <Partners />
+      <Musteriler />
       <CTA />
       <Testimonials />
       <BlogListHome />
