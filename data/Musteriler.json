@@ -1,0 +1,36 @@
+{
+  "Logos": [
+    {
+      "image": "https://res.cloudinary.com/madsan/image/upload/f_auto,q_auto/a2ka7f6ddstrouorxr37",
+      "client": "Akmetal Madencilik"
+    },
+    {
+      "image": "https://res.cloudinary.com/madsan/image/upload/f_auto,q_auto/h01ovxjrmffaeen5u6b1",
+      "client" : "Yer Yapı"
+    },
+    {
+      "image": "https://res.cloudinary.com/madsan/image/upload/f_auto,q_auto/krrq7vxmassmxkrdkvd1",
+      "client": "Alagöz Maden"
+    },
+    {
+      "image": "https://res.cloudinary.com/madsan/image/upload/f_auto,q_auto/a3uzqt0leob40gmx7uid",
+      "client" : "Yolcular Jeoteknik"
+    },
+    {
+      "image": "https://res.cloudinary.com/madsan/image/upload/f_auto,q_auto/soly3hwvj1alkfgoicky",
+      "client": "Orhun Metal"
+    },
+    {
+      "image": "https://res.cloudinary.com/madsan/image/upload/f_auto,q_auto/n80srjzadfwnwubo5cwk",
+      "client": "polyakeynez"
+    },
+    {
+      "image": "https://res.cloudinary.com/madsan/image/upload/f_auto,q_auto/zxxzd5ntu8pypy2jnamm",
+      "client": "Avrasya Sondaj"
+    }
+  ],
+  "content": {
+    "title": "Mutlu Müşteriler",
+    "titleEng": "Happy Customers"
+  }
+}
