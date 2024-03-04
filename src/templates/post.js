@@ -26,10 +26,10 @@ const Post = props => {
               <div className="pages-heading">
                 <h1 className="text-white">{post.frontmatter.title}</h1>
                 <ul className="list-unstyled mt-4 mb-0">
-                  <li className="list-inline-item h6 date text-white">
-                    <i className="mdi mdi-calendar-check" />{" "}
-                    {post.frontmatter.date}
+                  <li className="list-inline-item h6 user text-white me-2">
+                    <i className="mdi mdi-account" /> MAD-SAN MÜHENDİSLİK
                   </li>
+                
                 </ul>
               </div>
             </div>
@@ -53,7 +53,7 @@ const Post = props => {
       <section className="section">
         <div className="container">
           <div className="row">
-            <div className="col-lg-8 col-md-6">
+            <div className="col-lg-12 col-md-12">
               <div className="card blog blog-detail border-0 shadow rounded">
                 <div className="card-body content">
                   <p
@@ -63,51 +63,7 @@ const Post = props => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-              <div className="card border-0 sidebar sticky-bar ms-lg-4">
-                <div className="card-body p-0">
-                  <div className="text-center">
-                    <span className="bg-light d-block py-2 rounded shadow text-center h6 mb-0">
-                      Author
-                    </span>
-                    <div className="mt-4">
-                      <img
-                        src={post.frontmatter.authorImage}
-                        className="img-fluid object-full avatar avatar-small rounded-pill shadow-md d-block mx-auto"
-                        alt={post.frontmatter.author}
-                      />
-                      <a
-                        href="blog-about.html"
-                        className="text-primary h5 mt-4 mb-0 d-block"
-                      >
-                        {post.frontmatter.author}
-                      </a>
-                      <small className="text-muted d-block">
-                        {post.frontmatter.authorTitle}
-                      </small>
-                    </div>
-                  </div>
-                  {/* TAG CLOUDS */}
-                  <div className="widget mt-4">
-                    <span className="bg-light d-block py-2 rounded shadow text-center h6 mb-0">
-                      Tags
-                    </span>
-                    <div className="tagcloud text-center mt-4">
-                      {post.frontmatter.tags.map((items, index) => {
-                        return (
-                          <span
-                            key={`${index}`}
-                            className="rounded"
-                          >
-                            {items}
-                          </span>
-                        );
-                      })}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>
