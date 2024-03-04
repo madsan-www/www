@@ -17,7 +17,7 @@ function Features() {
               <div className="features-absolute">
                 <div className="row g-2">
                   {data.map((items, index) => (
-                    <div key={`_${index}`} className="col-md-6 col-12">
+                    <div key={`_${index}`} className="col-md-4 col-12">
                       <LocalizedLink
                         to={items.cta_link}
                         className="readmore text-dark"
