@@ -28,8 +28,8 @@ const IndexPage = () => {
       <AboutHome />
       <Partners />
       <CTA />
+      <Musteriler />    
       <Testimonials />
-      <Musteriler />  
       <BlogListHome />
     </div>
   );
