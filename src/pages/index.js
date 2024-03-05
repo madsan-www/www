@@ -27,9 +27,9 @@ const IndexPage = () => {
       <Features />
       <AboutHome />
       <Partners />
-      <CTA />
-      <Musteriler />    
+      <CTA />  
       <Testimonials />
+      <Musteriler />   
       <BlogListHome />
     </div>
   );
