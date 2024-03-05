@@ -6,7 +6,6 @@ function Musteriler() {
 
   const { locale } = useLocale();
   const isDefaultLang = locale === "tr" ? true : false;
-  const title = isDefaultLang ? MusterilerData.content.title : MusterilerData.content.titleEng;
 
   return (
     <>
