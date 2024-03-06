@@ -59,7 +59,7 @@ const KuyuEn = props => {
 
   <div class="row">
     <div class="col-md-6">
-<a href="/borehole-en"
+<a href="/borehole-en">
       <div class="card mb-4">
         <div class="card-body">
           <h5 class="card-title">Borehole Seismic</h5>
@@ -68,7 +68,7 @@ const KuyuEn = props => {
 </a>
     </div>
     <div class="col-md-6">
-<a href="/borehole-logging-en"
+<a href="/borehole-logging-en">
       <div class="card mb-4">
         <div class="card-body">
           <h5 class="card-title">Borehole Logging</h5>
@@ -77,7 +77,7 @@ const KuyuEn = props => {
 </a>
     </div>
     <div class="col-md-6">
-<a href="/rock-sampling-en"
+<a href="/rock-sampling-en">
       <div class="card mb-4">
         <div class="card-body">
           <h5 class="card-title">Rock Sampling</h5>
@@ -86,7 +86,7 @@ const KuyuEn = props => {
 </a>
     </div>
     <div class="col-md-6">
-<a href="/aerosmart-en"
+<a href="/aerosmart-en">
       <div class="card mb-4">
         <div class="card-body">
           <h5 class="card-title">AeroSmartMag</h5>
