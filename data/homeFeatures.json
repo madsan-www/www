@@ -16,7 +16,7 @@
       "title": "Kuyu Ölçüm ve Analiz Cihazları",
       "description": "Madenciliğe dair tüm ekipmanların imalat ve satışı, karotlu sondaj ekipmanları ve kaya delici ekipmanları.",
       "cta_button": "Detaylı Bilgi",
-      "cta_link": "/hizmetler/kuyu"
+      "cta_link": "/kuyu-olcum-ve-analiz"
     }
   ],
   "en": [
@@ -36,7 +36,7 @@
       "title": "Well Measurement and Analysis Devices",
       "description": "Manufacturing and sales of all mining equipment, core drilling equipment and rock drilling equipment.",
       "cta_button": "Learn More",
-      "cta_link": "/services/kuyu"
+      "cta_link": "/kuyu-olcum-ve-analiz-en"
     }
   ]
 }
