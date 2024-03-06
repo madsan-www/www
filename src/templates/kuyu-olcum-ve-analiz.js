@@ -3,7 +3,7 @@ import { graphql } from "gatsby";
 import SEO from "../components/SEO";
 import CtaBasic from "../components/CTAbasic";
 
-const Page = props => {
+const Kuyu = props => {
   const post = props.data.markdownRemark;
 
   return (
@@ -21,7 +21,7 @@ const Page = props => {
         <div className="container">
           <div className="row mt-5 justify-content-center">
             <div className="col-lg-12 text-center">
-              <div className="pages-heading title-heading">
+              <div className="Kuyus-heading title-heading">
                 <h2 className="text-white title-dark">
                   {" "}
                   {post.frontmatter.title}{" "}
@@ -99,7 +99,7 @@ const Page = props => {
 };
 
 export const query = graphql`
-  query Page($locale: String!, $title: String!) {
+  query Kuyu($locale: String!, $title: String!) {
     markdownRemark(
       frontmatter: { title: { eq: $title } }
       fields: { locale: { eq: $locale } }
@@ -115,4 +115,4 @@ export const query = graphql`
   }
 `;
 
-export default Page;
+export default Kuyu;
