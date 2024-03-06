@@ -59,7 +59,7 @@ const Kuyu = props => {
 
   <div class="row">
     <div class="col-md-6">
-<a href="/borehole-tr"
+<a href="/borehole-tr">
       <div class="card mb-4">
         <div class="card-body">
           <h5 class="card-title">Borehole Seismic</h5>
@@ -68,7 +68,7 @@ const Kuyu = props => {
 </a>
     </div>
     <div class="col-md-6">
-<a href="/borehole-logging-tr"
+<a href="/borehole-logging-tr">
       <div class="card mb-4">
         <div class="card-body">
           <h5 class="card-title">Borehole Logging</h5>
@@ -77,7 +77,7 @@ const Kuyu = props => {
 </a>
     </div>
     <div class="col-md-6">
-<a href="/rock-sampling-tr"
+<a href="/rock-sampling-tr">
       <div class="card mb-4">
         <div class="card-body">
           <h5 class="card-title">Rock Sampling</h5>
@@ -86,7 +86,7 @@ const Kuyu = props => {
 </a>
     </div>
     <div class="col-md-6">
-<a href="/aerosmart-tr"
+<a href="/aerosmart-tr">
       <div class="card mb-4">
         <div class="card-body">
           <h5 class="card-title">AeroSmartMag</h5>
