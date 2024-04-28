@@ -4,7 +4,7 @@ backend:
     branch: main
     # site_domain: https://mad-san.com
 
-local_backend: true    
+local_backend: true
 
 publish_mode: editorial_workflow
 media_folder: 'static/assets/img'
@@ -19,15 +19,15 @@ media_library:
     #This KEY is NOT Sensitive --> https://www.netlifycms.org/docs/cloudinary/#security-considerations
 
 collections:
-    - name: 'home-page' 
+    - name: 'home-page'
       label: 'Home Page'
       delete: false
       files:
           - label: 'Hero Section'
-            name: 'hero-section'            
+            name: 'hero-section'
             file: 'data/homePage.json'
-            editor: 
-              preview: false 
+            editor:
+              preview: false
             fields:
                 - label: Hero Slider TR
                   name: 'tr'
@@ -35,27 +35,27 @@ collections:
                   allow_add: true
                   fields:
                       - { label: 'Title', name: 'title', widget: 'string' }
-                      - { label: 'Description', name: 'description', widget: 'string' }     
-                      - { label: 'cta_button', name: 'cta_button', widget: 'string' } 
-                      - { label: 'Only Banner', name: 'onlyBanner', widget: 'boolean', default: false, required: false, hint: 'Show only banner, without contents or CTA.' }                             
-                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }  
-                      - { label: 'Slide Image', name: 'image', widget: 'image' } 
+                      - { label: 'Description', name: 'description', widget: 'string' }
+                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }
+                      - { label: 'Only Banner', name: 'onlyBanner', widget: 'boolean', default: false, required: false, hint: 'Show only banner, without contents or CTA.' }
+                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }
+                      - { label: 'Slide Image', name: 'image', widget: 'image' }
                 - label: Hero Slider ENG
                   name: 'en'
                   widget: list
                   allow_add: true
                   fields:
                       - { label: 'Title', name: 'title', widget: 'string' }
-                      - { label: 'Description', name: 'description', widget: 'string' }     
-                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
-                      - { label: 'Only Banner', name: 'onlyBanner', widget: 'boolean', default: false,required: false, hint: 'Show only banner, without contents or CTA.'}                  
-                      - { label: 'cta_link', name: 'cta_link', widget: 'string' } 
-                      - { label: 'Slide Image', name: 'image', widget: 'image', }      
+                      - { label: 'Description', name: 'description', widget: 'string' }
+                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }
+                      - { label: 'Only Banner', name: 'onlyBanner', widget: 'boolean', default: false,required: false, hint: 'Show only banner, without contents or CTA.'}
+                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }
+                      - { label: 'Slide Image', name: 'image', widget: 'image', }
           - label: 'Features Section'
-            name: 'features-section'            
+            name: 'features-section'
             file: 'data/homeFeatures.json'
-            editor: 
-              preview: false 
+            editor:
+              preview: false
             fields:
                 - label: Hero TR
                   name: 'tr'
@@ -64,9 +64,9 @@ collections:
                   allow_add: true
                   fields:
                       - { label: 'Title', name: 'title', widget: 'string' }
-                      - { label: 'Description', name: 'description', widget: 'string' }     
-                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
-                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }  
+                      - { label: 'Description', name: 'description', widget: 'string' }
+                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }
+                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }
                 - label: Hero EN
                   name: 'en'
                   widget: list
@@ -74,22 +74,22 @@ collections:
                   allow_add: true
                   fields:
                       - { label: 'Title', name: 'title', widget: 'string' }
-                      - { label: 'Description', name: 'description', widget: 'string' }     
-                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
-                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }            
+                      - { label: 'Description', name: 'description', widget: 'string' }
+                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }
+                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }
           - label: 'Document Download Section'
-            name: 'document-download-section'            
+            name: 'document-download-section'
             file: 'data/homeAbout.json'
-            editor: 
-              preview: false 
+            editor:
+              preview: false
             fields:
                 - label: Image
                   name: 'commons'
                   widget: object
                   collapsed: true
                   allow_add: false
-                  fields:                      
-                      - { label: 'Image ', name: 'image', widget: 'image', required: false }                  
+                  fields:
+                      - { label: 'Image ', name: 'image', widget: 'image', required: false }
                 - label: Home About TR
                   name: 'tr'
                   widget: list
@@ -97,11 +97,11 @@ collections:
                   allow_add: false
                   fields:
                       - { label: 'Up Title', name: 'upTitle', widget: 'string' }
-                      - { label: 'Title', name: 'title', widget: 'string' } 
-                      - { label: 'sectionVisible', name: 'sectionVisible', widget: 'boolean' }    
-                      - { label: 'Description', name: 'description', widget: 'string' }     
-                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
-                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }  
+                      - { label: 'Title', name: 'title', widget: 'string' }
+                      - { label: 'sectionVisible', name: 'sectionVisible', widget: 'boolean' }
+                      - { label: 'Description', name: 'description', widget: 'string' }
+                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }
+                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }
                 - label: Home About EN
                   name: 'en'
                   widget: list
@@ -110,15 +110,15 @@ collections:
                   fields:
                       - { label: 'Up Title', name: 'upTitle', widget: 'string' }
                       - { label: 'Title', name: 'title', widget: 'string' }
-                      - { label: 'sectionVisible', name: 'sectionVisible', widget: 'boolean' }  
-                      - { label: 'Description', name: 'description', widget: 'string' }     
-                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
-                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }          
+                      - { label: 'sectionVisible', name: 'sectionVisible', widget: 'boolean' }
+                      - { label: 'Description', name: 'description', widget: 'string' }
+                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }
+                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }
           - label: 'Home Partner Logos'
-            name: 'home-partner-logos'            
+            name: 'home-partner-logos'
             file: 'data/homePartnerLogos.json'
-            editor: 
-              preview: false 
+            editor:
+              preview: false
             fields:
                 - label: Logolar
                   name: 'Logos'
@@ -126,113 +126,113 @@ collections:
                   allow_add: true
                   fields:
                       - { label: 'Client', name: 'client', widget: 'string' }
-                      - { label: 'Logo', name: 'image', widget: 'image' }  
+                      - { label: 'Logo', name: 'image', widget: 'image' }
                 - label: Content
                   name: 'content'
                   widget: object
                   allow_add: false
                   fields:
                       - { label: 'Title TR', name: 'title', widget: 'string' }
-                      - { label: 'Title EN', name: 'titleEng', widget: 'string' }       
-                      
+                      - { label: 'Title EN', name: 'titleEng', widget: 'string' }
+
           - label: 'Home Services'
-            name: 'home-services'            
+            name: 'home-services'
             file: 'data/homeServices.json'
-            editor: 
-              preview: false           
+            editor:
+              preview: false
             fields:
                 - label: Services TR
                   name: 'tr'
                   widget: object
-                  collapsed: true    
+                  collapsed: true
                   allow_add: false
                   fields:
                       - { label: 'Title', name: 'title', widget: 'string' }
-                      - { label: 'Description', name: 'description', widget: 'string' }   
+                      - { label: 'Description', name: 'description', widget: 'string' }
                 - label: Services EN
                   name: 'en'
                   widget: object
-                  collapsed: true    
+                  collapsed: true
                   allow_add: false
                   fields:
                       - { label: 'Title', name: 'title', widget: 'string' }
-                      - { label: 'Description', name: 'description', widget: 'string' } 
+                      - { label: 'Description', name: 'description', widget: 'string' }
           - label: 'Home CTA'
-            name: 'home-cta'            
+            name: 'home-cta'
             file: 'data/homeCta.json'
-            editor: 
-              preview: false           
+            editor:
+              preview: false
             fields:
                 - label: Image
                   name: 'commons'
                   widget: object
-                  collapsed: true  
+                  collapsed: true
                   allow_add: false
-                  fields:                      
-                      - { label: 'Image ', name: 'background_image', widget: 'image', required: false }                  
+                  fields:
+                      - { label: 'Image ', name: 'background_image', widget: 'image', required: false }
                 - label: Home CTA TR
                   name: 'tr'
                   widget: object
-                  collapsed: true  
+                  collapsed: true
                   allow_add: false
                   fields:
-                      - { label: 'Title', name: 'title', widget: 'string' }                      
-                      - { label: 'Description', name: 'description', widget: 'string' }     
-                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
-                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }  
+                      - { label: 'Title', name: 'title', widget: 'string' }
+                      - { label: 'Description', name: 'description', widget: 'string' }
+                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }
+                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }
                 - label: Home CTA EN
                   name: 'en'
                   widget: object
-                  collapsed: true  
+                  collapsed: true
                   allow_add: false
                   fields:
-                      - { label: 'Title', name: 'title', widget: 'string' }                      
-                      - { label: 'Description', name: 'description', widget: 'string' }     
-                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
-                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }     
+                      - { label: 'Title', name: 'title', widget: 'string' }
+                      - { label: 'Description', name: 'description', widget: 'string' }
+                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }
+                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }
           - label: 'Home Testimonials'
-            name: 'home-testimonials'            
+            name: 'home-testimonials'
             file: 'data/homeTestimonials.json'
-            editor: 
-              preview: false           
+            editor:
+              preview: false
             fields:
                 - label: contentTR
                   name: 'contentTR'
                   widget: object
-                  collapsed: true  
+                  collapsed: true
                   allow_add: false
                   fields:
-                      - { label: 'Title', name: 'title', widget: 'string' }                      
-                      - { label: 'Description', name: 'desc', widget: 'string' }     
+                      - { label: 'Title', name: 'title', widget: 'string' }
+                      - { label: 'Description', name: 'desc', widget: 'string' }
                 - label: contentENG
                   name: 'contentENG'
                   widget: object
-                  collapsed: true  
+                  collapsed: true
                   allow_add: false
                   fields:
-                      - { label: 'Title', name: 'title', widget: 'string' }                      
-                      - { label: 'Description', name: 'desc', widget: 'string' }      
+                      - { label: 'Title', name: 'title', widget: 'string' }
+                      - { label: 'Description', name: 'desc', widget: 'string' }
                 - label: Clients
                   name: 'clients'
                   widget: list
-                  collapsed: true  
+                  collapsed: true
                   allow_add: true
                   fields:
-                      - { label: 'Clients Name', name: 'name', widget: 'string' }       
-                      - { label: 'Clients Title', name: 'title', widget: 'string', required: false } 
-                      - { label: 'Clients Avatar', name: 'image', widget: 'image', required: false }                                   
+                      - { label: 'Clients Name', name: 'name', widget: 'string' }
+                      - { label: 'Clients Title', name: 'title', widget: 'string', required: false }
+                      - { label: 'Clients Avatar', name: 'image', widget: 'image', required: false }
                       - { label: 'Quote', name: 'quote', widget: 'string' }
-                      - { label: 'Quote in English', name: 'quoteENG', widget: 'string', required: false }                       
-                      - { label: 'Company Logo', name: 'logo', widget: 'image', required: false }                      
-    - name: 'cta-components' 
+                      - { label: 'Quote in English', name: 'quoteENG', widget: 'string', required: false }
+                      - { label: 'Company Logo', name: 'logo', widget: 'image', required: false }
+    - name: 'cta-components'
       label: 'CTA'
       delete: false
       files:
           - label: 'CTA Section'
-            name: 'cta-section'            
+            name: 'cta-section'
             file: 'data/cta.json'
-            editor: 
-              preview: false 
+            editor:
+              preview: false
             fields:
                 - label: CTA Basic Section TR
                   name: 'tr'
@@ -240,88 +240,134 @@ collections:
                   allow_add: false
                   fields:
                       - { label: 'Title', name: 'title', widget: 'string' }
-                      - { label: 'Description', name: 'description', widget: 'string' }     
-                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
-                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }  
+                      - { label: 'Description', name: 'description', widget: 'string' }
+                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }
+                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }
                 - label: CTA Basic Section ENG
                   name: 'en'
                   widget: object
                   allow_add: false
                   fields:
                       - { label: 'Title', name: 'title', widget: 'string' }
-                      - { label: 'Description', name: 'description', widget: 'string' }     
-                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }    
-                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }      
+                      - { label: 'Description', name: 'description', widget: 'string' }
+                      - { label: 'cta_button', name: 'cta_button', widget: 'string' }
+                      - { label: 'cta_link', name: 'cta_link', widget: 'string' }
 
 
-                      
+
     - name: 'services-en'
-      label: 'Services English 🇺🇸' 
-      folder: 'services' 
-      create: true 
-      editor: 
-        preview: false 
+      label: 'Services English 🇺🇸'
+      folder: 'services'
+      create: true
+      editor:
+        preview: false
       slug: '{{slug}}'
       extension: 'en.md'
       format: frontmatter
-      fields: 
+      fields:
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Description', name: 'description', widget: 'string' } 
+          - { label: 'Description', name: 'description', widget: 'string' }
           - { label: 'Image', name: 'image', widget: 'image' }
-          - { label: 'Path', name: 'path', widget: 'string', required: true, hint: 'SEO icin ozel URL, ornek: wireline-karotiyer-ve-yedekleri' } 
+          - { label: 'Path', name: 'path', widget: 'string', required: true, hint: 'SEO icin ozel URL, ornek: wireline-karotiyer-ve-yedekleri' }
           - { label: 'CTA', name: 'cta', widget: 'boolean', default: true, hint: 'Sayfaya CTA Componenti ekler.' }
-          - { label: 'Content Type', name: 'contentType', widget: 'hidden', required: false, default: Service } 
-          - { label: 'Service Type', name: 'serviceType', widget: 'select', required: true,  options: ["cored", "rdt", "tunel", ""]  }             
-          - { label: 'Page Template', name: 'page', widget: 'hidden', required: false, default: page }                 
+          - { label: 'Content Type', name: 'contentType', widget: 'hidden', required: false, default: Service }
+          - { label: 'Service Type', name: 'serviceType', widget: 'select', required: true,  options: ["cored", "rdt", "tunel", ""]  }
+          - { label: 'Page Template', name: 'page', widget: 'hidden', required: false, default: page }
           - {
                 label: 'Date',
                 name: 'date',
                 widget: 'datetime',
                 format: 'YYYY-MM-DD hh:mm:ss',
             }
-          - { label: 'Body', name: 'body', widget: 'markdown' }   
+          - { label: 'Body', name: 'body', widget: 'markdown' }
 
     - name: 'services-tr'
-      label: 'Services Turkish 🇹🇷' 
-      folder: 'services' 
-      create: true 
-      editor: 
-        preview: false 
+      label: 'Services Turkish 🇹🇷'
+      folder: 'services'
+      create: true
+      editor:
+        preview: false
       slug: '{{serviceType}}/{{slug}}'
       extension: 'tr.md'
       format: frontmatter
-      fields: 
+      fields:
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Description', name: 'description', widget: 'string' } 
+          - { label: 'Description', name: 'description', widget: 'string' }
           - { label: 'Image', name: 'image', widget: 'image' }
-          - { label: 'Path', name: 'path', widget: 'string', required: true, hint: 'SEO icin ozel URL, ornek: wireline-karotiyer-ve-yedekleri' } 
+          - { label: 'Path', name: 'path', widget: 'string', required: true, hint: 'SEO icin ozel URL, ornek: wireline-karotiyer-ve-yedekleri' }
           - { label: 'CTA', name: 'cta', widget: 'boolean', default: true, hint: 'Sayfaya CTA Componenti ekler.' }
-          - { label: 'Content Type', name: 'contentType', widget: 'hidden', required: false, default: Service }   
-          - { label: 'Service Type', name: 'serviceType', widget: 'select', required: true,  options: ["karotlu", "rdt", "tunel"]  }          
-          - { label: 'Page Template', name: 'page', widget: 'hidden', required: false, default: page }                 
+          - { label: 'Content Type', name: 'contentType', widget: 'hidden', required: false, default: Service }
+          - { label: 'Service Type', name: 'serviceType', widget: 'select', required: true,  options: ["karotlu", "rdt", "tunel"]  }
+          - { label: 'Page Template', name: 'page', widget: 'hidden', required: false, default: page }
           - {
                 label: 'Date',
                 name: 'date',
                 widget: 'datetime',
                 format: 'YYYY-MM-DD hh:mm:ss',
             }
-          - { label: 'Body', name: 'body', widget: 'markdown' }                            
+          - { label: 'Body', name: 'body', widget: 'markdown' }
 
-# Contact Page Section
+    - name: 'products-tr'
+      label: 'Ürünler Turkish 🇹🇷'
+      folder: 'products'
+      create: true
+      editor:
+        preview: false
+      slug: '{{slug}}'
+      extension: 'tr.md'
+      format: frontmatter
+      fields:
+        - { label: 'Title', name: 'title', widget: 'string' }
+        - { label: 'Description', name: 'description', widget: 'string' }
+        - { label: 'Featured', name: 'featured', widget: 'featured' }
+        - { label: 'Path', name: 'path', widget: 'string', required: true, hint: 'SEO icin ozel URL, ornek: wireline-karotiyer-ve-yedekleri' }
+        - { label: 'Page Template', name: 'page', widget: 'hidden', required: false, default: page }
+        - {
+          label: 'Date',
+          name: 'date',
+          widget: 'datetime',
+          format: 'YYYY-MM-DD hh:mm:ss',
+        }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
+
+    - name: 'products-en'
+      label: 'Ürünler English 🇺🇸'
+      folder: 'products'
+      create: true
+      editor:
+        preview: false
+      slug: '{{slug}}'
+      extension: 'en.md'
+      format: frontmatter
+      fields:
+        - { label: 'Title', name: 'title', widget: 'string' }
+        - { label: 'Description', name: 'description', widget: 'string' }
+        - { label: 'Featured', name: 'featured', widget: 'featured' }
+        - { label: 'Path', name: 'path', widget: 'string', required: true, hint: 'SEO icin ozel URL, ornek: wireline-karotiyer-ve-yedekleri' }
+        - { label: 'Page Template', name: 'page', widget: 'hidden', required: false, default: page }
+        - {
+          label: 'Date',
+          name: 'date',
+          widget: 'datetime',
+          format: 'YYYY-MM-DD hh:mm:ss',
+        }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  # Contact Page Section
     - name: 'contact-pages'
-      label: 'Contact Pages' 
-      folder: 'pages/contact' 
-      create: false 
+      label: 'Contact Pages'
+      folder: 'pages/contact'
+      create: false
       slug: '{{slug}}'
       extension: '.md'
       format: frontmatter
-      editor: 
-        preview: false 
-      fields: 
+      editor:
+        preview: false
+      fields:
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Description', name: 'description', widget: 'string', required: false }          
+          - { label: 'Description', name: 'description', widget: 'string', required: false }
           - { label: 'Page', name: 'page', widget: 'hidden', default: 'page' }
-          - { label: 'Path', name: 'path', widget: 'string', required: false, hint: 'Custom URL Path instead of Slug.' }          
+          - { label: 'Path', name: 'path', widget: 'string', required: false, hint: 'Custom URL Path instead of Slug.' }
           - { label: 'Google Map Url', name: 'mapURL', widget: 'string' }
           - label: Form Section
             name: 'form'
@@ -329,32 +375,32 @@ collections:
             collapsed: false
             allow_add: false
             fields:
-              - { label: 'Title', name: 'title', widget: 'string' }  
-              - { label: 'Description', name: 'description', widget: 'string' }  
-              - { label: 'Name', name: 'name', widget: 'string' }  
-              - { label: 'Email', name: 'email', widget: 'string' }  
-              - { label: 'Subject', name: 'subject', widget: 'string' }  
-              - { label: 'Message', name: 'message', widget: 'string' }  
-              - { label: 'Form Button', name: 'sendMessage', widget: 'string' }                                                                                      
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'string' }
+              - { label: 'Name', name: 'name', widget: 'string' }
+              - { label: 'Email', name: 'email', widget: 'string' }
+              - { label: 'Subject', name: 'subject', widget: 'string' }
+              - { label: 'Message', name: 'message', widget: 'string' }
+              - { label: 'Form Button', name: 'sendMessage', widget: 'string' }
 
 # Pages Section
 
     - name: 'pages-en'
-      label: 'Pages English 🇺🇸' 
-      folder: 'pages' 
-      create: true 
+      label: 'Pages English 🇺🇸'
+      folder: 'pages'
+      create: true
       slug: '{{slug}}'
       extension: 'en.md'
       format: frontmatter
-      editor: 
-        preview: false 
-      fields: 
+      editor:
+        preview: false
+      fields:
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Description', name: 'description', widget: 'string', required: false }          
+          - { label: 'Description', name: 'description', widget: 'string', required: false }
           - { label: 'Image', name: 'image', widget: 'image' }
           - { label: 'Page', name: 'page', widget: 'hidden', default: 'page' }
           - { label: 'CTA', name: 'cta', widget: 'boolean', default: true, hint: 'Sayfaya CTA Componenti ekler.' }
-          - { label: 'Path', name: 'path', widget: 'string', required: false, hint: 'Custom URL Path instead of Slug.' }          
+          - { label: 'Path', name: 'path', widget: 'string', required: false, hint: 'Custom URL Path instead of Slug.' }
           - {
                 label: 'Date',
                 name: 'date',
@@ -364,21 +410,21 @@ collections:
           - { label: 'Body', name: 'body', widget: 'markdown' }
 
     - name: 'pages-tr'
-      label: 'Pages Turkish 🇹🇷' 
-      folder: 'pages' 
-      create: true 
+      label: 'Pages Turkish 🇹🇷'
+      folder: 'pages'
+      create: true
       slug: '{{slug}}'
       extension: 'tr.md'
-      editor: 
-        preview: false 
+      editor:
+        preview: false
       format: frontmatter
-      fields: 
+      fields:
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Description', name: 'description', widget: 'string', required: false  }          
+          - { label: 'Description', name: 'description', widget: 'string', required: false  }
           - { label: 'Image', name: 'image', widget: 'image' }
           - { label: 'Page', name: 'page', widget: 'hidden', default: 'page' }
           - { label: 'CTA', name: 'cta', widget: 'boolean', default: true, hint: 'Sayfaya CTA Componenti ekler.' }
-          - { label: 'Path', name: 'path', widget: 'string', required: false, hint: 'Custom URL Path instead of Slug.' }          
+          - { label: 'Path', name: 'path', widget: 'string', required: false, hint: 'Custom URL Path instead of Slug.' }
           - {
                 label: 'Date',
                 name: 'date',
@@ -388,23 +434,23 @@ collections:
           - { label: 'Body', name: 'body', widget: 'markdown' }
 
     - name: 'post-tr'
-      label: 'Blog Posts Turkish 🇹🇷' 
-      folder: 'blog' 
-      create: true 
-      editor: 
+      label: 'Blog Posts Turkish 🇹🇷'
+      folder: 'blog'
+      create: true
+      editor:
         preview: false
       slug: '{{slug}}'
       extension: 'tr.md'
       format: frontmatter
-      fields: 
+      fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Description', name: 'description', widget: 'string' }
           - { label: 'Author', name: 'author', widget: 'string' }
-          - { label: 'authorTitle', name: 'authorTitle', widget: 'string' }  
-          - { label: 'Author Image', name: 'authorImage', widget: 'image' }                  
+          - { label: 'authorTitle', name: 'authorTitle', widget: 'string' }
+          - { label: 'Author Image', name: 'authorImage', widget: 'image' }
           - { label: 'Image', name: 'image', widget: 'image' }
-          - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, required: false }                  
-          - { label: 'Path', name: 'path', widget: 'string', required: false, hint: 'Custom URL Path instead of Slug' }          
+          - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, required: false }
+          - { label: 'Path', name: 'path', widget: 'string', required: false, hint: 'Custom URL Path instead of Slug' }
           - {
                 label: 'Date',
                 name: 'date',
@@ -414,43 +460,43 @@ collections:
           - { label: 'Body', name: 'body', widget: 'markdown' }
 
     - name: 'post-en'
-      label: 'Blog Posts English 🇺🇸' 
-      folder: 'blog' 
-      create: true 
-      editor: 
+      label: 'Blog Posts English 🇺🇸'
+      folder: 'blog'
+      create: true
+      editor:
         preview: false
       slug: '{{slug}}'
       extension: 'en.md'
       format: frontmatter
-      fields: 
+      fields:
           - { label: 'Title', name: 'title', widget: 'string' }
           - { label: 'Description', name: 'description', widget: 'string' }
           - { label: 'Author', name: 'author', widget: 'string' }
-          - { label: 'authorTitle', name: 'authorTitle', widget: 'string' }  
-          - { label: 'Author Image', name: 'authorImage', widget: 'image' }                  
+          - { label: 'authorTitle', name: 'authorTitle', widget: 'string' }
+          - { label: 'Author Image', name: 'authorImage', widget: 'image' }
           - { label: 'Image', name: 'image', widget: 'image' }
-          - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, required: false }                  
-          - { label: 'Path', name: 'path', widget: 'string', required: false, hint: 'Custom URL Path instead of Slug' }          
+          - { label: 'Tags', name: 'tags', widget: 'list', allow_add: true, required: false }
+          - { label: 'Path', name: 'path', widget: 'string', required: false, hint: 'Custom URL Path instead of Slug' }
           - {
                 label: 'Date',
                 name: 'date',
                 widget: 'datetime',
                 format: 'YYYY-MM-DD hh:mm:ss',
             }
-          - { label: 'Body', name: 'body', widget: 'markdown' }          
+          - { label: 'Body', name: 'body', widget: 'markdown' }
 
 
     # - name: 'jobs'
-    #   label: 'Jobs' 
-    #   folder: 'jobs' 
-    #   create: true 
-    #   slug: '{{slug}}' 
+    #   label: 'Jobs'
+    #   folder: 'jobs'
+    #   create: true
+    #   slug: '{{slug}}'
     #   extension: 'en.md'
     #   format: frontmatter
-    #   fields: 
+    #   fields:
     #       - { label: 'Title', name: 'title', widget: 'string' }
     #       - { label: 'Description', name: 'description', widget: 'string', required: false }
-    #       - { label: 'URL', name: 'path', widget: 'string', required: false, hint: "Example: career/native-ios-developer " }       
+    #       - { label: 'URL', name: 'path', widget: 'string', required: false, hint: "Example: career/native-ios-developer " }
     #       - {
     #             label: 'Locations',
     #             name: 'location',
@@ -461,7 +507,7 @@ collections:
     #                     'Izmir',
     #                     'Remote',
     #                 ],
-    #         }          
+    #         }
     #       - {
     #             label: 'Date',
     #             name: 'date',
@@ -469,16 +515,16 @@ collections:
     #             format: 'YYYY-MM-DD hh:mm:ss',
     #         }
     #       - { label: 'image', name: 'image', widget: 'image' }
-    #       - { label: 'jobs', name: 'page', widget: 'hidden', default: 'jobs' }          
-    #       - { label: 'Body', name: 'body', widget: 'markdown' }    
-    - name: 'menu' 
+    #       - { label: 'jobs', name: 'page', widget: 'hidden', default: 'jobs' }
+    #       - { label: 'Body', name: 'body', widget: 'markdown' }
+    - name: 'menu'
       label: 'Menu'
       delete: false
       editor:
         preview: false
       files:
           - label: 'Header Menu English'
-            name: 'header-menu-en'            
+            name: 'header-menu-en'
             file: 'config/menu/en.json'
             fields:
                 - label: header-menu-en
@@ -487,10 +533,10 @@ collections:
                   collapsed: true
                   allow_add: true
                   fields:
-                      - { label: 'Name', name: 'name', widget: 'string' }  
-                      - { label: 'Link', name: 'link', widget: 'string', required: false }   
+                      - { label: 'Name', name: 'name', widget: 'string' }
+                      - { label: 'Link', name: 'link', widget: 'string', required: false }
           - label: 'Header Menu Turkish'
-            name: 'header-menu-tr'            
+            name: 'header-menu-tr'
             file: 'config/menu/tr.json'
             fields:
                 - label: header-menu-tr
@@ -499,10 +545,10 @@ collections:
                   collapsed: true
                   allow_add: true
                   fields:
-                      - { label: 'Name', name: 'name', widget: 'string' }  
+                      - { label: 'Name', name: 'name', widget: 'string' }
                       - { label: 'Link', name: 'link', widget: 'string', required: false }
           - label: 'Footer Items'
-            name: 'footer-items'            
+            name: 'footer-items'
             file: 'data/footer.json'
             fields:
                 - label: footer-items-tr
@@ -511,48 +557,48 @@ collections:
                   collapsed: true
                   allow_add: true
                   fields:
-                      - { label: 'Name', name: 'title', widget: 'string' }  
-                      - { label: 'Icon', name: 'icon', widget: 'select', options: ["phone", "envelope", "map"], required: false } 
-                      - { label: 'Description', name: 'description', hint: 'Item Description', widget: 'string', required: false} 
-                      - { label: 'URL', name: 'url', widget: 'string', hint: 'HREF link Example: tel:+902324373305', required: false } 
-                      - { label: 'Link', name: 'link', widget: 'string', hint: 'Link name', required: false }    
+                      - { label: 'Name', name: 'title', widget: 'string' }
+                      - { label: 'Icon', name: 'icon', widget: 'select', options: ["phone", "envelope", "map"], required: false }
+                      - { label: 'Description', name: 'description', hint: 'Item Description', widget: 'string', required: false}
+                      - { label: 'URL', name: 'url', widget: 'string', hint: 'HREF link Example: tel:+902324373305', required: false }
+                      - { label: 'Link', name: 'link', widget: 'string', hint: 'Link name', required: false }
                 - label: footer-items-en
                   name: 'en'
                   widget: list
                   collapsed: true
                   allow_add: true
                   fields:
-                      - { label: 'Name', name: 'title', widget: 'string' }  
-                      - { label: 'Icon', name: 'icon', widget: 'string', required: false } 
-                      - { label: 'Description', name: 'description', hint: 'Item Description', widget: 'string', required: false} 
-                      - { label: 'URL', name: 'url', widget: 'string', hint: 'HREF link Example: tel:+902324373305', required: false } 
-                      - { label: 'Link', name: 'link', widget: 'string', hint: 'Link name', required: false }    
+                      - { label: 'Name', name: 'title', widget: 'string' }
+                      - { label: 'Icon', name: 'icon', widget: 'string', required: false }
+                      - { label: 'Description', name: 'description', hint: 'Item Description', widget: 'string', required: false}
+                      - { label: 'URL', name: 'url', widget: 'string', hint: 'HREF link Example: tel:+902324373305', required: false }
+                      - { label: 'Link', name: 'link', widget: 'string', hint: 'Link name', required: false }
                 - label: phones
                   name: 'phones'
                   widget: list
                   collapsed: true
                   allow_add: true
                   fields:
-                      - { label: 'URL', name: 'url', widget: 'string', hint: 'HREF link Example: tel:+902324373305', required: true } 
-                      - { label: 'Link', name: 'link', widget: 'string', hint: 'Link name', required: true }    
+                      - { label: 'URL', name: 'url', widget: 'string', hint: 'HREF link Example: tel:+902324373305', required: true }
+                      - { label: 'Link', name: 'link', widget: 'string', hint: 'Link name', required: true }
                 - label: addresses
                   name: 'addresses'
                   widget: list
                   collapsed: true
                   allow_add: true
                   fields:
-                      - { label: 'URL', name: 'url', widget: 'string', hint: 'HREF link Example: https://g.page/madsanofficial?share', required: false } 
-                      - { label: 'Link', name: 'link', widget: 'string', hint: 'Link name', required: true }                                                                                    
-                                               
+                      - { label: 'URL', name: 'url', widget: 'string', hint: 'HREF link Example: https://g.page/madsanofficial?share', required: false }
+                      - { label: 'Link', name: 'link', widget: 'string', hint: 'Link name', required: true }
 
-    - name: 'team' 
+
+    - name: 'team'
       label: 'Team'
       delete: false
       editor:
         preview: false
       files:
           - label: 'Members'
-            name: 'members'            
+            name: 'members'
             file: 'data/team.json'
             fields:
                 - label: Content Section TR
@@ -561,16 +607,16 @@ collections:
                   collapsed: true
                   allow_add: false
                   fields:
-                      - { label: 'Title', name: 'title', widget: 'string' }  
-                      - { label: 'Desc', name: 'desc', widget: 'string', required: false }    
+                      - { label: 'Title', name: 'title', widget: 'string' }
+                      - { label: 'Desc', name: 'desc', widget: 'string', required: false }
                 - label: Content Section ENG
                   name: 'en'
                   widget: object
                   collapsed: true
                   allow_add: false
                   fields:
-                      - { label: 'Title', name: 'title', widget: 'string' }  
-                      - { label: 'Desc', name: 'desc', widget: 'string', required: false }               
+                      - { label: 'Title', name: 'title', widget: 'string' }
+                      - { label: 'Desc', name: 'desc', widget: 'string', required: false }
                 - label: Members
                   name: 'members'
                   widget: list
@@ -578,18 +624,18 @@ collections:
                   fields:
                       - { label: 'Name', name: 'name', widget: 'string' }
                       - { label: 'Image', name: 'image', widget: 'image' }
-                      - { label: 'Title', name: 'title', widget: 'string' }    
-                      - { label: 'Title (English 🇺🇸)', name: 'titleEN', widget: 'string', required: false } 
-                      - { label: 'LinkedIn URL', name: 'linkedin', widget: 'string', required: false}      
-                                                                  
-    - name: 'options' 
+                      - { label: 'Title', name: 'title', widget: 'string' }
+                      - { label: 'Title (English 🇺🇸)', name: 'titleEN', widget: 'string', required: false }
+                      - { label: 'LinkedIn URL', name: 'linkedin', widget: 'string', required: false}
+
+    - name: 'options'
       label: 'Options'
       delete: false
       editor:
         preview: false
       files:
           - label: 'Header Logo'
-            name: 'options'            
+            name: 'options'
             file: 'data/options.json'
             fields:
                 - label: General Options
@@ -598,10 +644,10 @@ collections:
                   collapsed: false
                   allow_add: false
                   fields:
-                      - { label: 'Logo', name: 'logo', widget: 'image' } 
-                      - { label: 'Logo Height', name: 'logoHeight', widget: 'number', value_type: "int", hint: 'Set your logo height as pixel' }                                   
+                      - { label: 'Logo', name: 'logo', widget: 'image' }
+                      - { label: 'Logo Height', name: 'logoHeight', widget: 'number', value_type: "int", hint: 'Set your logo height as pixel' }
           - label: 'SEO Defaults'
-            name: 'seo'            
+            name: 'seo'
             file: 'data/indexHome.json'
             fields:
                 - label: TR
@@ -610,21 +656,21 @@ collections:
                   collapsed: false
                   allow_add: false
                   fields:
-                      - { label: 'Title', name: 'title', widget: 'string', required: false} 
-                      - { label: 'Description', name: 'description', widget: 'string', required: false}  
-                      - { label: 'Open Graph Image', name: 'ogImage', widget: 'image', required: false}                          
+                      - { label: 'Title', name: 'title', widget: 'string', required: false}
+                      - { label: 'Description', name: 'description', widget: 'string', required: false}
+                      - { label: 'Open Graph Image', name: 'ogImage', widget: 'image', required: false}
                 - label: Eng
                   name: 'en'
                   widget: object
                   collapsed: false
                   allow_add: false
                   fields:
-                      - { label: 'Title', name: 'title', widget: 'string', required: false} 
-                      - { label: 'Description', name: 'description', widget: 'string', required: false}                                          
-                      - { label: 'Open Graph Image', name: 'ogImage', widget: 'image', required: false}  
+                      - { label: 'Title', name: 'title', widget: 'string', required: false}
+                      - { label: 'Description', name: 'description', widget: 'string', required: false}
+                      - { label: 'Open Graph Image', name: 'ogImage', widget: 'image', required: false}
 
-                  
-                  
-        
-                                       
-                  
+
+
+
+
+

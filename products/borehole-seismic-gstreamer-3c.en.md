@@ -7,7 +7,7 @@ path: products/borehole-seismic/gstreamer-3c-multi-level-downhole-seismic-array-
 cta: true
 contentType: Product
 serviceType: 
-page: page
+page: product
 date: 2021-11-17 12:20:27
 ---
 

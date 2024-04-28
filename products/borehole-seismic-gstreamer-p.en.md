@@ -7,7 +7,7 @@ path: products/borehole-seismic/gstreamer-p-multi-level-3c-borehole-seismic-arra
 cta: true
 contentType: Product
 serviceType: 
-page: page
+page: product
 date: 2021-11-17 12:20:27
 ---
 

@@ -7,7 +7,7 @@ path: products/rock-sampling/pimv-portable-magnetic-susceptibility-meter-pimv
 cta: true
 contentType: Product
 serviceType: 
-page: page
+page: product
 date: 2021-11-17 12:20:27
 ---
 

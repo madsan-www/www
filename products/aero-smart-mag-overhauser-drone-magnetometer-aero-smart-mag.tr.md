@@ -5,9 +5,8 @@ image: https://res.cloudinary.com/madsan/image/upload/v1636194992/madsan-stock/I
 featured: https://res.cloudinary.com/madsan/image/upload/v1714310526/image4_ffxfwd.jpg
 path: urunler/aero-smart-mag/aero-smart-mag-overhauser-drone-magnetometer
 cta: true
-contentType: Product
-serviceType: 
-page: page
+contentType: Service
+page: product
 date: 2021-11-17 12:20:27
 ---
 

@@ -7,7 +7,7 @@ path: products/borehole-logging/rod-feeder-for-logging-devices
 cta: true
 contentType: Product
 serviceType: 
-page: page
+page: product
 date: 2021-11-17 12:20:27
 ---
 
