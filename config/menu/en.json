@@ -11,6 +11,11 @@
       "badge": false
     },
     {
+      "name": "Products",
+      "link": "/kuyu-olcum-ve-analiz-en",
+      "badge": false
+    },
+    {
       "name": "Blog",
       "link": "/blog",
       "badge": false

@@ -25,7 +25,7 @@ function Musteriler() {
           {MusterilerData.Logos.map((logo, index) => (
             <div
               key={`_${index}`}
-              className="col-lg-2 col-md-2 col-6 text-center py-4"
+              className="col-lg-2 col-md-2 col-6 text-center py-4 align-content-center"
             >
               <img
                 src={logo.image}

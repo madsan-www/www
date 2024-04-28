@@ -65,7 +65,7 @@ const Blog = props => {
                       <div className="card-body content">
                         <h5>
                           <a
-                            href="javascript:void(0)"
+                            href={'/' + path}
                             className="card-title title text-dark"
                           >
                             {title}

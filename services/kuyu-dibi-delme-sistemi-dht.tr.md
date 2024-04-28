@@ -1,9 +1,9 @@
 ---
-title: Kuyu Dibi Delme Sistemi (DHT)
+title: Kuyu Delme Sistemleri (DTH)
 description: "Kuyu dibi darbeli delme işleminde (DTH), çekiç içerisindeki piston
   bite vurduğunda üretilen güç kaya üzerinde bir şok dalgası yaratır. "
 image: https://res.cloudinary.com/madsan/image/upload/v1636194992/madsan-stock/IMG_3206_jpo0tf.jpg
-path: hizmetler/kuyu-dibi-delme-sistemi
+path: hizmetler/kuyu-delme-sistemleri
 cta: true
 contentType: Service
 serviceType: 

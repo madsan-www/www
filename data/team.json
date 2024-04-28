@@ -2,7 +2,7 @@
   "members": [
     {
       "name": "Yasin Turkan",
-      "image": "https://res.cloudinary.com/madsan/image/upload/v1636899442/team/ekibimizyasinturkan-150x150_kldiwa.jpg",
+      "image": "https://res.cloudinary.com/madsan/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1714209699/DSC09740_uta2fo.jpg",
       "title": "  Satış ve Pazarlama Müdürü ",
       "titleEN": "Sales and Marketing Manager"
     },
@@ -10,13 +10,37 @@
       "name": "İzlem Özkan",
       "title": "Satış Destek Sorumlusu",
       "titleEN": "Sales Support Manager",
-      "image": "https://res.cloudinary.com/madsan/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1697466490/izlem_han%C4%B1m_qjach7.jpg"
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1648393556/png-clipart-male-avatar-user-profile-profile-heroes-necktie-thumbnail_zk48nc.png"
     },
     {
       "name": "Özgür Çetin",
       "title": "İK Direktör Yardımcısı",
       "image": "https://res.cloudinary.com/madsan/image/upload/v1648393556/png-clipart-male-avatar-user-profile-profile-heroes-necktie-thumbnail_zk48nc.png",
       "titleEN": "İK Direktör Yardımcısı"
+    },
+    {
+      "name": "Nuh Kadri Eraslan",
+      "title": "Jeoloji Mühendisi",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1648393556/png-clipart-male-avatar-user-profile-profile-heroes-necktie-thumbnail_zk48nc.png",
+      "titleEN": "Jeoloji Mühendisi"
+    },
+    {
+      "name": "Bora Başeken",
+      "title": "Satış Müdürü",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1648393556/png-clipart-male-avatar-user-profile-profile-heroes-necktie-thumbnail_zk48nc.png",
+      "titleEN": "Satış Müdürü"
+    },
+    {
+      "name": "Büşra Burak",
+      "title": "Muhasebe Sorumlusu",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1648393556/png-clipart-male-avatar-user-profile-profile-heroes-necktie-thumbnail_zk48nc.png",
+      "titleEN": "Muhasebe Sorumlusu"
+    },
+    {
+      "name": "Samet Kaya",
+      "title": "Depo Sorumlusu",
+      "image": "https://res.cloudinary.com/madsan/image/upload/v1648393556/png-clipart-male-avatar-user-profile-profile-heroes-necktie-thumbnail_zk48nc.png",
+      "titleEN": "Depo Sorumlusu"
     }
   ],
   "tr": {

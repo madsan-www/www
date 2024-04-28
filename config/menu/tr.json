@@ -11,6 +11,11 @@
       "badge": false
     },
     {
+      "name": "Ürünler",
+      "link": "/kuyu-olcum-ve-analiz",
+      "badge": false
+    },
+    {
       "name": "Blog",
       "link": "/blog",
       "badge": false

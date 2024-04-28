@@ -59,7 +59,7 @@ module.exports = {
         icon: "src/images/madsan-favicon.png",
       },
     },
-    // `gatsby-plugin-offline`, --> Not working properly with Netlify. 
+    // `gatsby-plugin-offline`, --> Not working properly with Netlify.
     `gatsby-plugin-remove-serviceworker`,
     {
       resolve: 'gatsby-plugin-netlify-cms',
@@ -156,7 +156,7 @@ module.exports = {
         path: `${__dirname}/services`,
         name: `services`,
       },
-    },    
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -169,6 +169,13 @@ module.exports = {
       options: {
         path: `${__dirname}/pages`,
         name: `pages`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/products`,
+        name: `products`,
       },
     },
     {
