@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature Pad</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        canvas {
+            display: block;
+            width: 100vw;
+            height: 100vh;
+            background: rgb(209, 197, 197);  
+            touch-action: none;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="signaturePad"></canvas>
+
+    <script>
+        const canvas = document.getElementById("signaturePad");
+        const ctx = canvas.getContext("2d");
+
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+
+        window.addEventListener("resize", resizeCanvas);
+        resizeCanvas();
+
+        let drawing = false;
+
+        canvas.addEventListener("mousedown", (e) => {
+            drawing = true;
+            ctx.beginPath();
+            ctx.moveTo(e.clientX, e.clientY);
+        });
+
+        canvas.addEventListener("mousemove", (e) => {
+            if (!drawing) return;
+            ctx.lineTo(e.clientX, e.clientY);
+            ctx.stroke();
+        });
+
+        canvas.addEventListener("mouseup", () => drawing = false);
+        canvas.addEventListener("mouseleave", () => drawing = false);
+
+        canvas.addEventListener("touchstart", (e) => {
+            drawing = true;
+            const touch = e.touches[0];
+            ctx.beginPath();
+            ctx.moveTo(touch.clientX, touch.clientY);
+        });
+
+        canvas.addEventListener("touchmove", (e) => {
+            if (!drawing) return;
+            e.preventDefault();
+            const touch = e.touches[0];
+            ctx.lineTo(touch.clientX, touch.clientY);
+            ctx.stroke();
+        });
+
+        canvas.addEventListener("touchend", () => drawing = false);
+    </script>
+</body>
+</html>
