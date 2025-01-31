@@ -4,74 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signature Pad</title>
+    
     <style>
-        * {
+        body, html {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-        }
-        html, body {
             width: 100%;
             height: 100%;
-            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
-        canvas {
-            display: block;
-            width: 100vw;
-            height: 100vh;
-            background: rgb(209, 197, 197);  
-            touch-action: none;
+        #signature-pad {
+            width: 100%;
+            height: 100%;
+            border: none;
+           
         }
     </style>
 </head>
 <body>
-    <canvas id="signaturePad"></canvas>
-
+    <canvas id="signature-pad"></canvas>
+    <!--Signature Pad -->
+    <script src="https://cdn.jsdelivr.net/npm/signature_pad@4.1.7/dist/signature_pad.umd.min.js"></script>
     <script>
-        const canvas = document.getElementById("signaturePad");
-        const ctx = canvas.getContext("2d");
+        const canvas = document.getElementById('signature-pad');
+        const signaturePad = new SignaturePad(canvas);
+        signaturePad.penColor = "yellow";
 
         function resizeCanvas() {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
+            const ratio = Math.max(window.devicePixelRatio || 1, 1);
+            canvas.width = canvas.offsetWidth * ratio;
+            canvas.height = canvas.offsetHeight * ratio;
+            canvas.getContext("2d").scale(ratio, ratio);
+            signaturePad.clear();
         }
 
         window.addEventListener("resize", resizeCanvas);
         resizeCanvas();
 
-        let drawing = false;
-
-        canvas.addEventListener("mousedown", (e) => {
-            drawing = true;
-            ctx.beginPath();
-            ctx.moveTo(e.clientX, e.clientY);
+        signaturePad.addEventListener('endStroke', () => {
+            const signatureData = signaturePad.toDataURL();
+            window.top.bubble_fn_signature_end(signatureData);
         });
-
-        canvas.addEventListener("mousemove", (e) => {
-            if (!drawing) return;
-            ctx.lineTo(e.clientX, e.clientY);
-            ctx.stroke();
-        });
-
-        canvas.addEventListener("mouseup", () => drawing = false);
-        canvas.addEventListener("mouseleave", () => drawing = false);
-
-        canvas.addEventListener("touchstart", (e) => {
-            drawing = true;
-            const touch = e.touches[0];
-            ctx.beginPath();
-            ctx.moveTo(touch.clientX, touch.clientY);
-        });
-
-        canvas.addEventListener("touchmove", (e) => {
-            if (!drawing) return;
-            e.preventDefault();
-            const touch = e.touches[0];
-            ctx.lineTo(touch.clientX, touch.clientY);
-            ctx.stroke();
-        });
-
-        canvas.addEventListener("touchend", () => drawing = false);
     </script>
 </body>
 </html>
